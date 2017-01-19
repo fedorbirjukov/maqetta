@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.pde.ui.EquinoxLauncher">
-<setAttribute key="additional_plugins"/>
+<setAttribute key="additional_plugins">
+<setEntry value="org.apache.felix.gogo.command:0.8.0.v201108120515:default:true"/>
+<setEntry value="org.apache.felix.gogo.runtime:0.8.0.v201108120515:default:true"/>
+<setEntry value="org.apache.felix.gogo.shell:0.8.0.v201110170705:default:true"/>
+<setEntry value="org.apache.lucene.analysis:3.5.0.v20120319-2345:default:true"/>
+<setEntry value="org.apache.lucene.spatial:3.5.0.v20120319-2345:default:true"/>
+<setEntry value="org.eclipse.core.runtime:3.8.0.v20120912-155025:default:true"/>
+<setEntry value="org.eclipse.equinox.console:1.0.0.v20120522-1841:default:true"/>
+</setAttribute>
 <booleanAttribute key="append.args" value="true"/>
 <booleanAttribute key="automaticAdd" value="false"/>
 <booleanAttribute key="automaticValidate" value="true"/>
@@ -17,13 +25,12 @@
 <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/CDC-1.0%Foundation-1.0"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog -console&#13;&#10;-data ${workspace_loc}/../__maqetta_server_workspace -clean -product org.eclipse.orion.product"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dorg.eclipse.equinox.http.jetty.http.port=8081&#13;&#10;-Dorg.eclipse.equinox.http.jetty.autostart=false&#13;-Dorion.core.configFile=${project_loc:davinci.releng}/orion/builder/rootfiles/maqetta.conf&#10;-Dmaqetta.siteConfigDirectory=${project_loc:davinci.releng}/orion/builder/rootfiles/siteConfig"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dorg.eclipse.equinox.http.jetty.http.port=50000&#13;&#10;-Dorg.eclipse.equinox.http.jetty.autostart=false&#13;-Dorion.core.configFile=${project_loc:davinci.releng}/orion/builder/rootfiles/maqetta.conf&#10;-Dmaqetta.siteConfigDirectory=${project_loc:davinci.releng}/orion/builder/rootfiles/siteConfig"/>
 <stringAttribute key="pde.version" value="3.3"/>
 <setAttribute key="selected_features">
 <setEntry value="maqetta.client.feature:default"/>
 <setEntry value="maqetta.libraries.feature:default"/>
 <setEntry value="maqetta.server.feature:default"/>
-<setEntry value="maqetta.zazl.feature:default"/>
 <setEntry value="org.eclipse.orion.base.feature:default"/>
 <setEntry value="org.eclipse.orion.client.feature:default"/>
 <setEntry value="org.eclipse.orion.server.authentication.feature:default"/>
