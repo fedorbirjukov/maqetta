@@ -39,6 +39,7 @@
         <populateDir project="davinci.gridx"/>
     	<populateDir project="davinci.server.gzip"/>
         <populateDir project="davinci.html"/>
+    	<populateDir project="davinci.ahtml"/>
         <populateDir project="maqetta.clipart"/>
         <populateDir project="maqetta.shapes"/>
         <populateDir project="org.apache.commons.fileupload"/>
