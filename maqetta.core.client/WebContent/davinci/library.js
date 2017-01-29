@@ -312,8 +312,13 @@ getUserLibs: function(base) {
 	// not sure if we want to only allow the logged in user to view his/her
 	// installed libs, or to include user name in request of target user.
 	
-	if(_userLibsCache.base)
+	if(_userLibsCache.base) {
+		console.log(base + " is cached");
 		return _userLibsCache.base;
+	}
+	else {
+		console.log(base + " is not cached");
+	}
 	
 	_userLibsCache.base = Runtime.serverJSONRequest({
 		url: "cmd/getUserLibs",

@@ -106,6 +106,7 @@ return declare("davinci.ve.palette.Palette", [WidgetBase, _KeyNavContainer], {
 
 		var $library = lib.$wm;
 		var widgets = lib.$wm.widgets;
+//		console.log(widgets);
 		var folderToShow = null;
 		for(var w=0; w<widgets.length; w++){
 			var item = widgets[w];
@@ -136,6 +137,7 @@ return declare("davinci.ve.palette.Palette", [WidgetBase, _KeyNavContainer], {
 						}
 					}
 					var includesValue = 'type:' + item.type;
+//					console.log(includesValue);
 					if(customSection.includes.indexOf(includesValue) < 0){
 						customSection.includes.push(includesValue);
 						item.$library = $library;
@@ -186,6 +188,9 @@ return declare("davinci.ve.palette.Palette", [WidgetBase, _KeyNavContainer], {
 							}
 						}
 					}
+//					else {
+//						console.log(includesValue);
+//					}
 				}
 			}
 		}
@@ -224,7 +229,9 @@ return declare("davinci.ve.palette.Palette", [WidgetBase, _KeyNavContainer], {
 		if (this._loaded) { return; }
 
 		var allLibraries = Metadata.getLibrary();
+		console.log(allLibraries);
 		var userLibs = Library.getUserLibs(Workbench.getProject());
+		console.log(userLibs);
 		var libraries = {};
 		
 		function findInAll(name, version) {
@@ -414,6 +421,7 @@ return declare("davinci.ve.palette.Palette", [WidgetBase, _KeyNavContainer], {
 	 *    params.presetClassName {string} classname to put onto PaletteItems (for debugging purposes)
 	 */
 	_createPaletteItemsForComponent: function(component, params){
+//		console.log(component); // MyNewHyperlink is in includes, but not in items
 		if(component.items){
 			var lastPaletteItemGroup = null;
 			dojo.forEach(component.items, function(item){
@@ -707,6 +715,8 @@ return declare("davinci.ve.palette.Palette", [WidgetBase, _KeyNavContainer], {
 	},
 	
 	_createItem: function(opt,folder){
+//		console.log(opt);
+//		console.log('-----');
 		if(opt.section.id != '$$UserWidgets$$'){
 			// See if this proposed PaletteItem's collection property is included in the current preset
 			var collection = Metadata.queryDescriptor(opt.type, 'collection');
@@ -785,6 +795,8 @@ return declare("davinci.ve.palette.Palette", [WidgetBase, _KeyNavContainer], {
 	 * @param {array[string]} widgetList - List of widget types, gets updated by this routine
 	 */
 	_createSectionItems: function(section, preset, widgetList){
+//		if (section.name === 'New')
+//			debugger;
 		section.items = [];
 		collections = preset.collections;
 		var includes = section.includes;

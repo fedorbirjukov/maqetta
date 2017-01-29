@@ -86,6 +86,7 @@ define([
     }
 
 	function parsePackage(pkg, path) {
+//		console.log(pkg);
 		libraries[pkg.name] = pkg;
 		path = new Path(path);
 
@@ -129,11 +130,14 @@ define([
 		if (lang.exists("scripts.widget_metadata", pkg)) {
 			if (typeof pkg.scripts.widget_metadata == "string") {
 				var widgetsJsonPath = path.append(pkg.scripts.widget_metadata);
+//				console.log('path:');
+//				console.log(widgetsJsonPath.toString() + "?" + info.revision);
 				deferred = dojo.xhrGet({
 					url : widgetsJsonPath.toString() + "?" + info.revision,
 					handleAs : "json"
 				}).then(function(data) {
 					if (data) {
+//						debugger;
 						var widgetsJsonParentPath = widgetsJsonPath.getParentPath();
 						return parseLibraryDescriptor(pkg.name, data,
 								widgetsJsonParentPath, widgetsJsonParentPath); // lop off "*.json"
@@ -158,6 +162,8 @@ define([
     }
 
 	function parseLibraryDescriptor(libName, descriptor, descriptorParentFolderPath, moduleFolderPath) {
+//		console.log("descriptor:");
+//		console.log(descriptor);
 		if (!libName) {
 			console.error("parseLibraryDescriptor: missing 'libName' arg");
 		}
@@ -246,6 +252,8 @@ define([
 		wm.$providedTypes = wm.$providedTypes || {};
 		wm.$providedTags = wm.$providedTags || {};
 
+//		console.log(wm.widgets);
+		
 		wm.widgets.forEach(function(item) {
 			wm.$providedTypes[item.type] = item;
 			// In widgets.json, item.tags can be either a string or an array of strings.
@@ -567,6 +575,8 @@ define([
 			// lazy-load Runtime in order to prevent circular dependency
 			Workbench = require('../Workbench');
 
+			console.log(Library.getUserLibs(Workbench.getProject()));
+			
 			Library.getUserLibs(Workbench.getProject()).forEach(function(lib) {
 // XXX Shouldn't be dealing with 'package.json' here; that belongs in library.js
 // (or a combined object).  Putting it here for now, to quickly integrate.
