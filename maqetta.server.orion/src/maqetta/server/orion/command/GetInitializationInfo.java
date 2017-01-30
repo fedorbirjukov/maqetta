@@ -81,9 +81,9 @@ public class GetInitializationInfo extends Command {
 
 	private String getSiteJson() throws MaqettaConfigException {
 
-		if (this.siteConfigJson != null) {
-			return this.siteConfigJson;
-		}
+//		if (this.siteConfigJson != null) {
+//			return this.siteConfigJson;
+//		}
 		String ret = "";
 		String siteConfigDir = ServerManager.getServerManager()
 				.getDavinciProperty(
