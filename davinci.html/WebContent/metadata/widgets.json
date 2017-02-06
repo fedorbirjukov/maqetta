@@ -924,7 +924,7 @@
             "collection": "html",
             "tags": "<ul>",
             "allowedChild": "html.li",
-            "hidden": "true"
+            //"hidden": "true"
         },
         {
             "name": "<ol>",
@@ -934,7 +934,7 @@
             "collection": "html",
             "tags": "<ol>",
             "allowedChild": "html.li",
-            "hidden": "true"
+            //"hidden": "true"
         },
         {
             "name": "<li>",
@@ -944,7 +944,11 @@
             "collection": "html",
             "tags": "<li>",
             "allowedChild": "ANY",
-            "hidden": "true"
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            }
+            //"hidden": "true"
         }
     ],
     "davinci.actionSets": [
