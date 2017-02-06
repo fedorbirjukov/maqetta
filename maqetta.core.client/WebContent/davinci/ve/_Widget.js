@@ -522,7 +522,10 @@ return declare("davinci.ve._Widget", null, {
 	},
 
 	_getPropertyValue: function(name) {
-		return this.domNode.getAttribute(name);
+		if(!this._srcElement) { //wdr why is the _srcElement missing?
+			this._srcElement = widgetUtils._createSrcElement(this.domNode);
+		}
+		return this._srcElement.getAttribute(name);
 	},
 
 	getTagName: function()
