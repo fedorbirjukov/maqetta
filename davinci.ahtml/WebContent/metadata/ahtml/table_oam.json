@@ -1,0 +1,15 @@
+{
+	"id": "http://www.w3.org/ahtml/table",
+	"name": "ahtml.table",
+	"spec": "1.0",
+	"version": "1.0",
+	"content": "<table class=\"contrast\">\n    <thead>\n        <tr>\n            <th>Heading 1</th>\n            <th>Heading 2</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>Data 1</td>\n            <td>Data 2</td>\n        </tr>\n        <tr>\n            <td>Data 1</td>\n            <td>Data 2</td>\n        </tr>\n        <tr>\n            <td>Data 1</td>\n            <td>Data 2</td>\n        </tr>\n    </tbody>\n</table>",
+	"title": {
+		"type": "text/html",
+		"value": "<p>Add title.</p>"
+	},
+	"description": {
+		"type": "text/html",
+		"value": "<p>Add description.</p>"
+	}
+}
