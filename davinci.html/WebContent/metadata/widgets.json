@@ -288,14 +288,14 @@
             "collection": "html",
             "tags": "<h4>",
             "icon": "resources/images/html-h4.png",
-            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGhJREFUeNpi/P//PwMlgImBQjAMDGBBF2D17XMBUrt5NLUYQfwv16/9B7FBNIjfFm/LUBpiykiyC0CGgHDVwsP4XQADMBuxiIURZQCyF5CEhYD4HRAzEjQAl4tAYYAMGEdT4iAwACDAADJ6Jhi/JDZPAAAAAElFTkSuQmCC",
+            "iconLarge": "resources/imagesLarge/h4.png",
             "children": "Header",
             "resizable": "none",
             "inlineEdit": {
                 "property": "textContent",
                 "displayOnCreate": true
             },
-            "hidden": true
+            //"hidden": true
         },
         {
             "name": "<h5>",
@@ -305,33 +305,31 @@
             "collection": "html",
             "tags": "<h5>",
             "icon": "resources/images/html-h5.png",
-            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGhJREFUeNpi/P//PwMlgImBQjAMDGBBF2D17XMBUrt5NLUYQfwv16/9B7FBNIjfFm/LUBpiykiyC0CGgHDVwsP4XQADMBuxiIURZQCyF5CEhYD4HRAzEjQAl4tAYYAMGEdT4iAwACDAADJ6Jhi/JDZPAAAAAElFTkSuQmCC",
+            "iconLarge": "resources/imagesLarge/h5.png",
             "children": "Header",
             "resizable": "none",
             "inlineEdit": {
                 "property": "textContent",
                 "displayOnCreate": true
             },
-            "hidden": true
+            //"hidden": true
         },
         {
             "name": "<h6>",
             "description": "level 6 header",
-            "type": "html.h3",
+            "type": "html.h6",
             "category": "html",
             "collection": "html",
             "tags": "<h6>",
             "icon": "resources/images/html-h6.png",
-            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGhJREFUeNpi/P//PwMlgImBQjAMDGBBF2D17XMBUrt5NLUYQfwv16/9B7FBNIjfFm/LUBpiykiyC0CGgHDVwsP4XQADMBuxiIURZQCyF5CEhYD4HRAzEjQAl4tAYYAMGEdT4iAwACDAADJ6Jhi/JDZPAAAAAElFTkSuQmCC",
+            "iconLarge": "resources/imagesLarge/h6.png",
             "children": "Header",
             "resizable": "none",
             "inlineEdit": {
                 "property": "textContent",
                 "displayOnCreate": true
             },
-            "hidden": true,
-            "iconLarge": "resources/imagesLarge/h3.png",
-            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA7ZJREFUeNrsWV1IFFEU3pnZna3VzfX/v31QtCyTHlKowDSDIArqISTIIHuJQsIXewoCH4qil0SK0EIMQZT+EAn8wUwtyWItMRU1FNss1N2Uzf2Z2b6Zq9Mkarsy4kpz2L3cOefsvd8957tn7sxSDU1dmsATLb45+zMCClNrp4XWBKQEKCyt/MJms28gFJMpZHlYkNjYmA3BZLV+2wRJVGGpsFRYKiwV1n9zq15FvDKhaWExpIXwPE9aalGIGzRoNRRF40PTxKQ8LA/HedxudBiG0el06EgI3G43x3G41Gq1sHI8D0+IgJiiGJqGPzFJi1EmicLcLtfRa09M+febP4wChBAJUY8+NNDD6nQ6XS6Xc36+rr0/o6gmquBh1NnKY9efd/ePQ78QPwVhYUSPx8N7hXx5EDeOk0zoQyP4eAUfBOlp51BhWdvEtCNvTyw+bwa/n7zxEtDdYrCVTKI468KYPM/JRxdpxIkdASKydvuZBZe3zmXmH0yGtebVUEn1O7Q5GWaWZRWGtSRyEMItIYoi6xfiT1Hp5vAQA1uQmwYmwZqWIBw7x6fmCBHXCxZy4XA4BFg0jUCBNNAQE4CC3Q+KjhAakZxWtAzCtCsh1PfN6Ccsca2l9b13Gz9LE2B6u8NFegiPVhTQD1vk0r22xvdjs7/cqXHbik+kK18g5DLw9eeKNjEeAMcgVBRV2zEsWT6NTcdFha1PEsXlVl0+kJ2eCPISbiGJbR/HC8o6pLLLiwJwU48vTE7ZX3SPlFT35N9pHSiPiWdZVK9/hm0tNx8dyxoMhqCgIKPRiBZ9HdlfFAU0IBOqF1gFhV6vj4kwnclOzUyOwGV734SPpWstSUSpRqgwJeJBpmFkN6Jh68zN+h6NV1N+8RArxgYSH2aAtW9sWr5nFYa1ugTrmdrXAqVOZW1HrtH5YZtr6rWis9sc7uPNxw9Y9OLuBqHl5BA5zhDiYdZQ49bCw6kVzQPFj96ez52GvrJlaHbevTPBdDwryRdi+QGL7HyaEtYq3nOZPzllGGhE3EJy4Xn19D6UjLqu0dI6C/HJSomsupK3Ra/HIL7AohqauqQXSTabfaWHfaGy/32CIGcVsu/kJwhKJD6254h15sukUEpMwfq9SdH4CQG9LCw87EvvIFo7LVqfKwNFziXSeYuMTgo35pPOWyR+8Nlhjk5JjCQ+hPjKV/lVRlxyKpT8SRWTL0D506m/sgYo6iOGCkuFpcJSYa37O4gl78cDApb8fwQ1iZuLWzh2BRqs3wIMAOe795cXzgPWAAAAAElFTkSuQmCC"
+            //"hidden": true
         },
         {
             "name": "<hr>",
