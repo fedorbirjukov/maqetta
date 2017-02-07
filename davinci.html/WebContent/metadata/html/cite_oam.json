@@ -1,0 +1,21 @@
+{
+	"id": "http://www.w3.org/html/cite",
+	"name": "html.cite",
+	"spec": "1.0",
+	"version": "1.0",
+	"property": {
+		"cite": {
+			"datatype": "string",
+			"format": "url"
+		}
+	},
+	"content": "<cite></cite>",
+	"title": {
+		"type": "text/html",
+		"value": "<p>The cite element represents a reference to a creative work.</p>"
+	},
+	"description": {
+		"type": "text/html",
+		"value": "<p>It must include the title of the work or the name of the author (person, people or organization) or an URL reference, or a reference in abbreviated form.</p>"
+	}
+}
