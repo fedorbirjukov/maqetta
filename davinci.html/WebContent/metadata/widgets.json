@@ -108,6 +108,32 @@
             "hidden": "true"
         },
         {
+            "name": "<blockquote>",
+            "description": "Content quoted from another source",
+            "type": "html.blockquote",
+            "category": "html",
+            "collection": "html",
+            "tags": "<blockquote>",
+            "icon": "resources/images/blockquote.png",
+            "children": [
+                {
+                    "type": "html.p",
+                    "children": "Content quoted from another source"
+                },
+                {
+                    "type": "html.cite",
+                    "children": "Reference (title of the work/name of the author/...)"
+                }
+            ],
+            "resizable": "none",
+            "allowedChild": "ANY",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": false
+            },
+            "iconLarge": "resources/imagesLarge/blockquote.png",
+        },
+        {
             "name": "<body>",
             "type": "html.body",
             "category": "html",

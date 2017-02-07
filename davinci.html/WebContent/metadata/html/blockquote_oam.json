@@ -1,0 +1,21 @@
+{
+	"id": "http://www.w3.org/html/blockquote",
+	"name": "html.blockquote",
+	"spec": "1.0",
+	"version": "1.0",
+	"property": {
+		"cite": {
+			"datatype": "string",
+			"format": "url"
+		}
+	},
+	"content": "<blockquote></blockquote>",
+	"title": {
+		"type": "text/html",
+		"value": "<p>The blockquote element represents content that is quoted from another source.</p>"
+	},
+	"description": {
+		"type": "text/html",
+		"value": "<p>A citation (if any) must be within a footer or cite element.</p><p>Content may include in-line changes such as annotations and abbreviations.</p>"
+	}
+}
