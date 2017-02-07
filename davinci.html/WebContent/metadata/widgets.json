@@ -489,6 +489,23 @@
             "iconLargeBase64": "data:image/png;base64,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"
         },
         {
+            "name": "<q>",
+            "description": "Short quotation (inline)",
+            "type": "html.q",
+            "category": "html",
+            "collection": "html",
+            "tags": "<q>",
+            "icon": "resources/images/html-q.png",
+            "children": "Quotation",
+            "resizable": "none",
+            "allowedChild": "ANY",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "iconLarge": "resources/imagesLarge/q.png",
+        },
+        {
             "name": "<s>",
             "description": "<s>",
             "type": "html.s",

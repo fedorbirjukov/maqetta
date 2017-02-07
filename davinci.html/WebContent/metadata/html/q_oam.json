@@ -1,0 +1,21 @@
+{
+	"id": "http://www.w3.org/html/q",
+	"name": "html.q",
+	"spec": "1.0",
+	"version": "1.0",
+	"property": {
+		"cite": {
+			"datatype": "string",
+			"format": "url"
+		}
+	},
+	"content": "<q></q>",
+	"title": {
+		"type": "text/html",
+		"value": "<p>The q element defines a short quotation.</p>"
+	},
+	"description": {
+		"type": "text/html",
+		"value": "<p>Element's cite attribute specifies the source URL of the quote.</p>"
+	}
+}
