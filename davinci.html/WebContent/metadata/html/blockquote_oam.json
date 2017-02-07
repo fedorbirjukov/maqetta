@@ -16,6 +16,6 @@
 	},
 	"description": {
 		"type": "text/html",
-		"value": "<p>A citation (if any) must be within a footer or cite element.</p><p>Content may include in-line changes such as annotations and abbreviations.</p>"
+		"value": "<p>Element's cite attribute specifies the source URL of the quote.</p><p>A citation (if any) must be within a footer or cite element.</p><p>Content may include in-line changes such as annotations and abbreviations.</p>"
 	}
 }
