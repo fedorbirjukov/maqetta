@@ -481,6 +481,23 @@
             "hidden": "true"
         },
         {
+            "name": "<nav>",
+            "description": "HTML navigation container",
+            "type": "html.nav",
+            "category": "html",
+            "collection": "html",
+            "tags": "<nav>",
+            "icon": "resources/images/nav.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABt0UjBAAAACnRSTlMACQojJElKVunrXbR17AAAACZJREFUCFtjYCAGcKwCAgMgg60cCBSQpVhBIgJABidIjQORUjgBABh0DqcKC/nQAAAAAElFTkSuQmCC",
+            "allowedChild": "ANY",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": false
+            },
+            "iconLarge": "resources/imagesLarge/nav.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAQlBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACO4fbyAAAAFXRSTlMAAQUREh4gJS0uMTNKVFaVmrS16/1h/XngAAAAXUlEQVRIx+2TORKAIBAEwftG0P3/V00nY0pKymA672S3xznxX5bL8tzBg8IYZjaCwhk2V1EmUBKndKA025FnH5RWCdyRe1Qi98q2LJg6Jb+Y2EoN+fRqS1kqS/ExD++2P925b5oBAAAAAElFTkSuQmCC"
+        },
+        {
             "name": "<optgroup>",
             "description": "<optgroup>",
             "type": "html.optgroup",
