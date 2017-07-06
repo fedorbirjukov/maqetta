@@ -1,0 +1,20 @@
+//
+// Form components
+// ---
+// Field description
+//
+
+.field-description {
+    line-height: 1rem;
+    color: $beta-font-color;
+    display: block;
+    margin-top: $sizer / 2;
+
+    a {
+        text-decoration: underline;
+
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+    }
+}

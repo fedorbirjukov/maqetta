@@ -1,0 +1,50 @@
+//
+// Component: Input group
+// ---
+
+.input-group {
+    display: table;
+    border-collapse: separate;
+
+    .field {
+        width: 100%;
+        margin: 0;
+    }
+
+    .input-group-addon {
+        @include text-dimensions(-1);
+        width: 1%;
+        display: table-cell;
+        padding: 0 $sizer / 2;
+
+        white-space: nowrap;
+        vertical-align: middle;
+        border: $line-th solid $line;
+        background: $alpha-background;
+
+        &:first-child {
+            border-right: 0;
+        }
+
+        &:last-child {
+            border-left: 0;
+        }
+
+        &.fa {
+            color: tint($alpha-font-color, 40%);
+            font-size: $icon-size;
+            position: relative;
+
+            &:before {
+                top: 3px;
+                position: relative;
+            }
+        }
+    }
+
+    .input-group-addon,
+    .field {
+        margin: 0;
+        display: table-cell;
+    }
+}

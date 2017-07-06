@@ -1,0 +1,246 @@
+//
+// Helpers
+// ---
+// Classes that can be applied to any element
+//
+
+.fadein {
+    @include animate-keyframes(fadein, .5s);
+}
+
+.fadeout {
+    @include animate-keyframes(fadeout, .5s);
+}
+
+//
+// Cursor
+// ---
+
+.pointer {
+    cursor: pointer;
+}
+
+//
+// Visibility
+// ---
+
+.show-print {
+    display: none;
+}
+
+.readable-content {
+    max-width: rem(720px);
+}
+
+.not-visible {
+    visibility: hidden;
+}
+
+.no-overflow {
+    overflow: hidden;
+}
+
+%sr-only {
+    @include sr-only();
+}
+
+//
+// Only readable for screenreaders
+// ---
+
+.sr-only {
+    @extend %sr-only;
+}
+
+//
+// Box model
+// ---
+
+.clear, .row {
+    @include clearfix();
+}
+
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right;
+}
+
+//
+// Hide stuff on smaller screens
+// ---
+
+.tablet-up {
+    @include respond-to("tablet") {
+        display: inline-block;
+    }
+
+    display: none;
+}
+
+.desktop-up {
+    @include respond-to("desktop") {
+        display: inline-block;
+    }
+
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.extra-pad {
+
+    &-top {
+        padding-top: $sizer;
+    }
+
+    &-right {
+        padding-right: $sizer;
+    }
+
+    &-bottom {
+        padding-bottom: $sizer;
+    }
+
+    &-left {
+        padding-left: $sizer;
+    }
+}
+
+//
+// List
+// ---
+
+%list-inline {
+    @include rem-dimensions("margin", 0 0 0 -5);
+    list-style: none;
+
+    li {
+        @include rem-dimensions("padding", 0 5);
+        text-align: center;
+        display: inline-block;
+        margin: 0;
+    }
+}
+
+.list-unstyled {
+    @include list-unstyled();
+}
+
+.list-inline {
+    @extend %list-inline;
+}
+
+//
+// Spacers
+// ---
+// Used for setting margins easily
+//
+
+//
+// No spacer
+// ---
+
+.no-spacer {
+    margin: 0;
+}
+
+//
+// Spacer top
+// ---
+
+// small
+.spacer-t-s {
+    margin-top: $sizer;
+}
+
+// Normal
+.spacer-t {
+    margin-top: $sizer * 2;
+}
+
+// Large
+.spacer-t-l {
+    margin-top: $sizer * 4;
+}
+
+// No spacer top
+.no-spacer-t {
+    margin-top: 0;
+}
+
+//
+// Spacer right
+// ---
+
+// Small
+.spacer-r-s {
+    margin-right: $sizer;
+}
+
+// Normal
+.spacer-r {
+    margin-right: $sizer * 2;
+}
+
+// Large
+.spacer-r-l {
+    margin-right: $sizer * 4;
+}
+
+// No spacer right
+.no-spacer-r {
+    margin-right: 0;
+}
+
+//
+// Spacer bottom
+// ---
+
+// Small
+.spacer-b-s {
+    margin-bottom: $sizer;
+}
+
+// Normal
+.spacer-b {
+    margin-bottom: $sizer * 2;
+}
+
+// Large
+.spacer-b-l {
+    margin-bottom: $sizer * 4;
+}
+
+// No spacer bottom
+.no-spacer-b {
+    margin-bottom: 0;
+}
+
+//
+// Spacer left
+// ---
+
+// Small
+.spacer-l-s {
+    margin-left: $sizer;
+}
+
+// Normal
+.spacer-l {
+    margin-left: $sizer * 2;
+}
+
+// Large
+.spacer-l-l {
+    margin-left: $sizer * 4;
+}
+
+// No spacer left
+.no-spacer-l {
+    margin-left: 0;
+}

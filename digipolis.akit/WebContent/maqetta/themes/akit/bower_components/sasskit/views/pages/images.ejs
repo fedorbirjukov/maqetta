@@ -1,0 +1,177 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                             <span class="fa fa-picture-o" style="color: #90ABBC"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Afbeeldingen</h1>
+                            <p class="lead">Afbeeldingen, captions en credits</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+
+            </div> <!-- main-intro-header .inner -->
+
+        </div> <!-- .main-intro -->
+    </header>
+
+    <section class="main-section">
+        <div class="inner">
+            <p class="lead">Afbeeldingen dienen responsive te zijn en steeds binnen een <code>&lt;figure&gt;</code> element te worden geplaatst. Ze kunnen voorzien worden van verschillende types captions en credits om duiding en beeldinformatie mee te geven.</p>
+        </div> <!-- .inner -->
+    </section>
+    
+    <section class="main-section" id="images">
+        <div class="inner">    
+            <div class="component">
+                <h6 class="section-label lined">Figures en captions</h6>
+    
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+    	            <h6>Standaard foto credit</h6>
+                    <p>Een standaard foto credit waarin de naam van de fotograaf onder de afbeelding wordt geplaatst.</p>
+                    <p><span class="fa fa-warning inline-icon"></span> Aangezien captions ook buiten een <code>&lt;figure&gt;</code> element gebruikt kunnen worden, bijv. bij embedding, dient de css-klasse <code>.figcaption</code> te worden gebruikt ifv de juiste typografie &amp kleur.</p>
+                </div> <!-- .context -->
+    
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+    
+                    <figure>
+                        <div class="image">
+                            <img src="img/bourla.jpeg" alt="Bourla schouwburg" title="Bourla schouwburg">
+                            <span class="photocredit">
+                                <span class="fa fa-camera"></span>
+                                Jan Janssens &copy; 2016
+                            </span>  <!-- .photocredit -->
+                        </div>  <!-- .image -->
+    
+                        <figcaption class="figcaption">Dit is de omschrijving van bovenstaande afbeelding lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sodales nunc nunc, ac lacinia erat suscipit quis.</figcaption
+    
+                    </figure>
+    
+                    <div class="code-block">
+                        <code>
+    <pre>
+    &lt;figure&gt;<br />
+    &nbsp;&lt;div class="<b>image</b>"&gt;<br />
+    &nbsp;&nbsp;&lt;img src="img/bourla.jpeg" alt="Bourla schouwburg" title="Bourla schouwburg"&gt;<br />
+    &nbsp;&nbsp;&lt;span class="<b>photocredit</b>"&gt;&lt;span class="fa fa-camera"&gt;&lt;/span&gt;<br />
+    &nbsp;&nbsp;&nbsp;Jan Janssens &copy; 2016&lt;/span&gt;  &lt;!-- .photocredit --&gt;<br />
+    &nbsp;&lt;/div&gt;<br />
+    &nbsp;&lt;<b>figcaption class="figcaption"</b>&gt;Dit is de omschrijving van bovenstaande afbeelding lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sodales nunc nunc, ac lacinia erat suscipit quis.&lt;/figcaption<br />
+    &lt;/figure&gt;
+    </pre>
+                        </code>
+                    </div>  <!-- .code-block -->
+                </div>
+    
+            </div>  <!-- .component -->
+            <div class="component">
+    
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+    	            <h6>Foto credit bovenop afbeelding</h6>
+                    <p>Een foto credit die bovenop de afbeelding wordt geplaatst, rechtsonder de afbeelding. Deze heeft een variant <code>.dark</code> die op lichte afbeeldingen kan gebruikt worden.</p>
+                </div> <!-- .context -->
+    
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="faux-col">
+    
+                        <figure>
+                            <div class="image">
+                                <img src="img/bourla-small.jpg" width="480" height="480" alt="Bourla schouwburg" title="Bourla schouwburg">
+                                <span class="photocredit atop">
+                                    <span class="fa fa-camera"></span>Jan Janssens &copy; 2016
+                                </span>    <!-- .photo-credit -->
+                            </div>
+                            <figcaption class="figcaption">Dit is de omschrijving van bovenstaande afbeelding.</figcaption
+                        </figure>
+    
+                        <div class="code-block">
+                            <code>
+    <pre>
+    ... <br />
+    &lt;span class="<b>photocredit atop</b>"&gt;<br />
+    &nbsp;&nbsp;&nbsp;&lt;span class="fa fa-camera"&gt;&lt;/span&gt;<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;Jan Janssens &copy; 2016<br />
+    &nbsp;&nbsp;&nbsp;&lt;/span&gt;    &lt;!-- .photo-credit --&gt;<br />
+    ...
+    </pre>
+                            </code>
+                        </div>  <!-- .code-block -->
+                    </div>
+    
+                    <div class="faux-col">
+                        <figure>
+                            <div class="image">
+                                <img src="img/river.jpg"  width="480" height="480" alt="De Schelde" title="De Schelde">
+                                <span class="photocredit atop dark"><span class="fa fa-camera"></span>Jan Janssens &copy; 2016</span>    <!-- .photo-credit -->
+                            </div>
+                            <figcaption class="figcaption">Dit is de omschrijving van bovenstaande afbeelding.</figcaption
+                        </figure>
+    
+                        <div class="code-block">
+                            <code>
+    <pre>
+    ... <br />
+    &lt;span class="<b>photocredit atop dark</b>"&gt;<br />
+    &nbsp;&nbsp;&nbsp;&lt;span class="fa fa-camera"&gt;&lt;/span&gt;<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;Jan Janssens &copy; 2016<br />
+    &nbsp;&nbsp;&nbsp;&lt;/span&gt;    &lt;!-- .photo-credit --&gt;<br />
+    ...
+    </pre>                        </code>
+                        </div>  <!-- .code-block -->
+                    </div>
+                </div>
+            </div>  <!-- .component -->
+            <div class="component">
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+    	            <h6>Caption block</h6>
+                    <p>Een foto credit die boven en onderaan de afbeelding wordt geplaatst in een zwarte balk. Deze kan tevens het aantal afbeeldingen bevatten indien de afbeelding deel uitmaakt van een carrousel.</p>
+                </div> <!-- .context -->
+    
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+    
+                    <figure>
+                        <div class="image">
+                            <img src="img/bourla.jpeg" alt="Bourla schouwburg" title="Bourla schouwburg">
+    
+                            <span class="photocredit block">
+                                <span class="fa fa-camera"></span>Jan Janssens &copy; 2016
+                                <span class="image-count">1 &#124; 5</span>
+                            </span>
+    
+                        </div>
+                        <figcaption>Dit is de omschrijving van bovenstaande afbeelding.</figcaption>
+                    </figure>
+    
+                    <div class="code-block">
+                        <code>
+    <pre>
+    ...<br />
+    &nbsp;&lt;span class="<b>photocredit block</b>"&gt;<br />
+    &nbsp;&nbsp;&lt;span class="fa fa-camera"&gt;&lt;/span&gt;Jan Janssens &copy; 2016<br />
+    &nbsp;&nbsp;&lt;span class="<b>image-count</b>"&gt;1 &#124; 5&lt;/span&gt;<br />
+    &nbsp;&nbsp;&lt;/span&gt;<br />
+    ...
+    </pre>
+                        </code>
+                    </div>  <!-- .code-block -->
+                </div>
+            </div>  <!-- .component -->
+        </div> <!-- .inner -->
+    </section>
+
+    <div class="page-nav">
+        <a href="forms" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Formulieren
+        </a>
+
+        <a href="highlights" class="button-next">
+            Highlights en notificaties<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+    
+<% include footer %>

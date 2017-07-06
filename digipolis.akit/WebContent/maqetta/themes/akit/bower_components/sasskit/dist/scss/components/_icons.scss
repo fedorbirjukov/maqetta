@@ -1,0 +1,25 @@
+//
+// Icons
+// ---
+// https://fortawesome.github.io/Font-Awesome/
+//
+
+.fa {
+    font-size: $icon-size;
+}
+
+.inline-icon {
+    font-size: 90%;
+
+    &.fa-warning {
+        color: $warning;
+    }
+
+    &.fa-check {
+        color: $success;
+    }
+
+    &.fa-information, &.fa-question {
+        color: $alpha-ui-color;
+    }
+}

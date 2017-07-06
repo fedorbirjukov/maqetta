@@ -1,0 +1,27 @@
+//
+// API: Animations
+// ---
+// Collection of keyframe animations
+//
+
+//
+// Animate keyframes
+// ---
+// Functions to run when using keyframe animations
+// @params: name duration timing-function delay iteration-count direction
+//
+
+@mixin animate-keyframes($animation-name, $duration: 1s, $timing-function: ease, $iteration-count: 1, $direction: normal, $delay: 0s, $fill-mode: forwards) {
+    animation: $animation-name $duration $timing-function $iteration-count $direction $delay;
+    animation-fill-mode: $fill-mode;
+}
+
+//
+// Remove all animations
+// ---
+
+@mixin remove-animations() {
+    transition-property: none !important;
+    transform: none !important;
+    animation: none !important;
+}

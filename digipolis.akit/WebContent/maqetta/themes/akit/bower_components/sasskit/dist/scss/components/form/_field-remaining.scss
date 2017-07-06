@@ -1,0 +1,36 @@
+//
+// Components: Form: Field-remaining
+// ---
+// Styling for the "remaining characters" indicator
+//
+
+//
+// Form components
+// ---
+// Styling for the "remaining characters" indicator
+//
+
+.field-remaining {
+    line-height: 1rem;
+    top: $sizer * 6 / 3;
+    margin-top: $sizer * 2 / 3;
+    right: $sizer;
+
+    position: absolute;
+
+    //
+    // Modifiers
+    // ---
+
+    &.warning {
+        color: $warning;
+    }
+
+    &.critical {
+        color: $danger;
+    }
+
+    .label + & {
+        top: 0;
+    }
+}

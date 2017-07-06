@@ -1,0 +1,332 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                            <span class="fa fa-list" style="color: #E56DB1"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Lijsten</h1>
+                            <p class="lead">Een overzicht van beschikbare lijsten</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+            </div> <!-- main-intro-header .inner -->
+        </div> <!-- .main-intro -->
+    </header>
+
+    <section class="main-section">
+        <div class="inner">
+            <p></p>
+        </div> <!-- .inner -->
+    </section>
+
+    <secton class="main-section" id="lists">
+        <div class="inner">
+            <div class="component">
+                <h6 class="section-label lined">Standaard lijsten</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Standaard lijsten (zonder specifieke css-klassen) worden als volgt weergegeven.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="block span-full tablet--span-half-1 desktop--span-half-1">
+                        <p><small>Standaard 'unordered list' <code>&lt;ul&gt;</code></small></p>
+                        <ul>
+                            <li>List item 1</li>
+                            <li>List item 2
+                                <ul>
+                                    <li>Sub list item 1</li>
+                                    <li>Sub list item 2</li>
+                                </ul>
+                            </li>
+                            <li>List item 3</li>
+                        </ul>
+                    </div> <!-- .block -->
+
+                    <div class="block span-full tablet--span-half-2 desktop--span-half-2">
+                        <p><small>Standaard 'ordered list' <code>&lt;ol&gt;</code></small></p>
+                        <ol>
+                            <li>List item 1</li>
+                            <li>List item 2
+                                <ol>
+                                    <li>Sub list item 1</li>
+                                    <li>Sub list item 2</li>
+                                </ol>
+                            </li>
+                            <li>List item 3</li>
+                        </ol>
+                    </div> <!-- .block -->
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+
+            <div class="component">
+                <h6 class="section-label lined">Ongestylede lijsten</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Een lijst kan worden gestript van alle standaard stijlen door de klasse <code>.unstyled</code> mee te geven.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="block span-full tablet--span-half-1 desktop--span-half-1">
+                        <ul class="unstyled">
+                            <li>List item 1</li>
+                            <li>List item 2
+                                <ul>
+                                    <li>Sub list item 1</li>
+                                    <li>Sub list item 2</li>
+                                </ul>
+                            </li>
+                            <li>List item 3</li>
+                        </ul>
+
+                        <div class="code-block">
+                            <code>
+                                <pre>&lt;ul class="unstyled"&gt;...&lt;/ul&gt;</pre>
+                            </code>
+                        </div> <!-- .code-block -->
+                    </div> <!-- .block -->
+
+                    <div class="block span-full tablet--span-half-2 desktop--span-half-2">
+                        <ul class="unstyled lined">
+                            <li>List item 1</li>
+                            <li>List item 2
+                                <ul>
+                                    <li>Sub list item 1</li>
+                                    <li>Sub list item 2</li>
+                                </ul>
+                            </li>
+                            <li>List item 3</li>
+                        </ul>
+
+                        <div class="code-block">
+                            <code>
+                                <pre>&lt;ul class="unstyled lined"&gt;...&lt;/ul&gt;</pre>
+                            </code>
+                        </div> <!-- .code-block -->
+                    </div> <!-- .block -->
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+
+            <div class="component">
+                <h6 class="section-label lined">Gestylede lijsten</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Lijsten kunnen extra styling meekrijgen door ze volgende css-klasse(n) mee te geven.</p>
+                    <ul>
+                        <li><p><strong><code>.lined</code></strong></p>
+                            <p>De lijst-item worden afgebakend met een lijn.</p>
+                        </li>
+                        <li><p><strong><code>.arrow</code></strong></p>
+                            <p>De lijst-items krijgen een 'chevron' als lijst bullet. Lijsten met de klasse <code>.arrow</code>, krijgen automatisch een extend naar de klasse <code>.lined</code>.</p>
+                        </li>
+                    </ul>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="block span-full tablet--span-half-1 desktop--span-half-1">
+                        <ul class="lined">
+                            <li>List item 1</li>
+                            <li>List item 2
+                                <ul>
+                                    <li>Sub list item 1</li>
+                                    <li>Sub list item 2</li>
+                                </ul>
+                            </li>
+                            <li>List item 3</li>
+                        </ul>
+
+                        <div class="code-block">
+                            <code>
+                                <pre>&lt;ul class="lined"&gt;...&lt;/ul&gt;</pre>
+                            </code>
+                        </div> <!-- .code-block -->
+                    </div> <!-- .block -->
+
+                    <div class="block span-full tablet--span-half-2 desktop--span-half-2">
+                        <ul class="arrow">
+                            <li>List item 1</li>
+                            <li>List item 2
+                                <ol>
+                                    <li>Sub list item 1</li>
+                                    <li>Sub list item 2</li>
+                                </ol>
+                            </li>
+                            <li>List item 3</li>
+                        </ul>
+
+                        <div class="code-block">
+                            <code>
+                                <pre>&lt;ul class="arrow"&gt;...&lt;/ul&gt;</pre>
+                            </code>
+                        </div> <!-- .code-block -->
+                    </div> <!-- .block -->
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+
+            <div class="component">
+                <h6 class="section-label lined">Gestylede lijsten met links</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Indien gestylede lijsten ook links bevatten, worden deze als volgt weergegeven.</p>
+                    <p>Een lijst kan ook de klasse <code>.boxed</code> meekrijgen om het te onderscheiden van de achtergrond. <small>De lijst zal dan ook extra padding meekrijgen</small>.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="block span-full tablet--span-half-1 desktop--span-half-1">
+                        <ul class="lined arrow">
+                            <li><a href="#0">Linked List item 1</a></li>
+                            <li><a href="#0">Linked List item 2</a></li>
+                            <li><a href="#0">Linked List item 3</a></li>
+                            <li><a href="#0">Linked List item 4</a></li>
+                            <li><a href="#0">Linked List item 5</a></li>
+                        </ul>
+                    </div> <!-- .block -->
+
+                    <div class="block span-full tablet--span-half-2 desktop--span-half-2">
+                        <div class="bg-standard" style="padding: 0 1em;">
+                            <ul class="lined arrow boxed">
+                                <li><a href="#0">Linked List item 1</a></li>
+                                <li><a href="#0">Linked List item 2</a></li>
+                                <li><a href="#0">Linked List item 3</a></li>
+                                <li><a href="#0">Linked List item 4</a></li>
+                                <li><a href="#0">Linked List item 5</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="code-block">
+                            <code>
+                                <pre>&lt;ul class="lined arrow boxed"&gt;...&lt;/ul&gt;</pre>
+                            </code>
+                        </div> <!-- .code-block -->
+                    </div> <!-- .block -->
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+
+            <div class="component">
+                <h6 class="section-label lined">Lijsten voor navigatie</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Indien een lijst met links specifiek als navigatie-component wordt gebruikt, kan de klasse <code>.list-navigation</code> worden gebruikt.</p>
+                    <p>De lijst items dienen dan een klasse <code>.leaf</code> mee te krijgen en de link zelf een klasse <code>.title</code>.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <nav class="list-navigation">
+                        <ul>
+                            <li class="leaf">
+                                <a href="#0" class="leaf-link">
+                                    <span class="title">Linked List item 1</span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="#0" class="leaf-link">
+                                    <span class="title">Linked List item 1</span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="#0" class="leaf-link">
+                                    <span class="title">Linked List item 1</span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>  <!-- .list-navigation -->
+
+                    <div class="code-block">
+                        <code>
+                            <pre>
+&lt;<b>nav</b> class="<b>list-navigation</B>"&gt;<br />
+&nbsp;&lt;ul&gt;<br />
+&nbsp;&nbsp;&lt;li class="<b>leaf</b>"&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;a href="#0" class="<b>leaf-link</b>"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="<b>title</b>"&gt;Linked List item 1&lt;/span&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="fa fa-chevron-right"&gt;&lt;/span&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;/a&gt;<br />
+&nbsp;&nbsp;&lt;/li&gt;<br />
+&nbsp;&nbsp;&lt;li class="leaf"&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;a href="#0" class="leaf-link"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="title"&gt;Linked List item 1&lt;/span&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="fa fa-chevron-right"&gt;&lt;/span&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;/a&gt;<br />
+&nbsp;&nbsp;&lt;/li&gt;<br />
+        ...
+</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+
+                    <h6>List-navigation met iconen</h6>
+                    <p>De .<code>.list-navigation</code> kan nog worden uitgebreid met illustratieve iconen uit onze basis font-awesome-set. Volg daarvoor volgende code:</p>
+
+                    <nav class="list-navigation">
+                        <ul>
+                            <li class="leaf">
+                                <a href="#0" class="leaf-link has-icon">
+                                    <span class="fa fa-anchor"></span>
+                                    <span class="title">Linked List item 1</span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="#0" class="leaf-link has-icon">
+                                    <span class="fa fa-building" style="background-color: #008C95;"></span>
+                                    <span class="title">Linked List item 1</span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="#0" class="leaf-link has-icon">
+                                    <span class="fa fa-clock-o" style="background-color: #007B5F"></span>
+                                    <span class="title">Linked List item 1</span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>  <!-- .list-navigation -->
+
+                    <div class="code-block">
+                        <code>
+                            <pre>
+&lt;<b>nav</b> class="<b>list-navigation</B>"&gt;<br />
+&nbsp;&lt;ul&gt;<br />
+&nbsp;&nbsp;&lt;li class="<b>leaf</b>"&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;a href="#0" class="<b>leaf-link has-icon</b>"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;span class="fa fa-anchor"&gt;&lt;/span&gt;</b><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="<b>title</b>"&gt;Linked List item 1&lt;/span&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="fa fa-chevron-right"&gt;&lt;/span&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;/a&gt;<br />
+&nbsp;&nbsp;&lt;/li&gt;<br />
+&nbsp;&nbsp;&lt;li class="leaf"&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;a href="#0" class="leaf-link has-icon"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="fa fa-building" style="background-color: #008C95;"&gt;&lt;/span&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="title"&gt;Linked List item 1&lt;/span&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="fa fa-chevron-right"&gt;&lt;/span&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;/a&gt;<br />
+&nbsp;&nbsp;&lt;/li&gt;<br />
+        ...
+</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+        </div> <!-- .inner -->
+    </section> <!-- #lists -->
+
+    <div class="page-nav">
+        <a href="links" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Hyperlinks
+        </a>
+
+        <a href="tables" class="button-next">
+            Tabellen<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+
+<% include footer %>

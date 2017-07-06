@@ -1,0 +1,153 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                            <span class="fa fa-th" style="color: #008C95"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Layout</h1>
+                            <p class="lead">Hoe bouw je een pagina op voor je site of app</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+
+            </div> <!-- main-intro-header .inner -->
+
+        </div> <!-- .main-intro -->
+    </header>
+
+    <section class="main-section" id="brand-architecture-intro">
+        <div class="inner">
+            <div class="section-intro">
+                <h4>Inleiding</h4>
+
+                <p class="lead">Bij het ontwerpen en ontwikkelen van digitale toepassingen binnen de huisstijl van stad Antwerpen, houd je best rekening met de volgende 5 richtlijnen.</p>
+                <p>Deze zijn opgesteld om zowel consistentie als een heldere en plezierige gebruikers-ervaring te waarborgen.</p>
+
+                <ol class="guidelines">
+                    <li>De content primeert en wordt daarom <em>duidelijk, helder</em> en <em>toegankelijk</em> gepresenteerd.</li>
+                    <li>De content wordt opgedeeld in <em>logische</em> en <em>hiërarchische</em> componenten door <em>consistente spatiëring.</em></li>
+                    <li>Dit leidt de gebruiker doorheen de content en biedt <em>visuele rust</em>.</li>
+                    <li>Het design ondersteunt je content en wordt daarom <em>minimaal</em> gehouden.</li>
+                    <li>De focus ligt op <em>eenvoud</em>, en minimale <em>typografie</em> en <em>kleurgebruik.</em></li>
+                </ol>
+
+            </div>  <!-- .section-intro -->
+        </div>  <!-- .inner -->
+    </section>  <!-- #brand-architecture-intro -->
+
+
+    <section class="main-section" id="layout">
+       <div class="inner">
+            <div class="component">
+
+                <h6 class="section-label lined">Grid voor print en online</h6>
+
+                <div class="context span-full tablet--span-6-1 desktop--span-6-1">
+                    <p>Alle gedrukte communicatie van de stad Antwerpen wordt opgemaakt volgens een raster, een verdeling van de lay-out in vaste vlakken, om een herkenbare structuur en visuele consistentie te bekomen. <small><em>(Fig. 1)</em></small></p>
+
+                    <p>Het vertalen van deze werkwijze naar digitale communicatie - met al haar verschillende dragers, schermen en afmetingen - is niet mogelijk, maar we houden wel vast aan een strakke spatiëring van onze content.</p>
+
+                    <p>Alle content wordt gespatieerd in veelvouden van <b>24 px</b>; dat is onze basiswaarde en de minimale afstand tussen verschillende pagina componenten.</p>
+
+                    <p>Ook het grid dat wordt gebruikt op <a href="http://www.antwerpen.be" target="_blank">antwerpen.be</a>, werkt met vaste verticale marges van 24 px.</p>
+
+                    <p>Om echter voldoende visuele rust in de layout te krijgen én een duidelijk onderscheid te maken tussen content en afzonderlijke componenten werken we met grotere marges in veelvouden van onze 24 px basiswaarde. <small><em>(Fig. 2)</em></small> Dit zowel voor horizontale (grid) als verticale (marges) spatiëring.</p>
+
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-4-7 desktop--span-4-7">
+                    <figure>
+                        <div class="image">
+                            <img src="img/grid.jpg" alt="Grid voor print" />
+                        </div>
+                        <figcaption>Fig. 1. Grid voor print</figcaption>
+                    </figure>
+                </div>  <!-- .code -->
+
+        </div> <!-- .component -->
+
+            <div class="component">
+            <h6 class="section-label lined">Marges en spatiëring</h6>
+
+            <div class="context span-full tablet--span-6-1 desktop--span-6-1">
+
+                <p>Alle horizontale spatiëring wordt op basis van het grid aangebracht, alle verticale spatiëring op basis van meervouden van onze basis-waarden <small><em>(Fig. 2)</em></small>.</p>
+
+                <h6>Elementen, componenten en content-blokken</h6>
+
+                <p>Om onze pagina&#39;s conform op te bouwen, delen we de content op in logische 'blokken'; deze variëren van elementen naar componenten en content-blokken.</p>
+
+                <ol>
+                    <li>
+                        <p>Een <em style="color: #0064b4;"><b>element</b></em> is een kleinst mogelijke opdeling van een 'blok' binnen een pagina, meestal te herleiden tot een enkel <u>html-element</u> (bijv. een knop, input-veld, een titel of paragraaf).</p>
+                        <p><img src="img/size_24.svg" width="24" height="24" style="position: relative; top: -3px;"/> Gebruik <b style="color: ">24px</b> voor alle marges tussen elementen binnen één component.</strong></p>
+
+                    </li>
+
+                    <li>
+                        <p>Een <em style="color: #0064b4;"><b>componenten</b></em> is een verzameling van elementen tot een <u>logisch</u> en <u>functioneel</u> geheel (bijv. een input-veld met knop, een titel met paragraaf).</p>
+                        <p><img src="img/size_48.svg" width="24" height="24" style="position: relative; top: -3px"/> Gebruik <b style="color: ">48px</b> voor alle  marges tussen componenten binnen één content-blok.</p>
+                    </li>
+
+                    <li>
+                        <p>Een <em style="color: #0064b4;"><b>content-blok</b></em> is een verzameling van verschillende componenten en vormt een <u>specifiek gedeelte</u> binnen een pagina (bijv. een formulier, een kaart, een nieuwsoverzicht).</p>
+                        <p><img src="img/size_96.svg" width="24" height="24" style="position: relative; top: -3px"/> Gebruik <b style="color: ">96px</b> voor alle  marges tussen content-blokken.</p>
+                    </li>
+                </ol>
+
+                <p style="clear: both;">Als dit systeem <small><em>(Fig 3.)</em></small> correct wordt toegepast, creëren we een logisch onderscheid tussen de verschillende content-blokken en bovendien voldoende witruimte zodat de gebruiker sneller de pagina kan <em>scannen</em>.</p>
+            </div>  <!-- .contenxt -->
+
+            <div class="code span-full tablet--span-6-7 desktop--span-6-7">
+                <figure>
+                    <div class="image">
+                        <img src="img/base-size-units.jpg" alt="Standaard marge waarden" width="345"/>
+                    </div>
+                    <figcaption>Fig. 2. Basis marge waarden</figcaption>
+                </figure>
+                <p>&nbsp;</p>
+                <figure>
+                    <div class="image">
+                        <img src="img/base-component-margins.jpg" alt="Opbouw van een pagina" />
+                    </div>
+                    <figcaption>Fig. 3. Gebruik van vaste horizontale marges</figcaption>
+                </figure>
+            </div>  <!-- .code -->
+        </div>  <!-- .component -->
+
+            <div class="component">
+            <h6 class="section-label lined">Voorbeeld layout</h6>
+                <div class="content span-full tablet--span-4-1 desktop--span-4-1 ">
+                    <p>Hiernaast zien we voorbeeld van een standaard pagina binnen <a href="http://www.antwerpen.be" target="_blank">antwerpen.be</a> <small><em>(Fig. 3)</em></small> opgebouwd volgens het systeem van vaste marges.</p>
+                    <p><small>De belangrijkste marges zijn aangeduid met gekleurde blokken.</small></p>
+                </div>     <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <figure>
+                        <div class="image">
+                            <img src="img/page-construction.jpg" alt="Opbouw van een pagina" />
+                        </div>
+                        <figcaption>Fig. 3. Opbouw van een pagina volgens vaste marges</figcaption>
+                    </figure>
+                </div>
+        </div>   <!-- .component -->
+
+        </div> <!-- .inner -->
+    </section> <!-- #layout -->
+
+    <div class="page-nav">
+        <a href="brands" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Onze merkenarchitectuur
+        </a>
+
+        <a href="typography" class="button-next">
+            Typografie<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+
+<% include footer %>

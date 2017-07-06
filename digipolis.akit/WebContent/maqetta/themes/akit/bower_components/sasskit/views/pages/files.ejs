@@ -1,0 +1,186 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                             <span class="fa fa-code" style="color: #554741"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Bestanden en technische info</h1>
+                            <p class="lead">Hoe werkt deze stijlgids op technisch vlak? Een overzicht!</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+
+            </div> <!-- main-intro-header .inner -->
+
+        </div> <!-- .main-intro -->
+    </header>
+
+    <section class="main-section">
+        <div class="inner">
+            <p class="lead">Deze stijlgids is beschikbaar als bower-component.</p>
+            <p>Je bent een webdeveloper en je wilt in je project gebruik maken van deze stijlgdis? Je bent op de juiste plek! <br>
+            Hoe je aan de slag gaat en deze component implementeert in je project, lees je hieronder.</p>
+        </div> <!-- .inner -->
+    </section>  <!-- .main-section -->
+
+    <section class="main-section" id="bowercomponent">
+        <div class="inner">
+            <div class="component">
+                <div class="inner">
+                    <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                        <h6 class="section-label lined">Bower installeren</h6>
+                        <p>Onze component gebruikt <a href="http://bower.io">bower</a>, die op zijn beurt <a href="http://nodejs.org/">node</a>, <a href="http://nodejs.org/">npm</a> en <a href="http://git-scm.org/">git</a> nodig heeft. Volg hiervoor de handleidingen op de websites van deze tools.</p>
+                    </div>  <!-- .content -->
+
+                    <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                        <p>Als al de nodige tools geinstalleerd hebt, kan je bower installeren:</p>
+                        <div class="code-block">
+                            <code>
+                                <pre>npm install -g bower</pre>
+                            </code>
+                        </div>  <!-- .code-block -->
+                    </div>  <!-- .code -->
+                </div>  <!-- .inner -->
+            </div>  <!-- .component -->
+
+            <div class="component">
+                <div class="inner">
+                    <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                        <h6 class="section-label lined">Stijlgids installeren</h6>
+                        <p>Deze component installeer je op dezelfde manier als andere bower-componenten.</p>
+
+                    </div>  <!-- .content -->
+
+                    <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                        <p>Het volgende commando installeert de meest recente versie van de stijlgids-component in je project.</p>
+                        <div class="code-block">
+                            <code>
+                                <pre>bower install ssh://git@git.antwerpen.be/astad/sasskit_bower_scss.git</pre>
+                            </code>
+                        </div>  <!-- .code-block -->
+
+                        <p>Met de volgende commando's zorg je ervoor dat de stijlgids-component als dependency wordt toegevoegd in je project. Hierdoor wordt bij de volgende <code>bower install</code> of <code>bower update</code> eventuele updates aan de stijlgids mee opgehaald.</p>
+                        <div class="code-block">
+                            <code>
+                                <pre>
+                                    bower init <br>
+                                    bower install ssh://git@git.antwerpen.be/astad/sasskit_bower_scss.git#<b>2.x.x</b> --save</pre>
+                            </code>
+                        </div>  <!-- .code-block -->
+                        <p><span class="fa fa-warning inline-icon"></span> Let op: het versienummer dat je hier meegeeft. Meer info daarover vind je <a href="#versioning">verder op deze pagina</a>.</p>
+                    </div>  <!-- .code -->
+                </div>  <!-- .inner -->
+            </div>  <!-- .component -->
+
+            <div class="component">
+                <div class="inner">
+                    <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                        <h6 class="section-label lined">Stylesheets includen</h6>
+                        <p>De stylesheets die je integreert in je project, kan je vinden in de 'dist'-folder.</p>
+
+                    </div>  <!-- .content -->
+
+                    <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                        <p>Zet deze lijnen in de head-tag van je html-pagina</p>
+                        <div class="code-block">
+                            <code>
+                                <pre>
+                                    &lt;link rel="stylesheet" href="bower_components/sasskit/dist/css/sasskit.css" type="text/css" media="screen"/&gt;
+                                    <br>
+                                    &lt;link rel="stylesheet" href="bower_components/sasskit/dist/css/sasskit_print.css" type="text/css" media="print"/&gt;
+                                </pre>
+                            </code>
+                        </div>  <!-- .code-block -->
+                    </div>  <!-- .code -->
+                </div>  <!-- .inner -->
+            </div>  <!-- .component -->
+
+        </div> <!-- .inner -->
+    </section> <!-- #bowercomponent -->
+
+    <section class="main-section" id="versioning">
+        <div class="inner">
+            <div class="component">
+                <div class="inner">
+                    <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                        <h6 class="section-label lined">Versioning</h6>
+                        <p>Deze component werkt met semantic versioning. Meer info hierover vind je op <a href="http://semver.org/">semver.org</a>.</p>
+                    </div>  <!-- .content -->
+
+                    <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                        <p>De drie cijfers in het versienummer beschrijven respectievelijk de <code>major-</code>, <code>minor-</code> en <code>patch</code>-versie.</p>
+
+                        <p>We updaten het versienummer bij elke update aan de component op de volgende manier:</p>
+                        <ul>
+                            <li><b>major</b>: als er incompatibele veranderingen zijn doorgevoerd.</li>
+                            <li><b>minor</b>: als er functionaliteit is toegevoegd, en deze compatibel zijn met de vorige versie</li>
+                            <li><b>patch</b>: als er bugfixes zijn toegevoegd, en deze compatibel zijn met de vorige versie</li>
+                        </ul>
+                        <br>
+                        <h6>Enkele voorbeelden:</h6>
+                        <p>Volgend commando zal versie <code>2.3.17</code> installeren. Je krijgt geen automatische updates mee, de versie zal altijd vast staan.</p>
+                        <div class="code-block">
+                            <code>
+                                <pre>bower install ssh://git@git.antwerpen.be/astad/sasskit_bower_scss.git#<b>2.3.17</b></pre>
+                            </code>
+                        </div>  <!-- .code-block -->
+
+                        <p>Volgend commando zal er voor zorgen dat bij elke update, nieuwe minor- en patch-versies opgehaald zullen worden:</p>
+                        <div class="code-block">
+                            <code>
+                                <pre>bower install ssh://git@git.antwerpen.be/astad/sasskit_bower_scss.git#<b>2.x.x</b></pre>
+                            </code>
+                        </div>  <!-- .code-block -->
+
+                        <p>Meer informatie hierover vind je op <a href="http://semver.org/">semver.org</a>.</p>
+                    </div>  <!-- .code -->
+                </div>  <!-- .inner -->
+            </div>  <!-- .component -->
+
+            <div class="component">
+                <div class="inner">
+                    <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                        <h6 class="section-label lined">Bugs &amp; contributing</h6>
+                        <p>Een toevoeging die niet mag ontbreken? Een bug gevonden? Geen probleem, je kan de stijlgids helpen verbeteren.</p>
+                    </div>  <!-- .content -->
+
+                    <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                        <p>De repository van deze component kan je vinden op <a href="https://stash.antwerpen.be/projects/ASTAD/repos/sasskit_bower_scss/browse">stash</a>. Ga als volgt te werk:
+
+                        <ul>
+                            <li>Maak een nieuwe branch van de <code>development</code>-branch en geef deze als volgt een naam:
+                                <div class="code-block">
+                                    <code>
+                                        <pre>
+                                            - feature/feature-name <br>
+                                             - bugfix/bugfix-name
+                                        </pre>
+                                    </code>
+                                </div>  <!-- .code-block -->
+                            </li>
+                            <li>Commit je wijzigingen of fixes op je nieuwe branch.</li>
+                            <li>Als je wijzigingen klaar zijn, merge je de <code>development</code>-branch in je eigen branch en test je lokaal of alles werkt.</li>
+                            <li>Als alles OK is, kan je een pull-request openen en deze assignen aan <a href="mailto:jasper.vanproeyen@digipolis.be">Jasper Van Proeyen</a> en <a href="mailto:mante.bridts@digipolis.be">Mante Bridts</a>.</li>
+                        </ul>
+                    </div>  <!-- .code -->
+                </div>  <!-- .inner -->
+            </div>  <!-- .component -->
+        </div> <!-- .inner -->
+    </section> <!-- #versioning -->
+
+    <div class="page-nav">
+        <a href="highlights" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Highlights en notificaties
+        </a>
+
+        <a href="index" class="button-next">
+            Introductie<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+
+<% include footer %>

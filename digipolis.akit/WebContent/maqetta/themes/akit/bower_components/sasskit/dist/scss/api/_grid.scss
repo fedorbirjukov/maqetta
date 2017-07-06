@@ -1,0 +1,56 @@
+//
+// API: Grid
+// ---
+// Settings for the SingularityGS Grid
+//
+
+$bp1: 320 / 16 * 1em; // Mobile small
+$bp2: 480 / 16 * 1em; // Mobile
+$bp3: 640 / 16 * 1em; // Tablet
+$bp4: 960 / 16 * 1em; // Desktop
+$bp5: 1280 / 16 * 1em; // Widescreen
+
+$bp7: 1472 / 16 * 1em; // Needs to be removed
+$bp8: 1925 / 16 * 1em; // Header MQ - upped by 5px so it will not trigger on default fullHD screen sizes
+$bp9: 2560 / 16 * 1em; // Header MQ
+
+$mobile:                        $bp2;
+$default-cols:                  12;
+$tablet:                        $bp3;
+$tablet-cols:                   12;
+$desktop:                       $bp4;
+$desktop-cols:                  12;
+$max-width:                     $bp5;
+
+// Allowed span sizes for the grid
+$allowed-floating-spans: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 !default;
+$allowed-isolation-spans: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 !default;
+
+@include sgs-set("mobile first", true);
+@include sgs-set("output", "isolation");
+@include sgs-set("direction", "ltr");
+
+@include add-gutter(24px);
+
+// Add gutter styles
+@include add-gutter-style("fixed");
+
+// Add grids
+@include add-grid($default-cols);
+@include add-grid($tablet-cols at $tablet);
+@include add-grid($desktop-cols at $desktop);
+
+// Add grid breakpoints
+@include add-breakpoint("mobile", $mobile);
+@include add-breakpoint("tablet", $tablet);
+@include add-breakpoint("desktop", $desktop);
+
+@include add-breakpoint("bp1", $bp1);
+@include add-breakpoint("bp2", $bp2);
+@include add-breakpoint("bp3", $bp3);
+@include add-breakpoint("bp4", $bp4);
+@include add-breakpoint("bp5", $bp5);
+
+@include add-breakpoint("bp7", $bp7);
+@include add-breakpoint("bp8", $bp8);
+@include add-breakpoint("bp9", $bp9);

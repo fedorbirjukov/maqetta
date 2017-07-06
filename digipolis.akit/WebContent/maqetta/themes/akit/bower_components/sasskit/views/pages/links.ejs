@@ -1,0 +1,188 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                            <span class="fa fa-link" style="color: #4AA32C"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Hyperlinks</h1>
+                            <p class="lead">Kleuren en richtlijnen voor hyperlinks</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+            </div> <!-- main-intro-header .inner -->
+        </div> <!-- .main-intro -->
+    </header>
+
+    <section class="main-section">
+        <div class="inner">
+            <div class="section-intro">
+                <p class="lead">We verdelen hyperlinks in 2 types: gebruikt binnen doorlopende tekst en hyperlinks die gebruikt worden in header-elementen, lijsten, knoppen en andere specifieke locaties.</p>
+            </div> <!-- .section-intro -->
+        </div>  <!-- .inner -->
+    </section>  <!-- .main-section -->
+    
+    <section class="main-section" id="links">
+        <div class="inner">
+            <div class="component">
+                <h6 class="section-label lined">Paragraaf links</h6>
+    
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                     <p>Hyperlinks in doorlopende tekst (paragrafen) worden gestyled in <span style="color: #0064b4;">primair blauw (#0064b4) </span>$alpha-ui-color en onderlijnd.</p>
+                </div> <!-- .component-context -->
+    
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <p>Dit is een voorbeeld van een <a href="#0">hyperlink</a> binnen een paragraaf.</p>
+    
+                    <div class="code-block">
+                        <code>
+                            <pre>&lt;p&gt;Dit is een voorbeeld van een &lt;a href="#0"&gt;hyperlink&lt;/a&gt; binnen een paragraaf.&lt;/p&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div> <!--  .component -->
+            <div class="component">
+                <h6 class="section-label lined">Links in hoofdingen</h6>
+    
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Links in header elementen worden in primair blauw gestyled en veranderen naar donkerblauw bij :hover en :focus.</p>
+                </div> <!-- .context -->
+    
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <h3><a href="#0">Dit is een voorbeeld van hoofding met link</a></h3>
+                    <h4 class="plain"><a href="#0">Of met plain headers</a></h4>
+                    <p><small><span class="fa fa-warning inline-icon"></span> Opgelet: de .plain hoofding dient steeds na een standaard header te komen.</small></p>
+    
+                    <div class="code-block">
+                        <code>
+                            <pre>&lt;h3&gt;&lt;a href="#0"&gt;Dit is een voorbeeld van een link in een hoofding&lt;/a&gt;&lt;/h3&gt;<br><br>&lt;h4 class="plain"&gt;&lt;a href="#0"&gt;Maar dat kan ook met plain headers&lt;/a&gt;&lt;/h4&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div> <!--  .component -->
+            <div class="component">
+                <h6 class="section-label lined">Externe links</h6>
+    
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Indien de link de gebruiker wegnavigeert van de site, kan dit worden aangeduid door de link een <code>rel="external"</code> mee te geven.</p>
+                </div> <!-- .context -->
+    
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <a href="#0" rel="external">Dit is een externe link</a>
+                    <p>En dit is een <a href="#0" rel="external">externe link</a> in een paragraaf.</p>
+    
+                    <div class="code-block">
+                        <code>
+                            <pre>&lt;a href="..." rel="external"&gt; ... &lt;/a&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div> <!--  .component -->
+            <div class="component">
+                <h6 class="section-label lined">Document links</h6>
+    
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Indien de link verwijst naar een document, dient deze de css-klasse <code>.file-link</code> mee te krijgen. Bovendien moeten (beschikbare) document-specificaties worden getoond; minimaal bestaan die uit bestandtype en grootte.</p>
+                    <p>Indien de link binnen een paragraaf-tekst of lijst wordt geplaatst, bestaat er de variant <code>.small</code> die een minder opvallende stylign heeft.</p>
+                </div> <!-- .context -->
+    
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+    
+                    <a href="#0" class="file-link">
+                        Lees het volledige college-verslag
+                        <span class="doc-spec">.doc</span>
+                        <span class="doc-spec">3Mb</span>
+                        <span class="copyright">Copyright &copy; 2016 Jan Janssen</span>
+                    </a>
+                    <a href="#0" class="file-link">
+                        Lees het volledige college-verslag
+                        <span class="doc-spec">.doc</span>
+                        <span class="doc-spec">3Mb</span>
+                        <span class="doc-info">Dit is een omschrijving van het bestand die mee in deze link kan worden geplaatst.</span>
+                        <span class="copyright">Copyright &copy; 2016 Jan Janssen</span>
+                    </a>
+                    <a href="#0" class="file-link">
+                        Lees het volledige college-verslag
+                        <span class="doc-spec">.doc</span>
+                        <span class="doc-spec">3Mb</span>
+                    </a>
+    
+                    <p>&nbsp;</p>
+                    <p><strong>Indien de file-link wordt opgenomen in een lijst of paragraaf, bestaat er een variant <code>.small</code></strong></p>
+                    <ul>
+                        <li>Deze lijst bevat naast lijst-items ook links naar documenten:</li>
+                        <li>
+                            <a href="#0" class="file-link small">
+                                Lees het volledige college-verslag
+                                <span class="doc-spec">.doc</span>
+                                <span class="doc-spec">3Mb</span>
+                                <span class="copyright">Copyright &copy; 2016 Jan Janssen</span>
+                            </a>
+                        </li>
+                        <li>Deze zijn wat minder opvallend</li>
+                         <li>
+                            <a href="#0" class="file-link small">
+                                Lees het volledige bestuurs-verslag
+                                <span class="doc-spec">.pdf</span>
+                                <span class="doc-spec">13Kb</span>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;a href="#0" class="file-link"&gt;<br />
+    &nbsp;Lees het volledige college-verslag<br />
+    &nbsp;&lt;span class="doc-spec"&gt;.doc&lt;/span&gt;<br />
+    &nbsp;&lt;span class="doc-spec"&gt;3Mb&lt;/span&gt;<br />
+    &nbsp;&lt;span class="copyright"&gt;Copyright &copy; 2016 Jan Janssen&lt;/span&gt;<br />
+    &lt;/a&gt;
+    </pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div> <!--  .component -->
+            <div class="component">
+                <h6 class="section-label lined">Links naar extra content</h6>
+    
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Een custom link die kan worden gebruikt indien ze verwijst naar een pagina met bijkomende, gelijkaardige content (bijv. een weergave van extra nieuws artikelen) of als <em>terug</em> knop naar voorgaande content.</p>
+                </div> <!-- .context -->
+    
+                <div class="code span-full tablet-span--8-5 desktop--span-8-5">
+                    <p><a href="#0" class="extra-content-link">Alle artikelen<span class="fa fa-arrow-right"></span></a></p>
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;a href="#0" class="<b>extra-content-link</b>"&gt;<br />
+    &nbsp;Alle artikelen&lt;span class="fa fa-arrow-right"&gt;&lt;/span&gt;
+    <br />&lt;/a&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+    
+                    <p><a href="#0" class="extra-content-link back"><span class="fa fa-arrow-left"></span>Terug</a></p>
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;a href="#0" class="<b>extra-content-link</b> back"&gt;<br />
+    &nbsp;&lt;span class="fa fa-arrow-left"&gt;&lt;/span&gt; Terug<br />&lt;/a&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div> <!--  .component -->
+        </div> <!-- .inner -->
+    </section> <!-- #links -->
+
+    <div class="page-nav">
+        <a href="icons" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Iconen
+        </a>
+
+        <a href="lists" class="button-next">
+            Lijsten<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+    
+<% include footer %>

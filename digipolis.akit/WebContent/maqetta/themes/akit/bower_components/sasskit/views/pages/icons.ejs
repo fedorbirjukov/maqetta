@@ -1,0 +1,656 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                            <span class="fa fa-shield" style="color: #002182"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Iconen</h1>
+                            <p class="lead">Beschikbare iconen-sets en css-klassen</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+            </div> <!-- main-intro-header .inner -->
+        </div> <!-- .main-intro -->
+    </header>
+    
+    <section class="main-section">
+        <div class="inner">
+            <div class="section-intro">
+                <p class="lead">Binnen de styleguide van antwerpen.be beschikken we over 2 iconen-sets. Voor alle functionele toepassingen en standaard componenten gebruiken we de open-source pictogrammen van <a href="http://fontawesome.io/" target="_blank">Font Awesome</a>.</p>
+                <p>Daarnaast is er ook nog een <em>custom</em> iconen set specifiek ontworpen voor sites en toepassingen binnen het A-platform; maar die ook voor externe toepassingen wordt opengesteld.</p>
+                <p>Alle iconen zijn vervat in de sasskit en beschikbare op de pagina met <a href="files">bestanden</a>.</p>
+            </div> <!-- .Section-intro -->
+        </div>  <!-- .inner -->
+    </section>  <!-- .main-section -->
+    
+    <section class="main-section" id="icons">
+        <div class="inner">
+            <div class="component">
+                
+                <h6 class="section-label lined">FontAwesome iconen</h6>
+                
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Je kan eenvoudig een pictogram toevoegen door een span met de basis-klasse <code>.fa</code> en een icoon-klasse <code><b><i>.icon-name</i></b></code> toe te voegen.</p>
+                    <p>Een paar van de meeste gebruikte iconen vind je hiernaast. Meer voorbeelden en uitleg vind je op de <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">pagina van FontAwesome</a>.</p>
+                    <p><span class="fa fa-warning inline-icon"></span> Let op: zijn er meerdere opties voor een icoon dat je wenst te gebruiken? Neem dan steeds de meest eenvoudige en rechtlijnige versie (Fig. 4)</p>
+                    <figure>
+                        <div class="image text-center">
+                            <img src="img/icon-choice.jpg" alt="Keuze van een icoon" width="250" />
+                        </div>
+                        <figcaption>
+                            Fig. 4 - Het rechtse icoon is duidelijker, bevat minder afgeronde hoeken en heeft dezelfde betekenis als het linkse icoon; we verkiezen deze boven het linkse icoon.
+                        </figcaption>
+                    </figure>
+                </div>  <!-- .context -->
+    
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <p>Enkele veelvoorkomende iconen uit de <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">fontawesome-set</a>.</p>
+                    <div>
+                        <ul class="unstyled">
+                            <li>
+                                <span class="fa fa-bars" title="fa-bars"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-th-large" title="fa-th-large"></span>
+                            </li>
+                            <li class="bg-standard">
+                                <p><small>User interface</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="unstyled">
+                            <li>
+                                <span class="fa fa-check" title="fa-check"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-times" title="fa-times"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-plus" title="fa-plus"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-minus" title="fa-minus"></span>
+                            </li>
+                            <li class="bg-standard">
+                                <p><small>Bewerkingen</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="unstyled">
+                            <li>
+                                <span class="fa fa-chevron-down" title="fa-chevron-down"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-chevron-left" title="fa-chevron-left"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-chevron-right" title="fa-chevron-right"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-chevron-up" title="fa-chevron-up"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-arrow-down" title="fa-arrow-down"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-arrow-left" title="fa-arrow-left"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-arrow-right" title="fa-arrow-right"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-arrow-up" title="fa-arrow-up"></span>
+                            </li>
+                            <li class="bg-standard">
+                                <p><small>Richting</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="unstyled">
+                            <li>
+                                <span class="fa fa-phone" title="fa-phone"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-mobile" title="fa-mobile"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-envelope-o" title="fa-envelope-o"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-comment" title="fa-comment"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-clock-o" title="fa-clock-o"></span>
+                            </li>
+                            <li class="bg-standard">
+                                <p><small>Communicatie</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="unstyled">
+                            <li>
+                                <span class="fa fa-search" title="fa-search"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-map-marker" title="fa-map-marker"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-map-o" title="fa-map-o"></span>
+                            </li>
+                            <li class="bg-standard">
+                                <p><small>Locatie</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="unstyled">
+                            <li>
+                                <span class="fa fa-camera" title="fa-camera"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-picture-o" title="fa-picture-o"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-video-camera" title="fa-video-camera"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-volume-up" title="fa-volume-up"></span>
+                            </li>
+                            <li class="bg-standard">
+                                <p><small>Media</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="unstyled">
+                            <li>
+                                <span class="fa fa-caret-down" title="fa-caret-down"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-caret-left" title="fa-caret-left"></span>
+                            </li>
+            
+                            <li>
+                                <span class="fa fa-caret-right" title="fa-caret-right"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-caret-up" title="fa-caret-up"></span>
+                            </li>
+                            <li class="bg-standard">
+                                <p><small>User Interface (folds & toggles)</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="unstyled">
+                            <li>
+                                <span class="fa fa-heart" title="fa-heart"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-star" title="fa-star"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-eye" title="fa-eye"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-twitter" title="fa-twitter"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-facebook" title="fa-facebook"></span>
+                            </li>
+                            <li class="bg-standard">
+                                <p><small>Social</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="unstyled">
+                            <li>
+                                <span class="fa fa-user" title="fa-user"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-users" title="fa-users"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-lock" title="fa-lock"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-unlock-alt" title="fa-unlock-alt"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-cog" title="fa-cog"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-credit-card" title="fa-credit-card"></span>
+                            </li>
+                            <li class="bg-standard">
+                                <p><small>Users & user notifications</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="unstyled">
+                            <li>
+                                <span class="fa fa-calendar" title="fa-calendar"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-calendar-check-o" title="fa-calendar-check-o"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-tag" title="fa-tag"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-bookmark" title="fa-bookmark"></span>
+                            </li>
+                            <li class="bg-standard">
+                                <p><small>Date & </small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="unstyled">
+                            <li>
+                                <span class="fa fa-print" title="fa-print"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-trash-o" title="fa-trash-o"></span>
+                            </li>
+            
+                            <li>
+                                <span class="fa fa-cloud-download" title="fa-cloud-download"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-cloud-upload" title="fa-cloud-upload"></span>
+                            </li>
+                            <li>
+                                <span class="fa fa-folder-open" title="fa-folder-open"></span>
+                            </li>
+                            <li class="bg-standard">
+                                <p><small>Files & file actions</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  <!-- .code -->
+            </div> <!-- .component -->
+            <div class="component">
+                
+                <h6 class="section-label lined">Antwerpen Custom Icon set</h6>
+                
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Naast de uitgebreide fontAwesome-set, beschikken we ook over een custom set van iconen voor Antwerpen.be.</p>
+                    <p>Ook deze set is een zgn. icon-font, maar gebruik voor deze iconen de css-class <code>.icon-<em>name</em></code>, waarbij de <em>name</em> in de volgende lijst dient voor te komen.</p>
+                    
+                    <p>Deze set wordt verdeeld in 4 grote groepen, en elk icoon hangt vast aan een specifieke groep en illustreert een bepaalde thema. Deze iconen zijn 'verbonden' aan hun thema en mogen enkel binnen deze context gebruikt worden.</p>
+                    <p><span class="fa fa-warning inline-icon"></span> Deze iconen mogen <u>niet</u> in knoppen en paragraaf-tekst gebruikt worden.</p>
+                </div>  <!--. context -->
+                
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    
+                     <div class="custom-icon-set span-full tablet--span-3-1 desktop--span-3-1">
+                        <h5>Functionele navigatie</h5>
+                        <p>Deze iconen worden gebruikt in de snel-navigatie op de (interne) homepages op <a href="http://www.antwerpen.be" target="_blank">antwerpen.be</a> en hebben elk een specifieke thematische kleur.</p>
+                        
+                        <ul>
+                            <li>
+                                <span class="icon-ewindow" title="icon-ewindow" style="color: #006EC9;"></span>
+                                <span class="name">E-loket</span>
+                                <span class="custom-class">.icon-ewindow</span>
+                            </li>
+                             <li>
+                                <span class="icon-calendar" title="icon-calender" style="color: #F18A00;"></span>
+                                <span class="name">Afspraken</span>
+                                <span class="custom-class">.icon-calendar</span>
+                            </li>
+                            <li>
+                                <span class="icon-time" title="icon-time" style="color: #4AA32C;"></span>
+                                <span class="name">Openingsuren</span>
+                                <span class="custom-class">.icon-time</span>
+                            </li>
+                            <li>
+                                <span class="icon-report" title="icon-report" style="color: #006EC9;"></span>
+                                <span class="name">Melden</span>
+                                <span class="custom-class">.icon-report</span>
+                            </li>
+                            <li>
+                                <span class="icon-map" title="icon-map" style="color: #E3318A;"></span>
+                                <span class="name">Stadsplan</span>
+                                <span class="custom-class">.icon-map</span>
+                            </li>
+                            <li>
+                                <span class="icon-uit" title="icon-uit" style="color: #F18A00;"></span>
+                                <span class="name"><a href="https://www.uitinvlaanderen.be/" rel="external" target="_blank">Kalender</a></span>
+                                <span class="custom-class">.icon-uit</span>
+                            </li>
+                            <li>
+                                <span class="icon-contact" title="icon-contact" style="color: #006EC9;"></span>
+                                <span class="name">Contact</span>
+                                <span class="custom-class">.icon-contact</span>
+                            </li> 
+                            <li>
+                                <span class="icon-webmail" title="icon-webmail" style="color: #F18A00;"></span>
+                                <span class="name">Webmail</span>
+                                <span class="custom-class">.icon-webmail</span>
+                            </li> 
+                            <li>
+                                <span class="icon-contactbook" title="icon-contactbook" style="color: #E3318A;"></span>
+                                <span class="name">Contactboek</span>
+                                <span class="custom-class">.icon-contactbook</span>
+                            </li>
+                            <li>
+                                <span class="icon-career" title="icon-career" style="color: #009882;"></span>
+                                <span class="name">Mijn loopbaan</span>
+                                <span class="custom-class">.icon-career</span>
+                            </li> 
+                            <li>
+                                <span class="icon-staff" title="icon-staff" style="color: #009882;"></span>
+                                <span class="name">Medewerkers</span>
+                                <span class="custom-class">.icon-staff</span>
+                            </li>
+                             <li>
+                                <span class="icon-welfare" title="icon-welfare" style="color: #E3318A;"></span>
+                                <span class="name">OCMW Intranet</span>
+                                <span class="custom-class">.icon-welfare</span>
+                            </li>
+                            <li>
+                                <span class="icon-ocmw-intranet" title="icon-ocmw-intranet" style="color: #4AA32C;"></span>
+                                <span class="name">Welzijn</span>
+                                <span class="custom-class">.icon-ocmw-intranet</span>
+                            </li>
+                            <li>
+                                <span class="icon-my-time" title="icon-my-time" style="color: #4AA32C;"></span>
+                                <span class="name">Mijn tijden</span>
+                                <span class="custom-class">.icon-my-time</span>
+                            </li>
+                            <li>
+                                <span class="icon-so-intranet" title="icon-so-intranet" style="color: #4AA32C;"></span>
+                                <span class="name">Oud intranet SO</span>
+                                <span class="custom-class">.icon-so-intranet</span>
+                            </li>
+                            <li>
+                                <span class="icon-jobs" title="icon-jobs" style="color: #4AA32C;"></span>
+                                <span class="name">Vacatures</span>
+                                <span class="custom-class">.icon-jobs</span>
+                            </li> 
+                        </ul>
+                     </div> <!-- .custom-icon-set -->
+    
+                     <div class="custom-icon-set span-full tablet--span-3-4 desktop--span-3-4">
+                         <h5>Componenten</h5>
+                         <p>Deze iconen worden gebruikt als illustratieve iconen voor de verschillende componenten op de homepagina en kanaalpagina's op <a href="http://www.antwerpen.be">antwerpen.be</a>. Ook zij hebben een specifieke kleur.</p>
+                         <ul class="unstyled">
+                            <li>
+                                <span class="icon-news" title="icon-news" style="color: #006EC9;"></span>
+                                <span class="name">Nieuws</span>
+                                <span class="custom-class">.icon-news</span>
+                            </li>
+                             <li>
+                                <span class="icon-map" title="icon-map" style="color: #E3318A;"></span>
+                                <span class="name">Stadsplan</span>
+                                <span class="custom-class">.icon-map</span>
+                            </li>
+                            <li>
+                                <span class="icon-uit" title="icon-uit" style="color: #F18A00;"></span>
+                                <span class="name"><a href="https://www.uitinvlaanderen.be/" rel="external" target="_blank">Kalender</a></span>
+                                <span class="custom-class">.icon-uit</span>
+                            </li>
+                            <li>
+                                <span class="icon-jobs" title="icon-jobs" style="color: #4AA32C;"></span>
+                                <span class="name">Vacatures</span>
+                                <span class="custom-class">.icon-jobs</span>
+                            </li>                                             
+                            <li>
+                                <span class="icon-staff" title="icon-staff" style="color: #009882;"></span>
+                                <span class="name">Medewerkers</span>
+                                <span class="custom-class">.icon-staff</span>
+                            </li>
+                         </ul>
+                     </div>
+                                      
+                     <div class="custom-icon-set smaller-icons span-full tablet--span-3-7 desktop--span-3-7">
+                         <h5>Thematisch menu</h5>
+                         <p>Deze iconen worden in het thematische menu gebruikt.</p>
+                         <ul class="unstyled">
+                            <li>
+                                <span class="icon-sanitation" title="icon-sanitation"></span>
+                                <span class="name">Afval en Recyclage</span>
+                                <span class="custom-class">.icon-sanitation</span>
+                            </li>
+                            <li>
+                                <span class="icon-education" title="icon-education"></span>
+                                <span class="name">Onderwijs en opvang</span>
+                                <span class="custom-class">.icon-education</span>
+                            </li>
+                            <li>
+                                <span class="icon-culture" title="icon-culture"></span>
+                                <span class="name">Bib en Cultuur</span>
+                                <span class="custom-class">.icon-culture</span>
+                            </li>
+                            <li>
+                                <span class="icon-sports" title="icon-sports"></span>
+                                <span class="name">Sport en ontspanning</span>
+                                <span class="custom-class">.icon-sports</span>
+                            </li>
+                            <li>
+                                <span class="icon-leisure" title="icon-leisure"></span>
+                                <span class="name">Vrije tijd en activiteiten</span>
+                                <span class="custom-class">.icon-leisure</span>
+                            </li>
+                             <li>
+                                <span class="icon-diversity" title="icon-diversity"></span>
+                                <span class="name">Diversiteit en Inburgering</span>
+                                <span class="custom-class">.icon-diversity</span>
+                            </li>
+                            <li>
+                                <span class="icon-antwerp" title="icon-antwerp"></span>
+                                <span class="name">Stadsdiensten en beleid</span>
+                                <span class="custom-class">.icon-antwerp</span>
+                            </li>
+                            <li>
+                                <span class="icon-reside" title="icon-reside"></span>
+                                <span class="name">Wonen</span>
+                                <span class="custom-class">.icon-reside</span>
+                            </li>
+                            <li>
+                                <span class="icon-districts" title="icon-districts"></span>
+                                <span class="name">Districten</span>
+                                <span class="custom-class">.icon-districts</span>
+                            </li>
+                            <li>
+                                <span class="icon-traffic" title="icon-traffic"></span>
+                                <span class="name">Verkeer en parkeren</span>
+                                <span class="custom-class">.icon-traffic</span>
+                            </li>
+                            <li>
+                                <span class="icon-communication" title="icon-communication"></span>
+                                <span class="name">Communicatie</span>
+                                <span class="custom-class">.icon-communication</span>
+                            </li>
+                            <li>
+                                <span class="icon-digital-work" title="icon-digital-work"></span>
+                                <span class="name">Digitaal werken</span>
+                                <span class="custom-class">.icon-digital-work</span>
+                            </li>
+                            <li>
+                                <span class="icon-finance" title="icon-finance"></span>
+                                <span class="name">Financiën</span>
+                                <span class="custom-class">.icon-finance</span>
+                            </li>
+                            <li>
+                                <span class="icon-reside" title="icon-reside"></span>
+                                <span class="name">Gebouwen en logistiek</span>
+                                <span class="custom-class">.icon-reside</span>
+                            </li>
+                            <li>
+                                <span class="icon-ict" title="icon-ict"></span>
+                                <span class="name">ICT</span>
+                                <span class="custom-class">.icon-ict</span>
+                            </li>                     
+                            <li>
+                                <span class="icon-ict" title="icon-ict"></span>
+                                <span class="name">ICT</span>
+                                <span class="custom-class">.icon-ict</span>
+                            </li>                     
+                            <li>
+                                <span class="icon-social-affairs" title="icon-social-affairs"></span>
+                                <span class="name">Sociale zaken</span>
+                                <span class="custom-class">.icon-social-affairs</span>
+                            </li>
+                            <li>
+                                <span class="icon-social-affairs" title="icon-social-affairs"></span>
+                                <span class="name">Welzijn en gezondheid</span>
+                                <span class="custom-class">.icon-social-affairs</span>
+                            </li>
+                            <li>
+                                <span class="icon-leisure" title="icon-leisure"></span>
+                                <span class="name">Evenenmenten <b>(niet UiT-kalender)</b></span>
+                                <span class="custom-class">.icon-leisure</span>
+                            </li>
+                            <li>
+                                <span class="icon-mobility" title="icon-mobility"></span>
+                                <span class="name">Mobiliteit</span>
+                                <span class="custom-class">.icon-mobility</span>
+                            </li>
+                            <li>
+                                <span class="icon-mobility" title="icon-mobility"></span>
+                                <span class="name">Mobiliteit</span>
+                                <span class="custom-class">.icon-mobility</span>
+                            </li>
+                            <li>
+                                <span class="icon-antwerp" title="icon-antwerp"></span>
+                                <span class="name">Stadsorganisatie</span>
+                                <span class="custom-class">.icon-antwerp</span>
+                            </li>
+                        </ul>
+                     </div>
+    
+                     <div class="custom-icon-set smaller-icons span-full tablet--span-3-10 desktop--span-3-10">
+                         <h5>Zoeken</h5>
+                         <p>Dit zijn de iconen die gebruikt worden in de zoekresultaten.</p>
+                         <ul class="unstyled">
+                             <li>
+                                <span class="icon-ewindow" title="icon-ewindow"></span>
+                                <span class="name">E-loket</span>
+                                <span class="custom-class">.icon-ewindon</span>
+                            </li>
+                            <li>
+                                <span class="icon-folder" title="icon-folder"></span>
+                                <span class="name">Infofiche</span>
+                                <span class="custom-class">.icon-folder</span>
+                            </li>
+                            <li>
+                                <span class="icon-channels" title="icon-channels"></span>
+                                <span class="name">Kanalen</span>
+                                <span class="custom-class">.icon-channels</span>
+                            </li>
+                            <li>
+                                <span class="icon-map-small" title="icon-map-small"></span>
+                                <span class="name">Stadsplan (klein)</span>
+                                <span class="custom-class">.icon-map-small</span>
+                            </li>
+                            <li>
+                                <span class="icon-jobs" title="icon-jobs"></span>
+                                <span class="name">Vacatures</span>
+                                <span class="custom-class">.icon-jobs</span>
+                            </li>
+                            <li>
+                                <span class="icon-contactbook" title="icon-contactbook"></span>
+                                <span class="name">Contactboek</span>
+                                <span class="custom-class">.icon-contactbook</span>
+                            </li>
+                            <li>
+                                <span class="icon-news-small" title="icon-news-small"></span>
+                                <span class="name">Nieuws (klein)</span>
+                                <span class="custom-class">.icon-news-small</span>
+                            </li>
+                            <li>
+                                <span class="icon-uit" title="icon-uit"></span>
+                                <span class="name"><a href="https://www.uitinvlaanderen.be/" rel="external" target="_blank">Kalender</a></span>
+                                <span class="custom-class">.icon-uit</span>
+                            </li>
+                            <li>
+                                <span class="icon-media" title="icon-media"></span>
+                                <span class="name">Media (audio en video)</span>
+                                <span class="custom-class">.icon-meidia</span>
+                            </li>
+                            <li>
+                                <span class="icon-link" title="icon-link"></span>
+                                <span class="name">Hyperlink</span>
+                                <span class="custom-class">.icon-link</span>
+                            </li>
+                            <li>
+                                <span class="icon-helpcenter" title="icon-helpcenter"></span>
+                                <span class="name">Helpcenter</span>
+                                <span class="custom-class">.icon-helpcenter</span>
+                            </li>
+                            <li>
+                                <span class="icon-wiki" title="icon-wiki"></span>
+                                <span class="name">Wiki</span>
+                                <span class="custom-class">.icon-wiki</span>
+                            </li>
+                            <li>
+                                <span class="icon-report" title="icon-report"></span>
+                                <span class="name">Meldingen</span>
+                                <span class="custom-class">.icon-report</span>
+                            </li>
+                            <li>
+                                <span class="icon-channels" title="icon-channels"></span>
+                                <span class="name">Applicaties</span>
+                                <span class="custom-class">.icon-channels</span>
+                            </li>
+                         </ul>
+                     </div> <!-- .custom-icon-set -->
+                     
+                     <div class="custom-icon-set span-full tablet--full desktop--full">
+                        <h5>Extra iconen</h5>
+                        <p>Volgende iconen worden op zeer specifieke plaatsen gebruikt.</p>
+                        <ul class="unstyled">                        
+                            <li>
+                                <span class="icon-a-card" title="icon-a-card" style="color: #CF0039;"></span>
+                                <span class="name">A-kaart</span>
+                                <span class="custom-class">.icon-a-card</span>
+                            </li>
+                             <li>
+                                <span class="icon-uit-vlieg" title="icon-uit-vlieg"></span>
+                                <span class="name"><a href="http://www.uitmetvlieg.be/" rel="external" target="_blank">UiT-met Vlieg</a></span>
+                                <span class="custom-class">.icon-uit-vlieg</span>
+                            </li>
+                            
+                        </ul>
+                     </div> <!-- .custom-icon-set -->
+                </div>  <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                
+                <h6 class="section-label lined">Inline iconen</h6>
+                
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Het is ook mogelijk om de font-awesom-set te gebruiken in lopende (paragraaf) tekst. Hiervoor dienen ze een extra css-klaase <code>.inline-icon</code> te krijgen.</p>
+                </div>  <!--. context -->
+                
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sodales nunc nunc, ac lacinia erat suscipit quis. Class aptent taciti sociosqu ad litora torquent <span class="fa fa-anchor inline-icon"></span> per conubia nostra, per inceptos himenaeos. Pellentesque mollis lorem condimentum, molestie felis nec, bibendum neque. Phasellus diam augue, vestibulum volutpat tristique commodo, luctus non ante. Vivamus <span class="fa fa-camera inline-icon"></span> mi diam, lobortis at massa volutpat, feugiat blandit magna <span class="fa fa-bomb inline-icon"></span>. Cras et quam turpis. Donec aliquam, enim nec pellentesque molestie, urna urna congue libero, rutrum convallis libero augue eget tellus. Nullam sed bibendum quam. Curabitur efficitur enim ipsum, at volutpat mi egestas sit amet. Maecenas vitae facilisis orci, a maximus magna.</p>
+                </div>  <!-- .code -->
+            </div>  <!-- .component -->
+        </div> <!-- .inner -->
+    </section> <!-- #icons -->
+
+    <div class="page-nav">
+        <a href="buttons" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Knoppen
+        </a>
+
+        <a href="links" class="button-next">
+            Hyperlinks<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+    
+<% include footer %>

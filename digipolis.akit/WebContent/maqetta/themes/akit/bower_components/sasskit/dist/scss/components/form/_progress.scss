@@ -1,0 +1,26 @@
+//
+// Form components
+// ---
+// Native progress
+//
+
+.native-progress {
+
+    &[value] {
+        @include appearance(none);
+        border: 0;
+
+        /* IE */
+        color: $alpha-ui-color;
+
+        /* chrome */
+        &::-webkit-progress-value {
+            background-color: $alpha-ui-color;
+        }
+
+        /* firefox */
+        &::-moz-progress-bar {
+            background-color: $alpha-ui-color;
+        }
+    }
+}

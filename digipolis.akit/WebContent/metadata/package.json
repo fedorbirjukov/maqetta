@@ -1,0 +1,19 @@
+{
+  "name": "akit",
+  "version": "0.8",
+  "directories": {
+    "lib": "../akit"
+  },
+  "overlays": {
+    "oam": {
+      "directories": {
+        "metadata": "."
+      }
+    },
+    "maqetta": {
+      "scripts": {
+        "widget_metadata": "./widgets.json"
+      }
+    }
+  }
+}

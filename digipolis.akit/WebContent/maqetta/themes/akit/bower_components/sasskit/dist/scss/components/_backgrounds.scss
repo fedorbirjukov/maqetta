@@ -1,0 +1,61 @@
+//
+// Components
+// ---
+// Backgrounds
+//
+
+@mixin colorize($background, $foreground) {
+    background: $background;
+    color: $foreground;
+};
+
+.bg-standard {
+    @include colorize($alpha-background, $alpha-font-color);
+}
+
+.bg-light {
+    @include colorize($beta-background, $alpha-font-color);
+}
+
+.bg-white {
+    @include colorize($white, $alpha-font-color);
+}
+
+.bg-primary {
+    @include colorize($alpha-ui-color, $alpha-font-color);
+}
+
+.bg-primary-light {
+    @include colorize($gamma-ui-color, $alpha-font-color);
+}
+
+.bg-secondary {
+    @include colorize($beta-ui-color, $alpha-font-color);
+}
+
+.bg-secondary-light {
+    @include colorize($delta-ui-color, $alpha-font-color);
+}
+
+.bg-succes {
+    @include colorize($success, $white);
+}
+
+.bg-warning {
+    @include colorize($warning, $white);
+}
+
+.bg-danger {
+    @include colorize($danger, $white);
+}
+
+.bg-dark {
+
+    a {
+        color: $white;
+
+        &:hover, &:focus {
+            color: darken($danger, 40);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"id": "http://www.w3.org/akit/isolation-grid-4-cols",
+	"name": "akit.isolation-grid-4-cols",
+	"spec": "1.0",
+	"version": "1.0",
+	"content": "<div class=\"span-full tablet--span-3-1 desktop--span-3-1\"> <span>3-1</span> </div>",
+	"title": {
+		"type": "text/html",
+		"value": "<p>HTML block-level container element.</p>"
+	},
+	"description": {
+		"type": "text/html",
+		"value": "<p>The div element has no special meaning at all. It represents its children.</p>"
+	}
+}

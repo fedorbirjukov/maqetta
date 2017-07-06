@@ -1,0 +1,150 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                             <span class="fa fa-exclamation" style="color: #2C5697"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Highlights en notificaties</h1>
+                            <p class="lead"></p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+
+            </div> <!-- main-intro-header .inner -->
+
+        </div> <!-- .main-intro -->
+    </header>
+
+    <section class="main-section">
+        <div class="inner">
+            <div class="section-intro">
+                <p class="lead">Highlights, labels en notificaties zijn allemaal methodes om de aandacht van de gebruiker te vestigen op belangrijke elementen in je content.</p>
+                <p>We geven een overzicht van de beschikbare css-klassen om hightlights en nitificaties te maken.</p>
+            </div>  <!-- .Section-intro -->
+        </div> <!-- .inner -->
+    </section>  <!-- .main-section -->
+
+    <section class="main-section" id="highlights">
+
+        <div class="component">
+            <div class="inner">
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <h6 class="section-label lined">Statuslabels</h6>
+                    <p>Indien de content deel uitmaakt van een <em>flow</em> met verschillende statussen, kunnen deze statuslabel gebruikt worden.</p>
+
+                </div>  <!-- .content -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <p>Een standaard statuslabel.</p>
+                    <span class="status-label">Ticket in behandeling</span>
+
+                    <div class="code-block">
+                        <code>
+                            <pre>&lt;span class="<b>status-label</b>"&gt;Ticket in behandeling&lt;/span&gt;
+                            </pre>
+                        </code>
+                   </div>  <!-- .code-block -->
+
+                    <p>Statuslabels met kleur-code:</p>
+                    <span class="status-label success">Ticket afgehandeld</span>
+                    <span class="status-label warning">Ticket nog niet behandeld</span>
+                    <span class="status-label danger">Ticket werd verwijderd</span>
+                    <span class="status-label contrast">Ticket in behandeling</span>
+
+                    <div class="code-block">
+                        <code>
+                            <pre>&lt;span class="status-label <b>success</b>"&gt;Ticket afgehandeld&lt;/span&gt;<br />
+                            &lt;span class="status-label <b>warning</b>"&gt;Ticket nog niet behandeld&lt;/span&gt;<br />
+                            &lt;span class="status-label <b>danger</b>"&gt;Ticket werd verwijderd&lt;/span&gt;<br />
+                            &lt;span class="status-label <b>contrast</b>"&gt;Ticket in behandeling&lt;/span&gt;</pre>
+                        </code>
+                   </div>  <!-- .code-block -->
+
+                </div>  <!-- .code -->
+            </div>  <!-- .inner -->
+        </div>  <!-- .component -->
+
+        <div class="component">
+            <div class="inner">
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <h6 class="section-label lined">Standaard highlights</h6>
+                    <p>Een standaard highlight heeft de standaard achtergrondkleur en, indien nodig, een standaard knop.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="box-highlight">
+                        <h5>Een standaard highlight met standaard achtergrond en standaard-knop.</h5>
+                        <p>Aliquam erat volutpat. Nunc in cursus nibh, vel ultrices felis. Morbi varius blandit est. Nulla sollicitudin nec nulla id eleifend. Ut tristique, mi a congue ullamcorper.</p>
+                        <a href="#0" class="button has-icon"><span class="fa fa-check"></span>Begrepen</a>
+                    </div>
+
+                    <div class="code-block"><code><pre>&lt;div class="box-highlight"&gt; ... &lt;/div&gt;</pre></code></div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .inner -->
+        </div> <!-- .component -->
+
+        <div class="component">
+            <div class="inner">
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <h6 class="section-label lined">Gekleurde highlights</h6>
+                    <p>Highlights kunnen ook opgebouwd worden in alle standaard ui-kleuren (zie <a href="#color" class="js-scroll" data-target="#colors">boven</a>).</p>
+                    <p>Indien de highlight een knop nodig heeft, staat deze uiteraard steeds in de kleur van de highlight zelf.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="box-highlight-primary">
+                        <h5>Een highlight met blauwe achtergrond en een standaard-knop.</h5>
+                        <p>Aliquam erat volutpat. Nunc in cursus nibh, vel ultrices felis. Morbi varius blandit est. Nulla sollicitudin nec nulla id eleifend. Ut tristique, mi a congue ullamcorper.</p>
+                        <a href="#0" class="button">Begrepen</a>
+                    </div> <!-- .box-highlight-primary -->
+
+                    <div class="code-block"><code><pre>&lt;div class="box-highlight-<b>primary</b>"&gt; ... &lt;/div&gt;</pre></code></div> <!-- .code-block -->
+
+                    <div class="box-highlight-success">
+                        <p>Aliquam erat volutpat. Nunc in cursus nibh, vel ultrices felis. Morbi varius blandit est. Nulla sollicitudin nec nulla id eleifend. Ut tristique, mi a congue ullamcorper.</p>
+                        <a href="#0" class="button success has-icon"><span class="fa fa-plus"></span>Toevoegen</a>
+                    </div> <!-- .box-highlight-warning -->
+
+                    <div class="code-block"><code><pre>&lt;div class="box-highlight-<b>success</b>"&gt; ... &lt;/div&gt;</pre></code></div> <!-- .code-block -->
+
+                    <div class="box-highlight-warning">
+                        <p>Aliquam erat volutpat. Nunc in cursus nibh, vel ultrices felis. Morbi varius blandit est. Nulla sollicitudin nec nulla id eleifend. Ut tristique, mi a congue ullamcorper.</p>
+                        <a href="#0" class="button warning small has-icon"><span class="fa fa-exclamation-triangle"></span>Begrepen</a>
+                    </div> <!-- .box-highlight-warning -->
+
+                    <div class="code-block"><code><pre>&lt;div class="box-highlight-<b>warning</b>"&gt; ... &lt;/div&gt;</pre></code></div> <!-- .code-block -->
+
+                    <div class="box-highlight-danger">
+                        <p>Aliquam erat volutpat. Nunc in cursus nibh, vel ultrices felis. Morbi varius blandit est. Nulla sollicitudin nec nulla id eleifend. Ut tristique, mi a congue ullamcorper.</p>
+                        <a href="#0" class="button danger has-icon"><span class="fa fa-times"></span>Verwijderen</a>
+                    </div> <!-- .box-highlight-warning -->
+
+                    <div class="code-block"><code><pre>&lt;div class="box-highlight-<b>danger</b>"&gt; ... &lt;/div&gt;</pre></code></div> <!-- .code-block -->
+                    <div class="box-highlight-disabled">
+                        <p>Aliquam erat volutpat. Nunc in cursus nibh, vel ultrices felis. Morbi varius blandit est. Nulla sollicitudin nec nulla id eleifend. Ut tristique, mi a congue ullamcorper.</p>
+                    </div> <!-- .box-highlight-disabled -->
+
+                    <div class="code-block"><code><pre>&lt;div class="box-highlight-<b>disabled</b>"&gt; ... &lt;/div&gt;</pre></code></div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .inner -->
+        </div> <!-- .component -->
+
+        </div> <!-- .inner -->
+    </section> <!-- #notification -->
+
+    <div class="page-nav">
+        <a href="images" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Afbeeldingen
+        </a>
+
+        <a href="files" class="button-next">
+            Bestanden en how-to's<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+
+<% include footer %>

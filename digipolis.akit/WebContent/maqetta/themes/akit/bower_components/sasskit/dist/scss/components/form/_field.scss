@@ -1,0 +1,94 @@
+//
+// Form components
+// ---
+// Field
+//
+
+.field {
+    @include text-dimensions(0, 1);
+    @include placeholder() {
+        color: $beta-font-color;
+        font-style: italic;
+    };
+
+    @include appearance(none);
+    border: $line-th solid $line;
+    border-radius: 0;
+
+    color: lighten($alpha-font-color, 20);
+
+    background: $white;
+
+    min-height: $sizer * 2;
+
+    padding: $sizer / 2 $sizer;
+    display: block;
+    width: 100%;
+
+    &:hover,
+    &:focus {
+        border-color: darken($line, 20);
+    }
+
+    //
+    // States
+    // ---
+
+    // Disabled
+    &:disabled {
+        + label {
+            cursor: default;
+            color: $disabled;
+        }
+    }
+
+    // Validation
+    &.invalid,
+    &.valid {
+        padding-right: $sizer * 2;
+    }
+
+    // Invalid
+    &.invalid {
+        border: $line-th solid $danger;
+
+        font-style: italic;
+        color: $danger;
+    }
+
+    // Valid
+    &.valid {
+        border: $line-th solid $success;
+    }
+
+    //
+    // Modifiers
+    // ---
+
+    // Size
+    &.full {
+        display: inline-block;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    @include respond-to("desktop") {
+        display: inline;
+        width: auto;
+    }
+
+    //
+    // Types
+    // ---
+
+    &.select {
+        background: $white relurl("img/select-arrows.svg") right 6px top $sizer * .65 no-repeat;
+        padding-right: 2.5em;
+    }
+
+    &.textarea {
+        display: block;
+        margin-left: 0;
+    }
+}

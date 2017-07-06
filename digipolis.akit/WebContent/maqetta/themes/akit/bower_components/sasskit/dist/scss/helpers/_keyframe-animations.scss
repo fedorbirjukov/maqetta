@@ -1,0 +1,248 @@
+//
+// Keyframe animations
+// ---
+
+//
+// Fadein animation
+// ---
+
+@include keyframes(fadein) {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+//
+// Fadeout animation
+// ---
+
+@include keyframes(fadeout) {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+//
+// Blinking animation
+// ---
+
+@include keyframes(chatbox-blink) {
+    50% {
+        background-color: rgb(0, 157, 201);
+    }
+
+    100% {
+        background-color: rgb(48, 49, 51);
+    }
+}
+
+@include keyframes(chat-blink) {
+    50% {
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        color: rgb(0, 157, 201);
+    }
+}
+
+//
+// Spinning animation
+// ---
+
+@include keyframes(spin) {
+    from {
+        @include transform(rotate(0deg));
+    }
+
+    to {
+        @include transform(rotate(360deg));
+    }
+}
+
+//
+// Reverse spinning animation
+// ---
+
+@include keyframes(spinreverse) {
+    from {
+        @include transform(rotate(0deg));
+    }
+
+    to {
+        @include transform(rotate(-360deg));
+    }
+}
+
+//
+// Slide searchbox from the side
+// ---
+
+@include keyframes(searchSlideIn) {
+    from {
+        @include transform(translate(rem-dimensions(50), 0));
+        opacity: 0;
+    }
+
+    to {
+        @include transform(translate(0, 0));
+        opacity: 1;
+    }
+}
+
+//
+// Slide searchbox from the side
+// ---
+
+@include keyframes(searchSlideOut) {
+    from {
+        @include transform(translate(0, 0));
+    }
+
+    to {
+        @include transform(translate(0, rem-dimensions(-70)));
+    }
+}
+
+//
+// Slide loading in
+// ---
+
+@include keyframes(slideLoadingIn) {
+    from {
+        @include transform(translate(0, rem-dimensions(-25)));
+        opacity: 0;
+    }
+
+    to {
+        @include transform(translate(0, 0));
+        opacity: 1;
+    }
+}
+
+//
+// Slide loading out
+// ---
+
+@include keyframes(slideLoadingOut) {
+    from {
+        @include transform(translate(0, 0));
+        opacity: 1;
+    }
+
+    to {
+        @include transform(translate(0, rem-dimensions(25)));
+        opacity: 0;
+    }
+}
+
+//
+// Slide feedback down
+// ---
+
+@include keyframes(feedbackSlideDown) {
+    from {
+        height: 0;
+        opacity: 0;
+    }
+
+    to {
+        height: auto;
+        opacity: 1;
+    }
+}
+
+//
+// Zoom in
+// ---
+
+@include keyframes(zoomIn) {
+    from {
+        @include transform(scale(1.1));
+    }
+
+    to {
+        @include transform(scale(1));
+    }
+}
+
+//
+// Slide in from bottom
+// ---
+
+@include keyframes(slideInFromBottom) {
+    from {
+        bottom: -100%;
+    }
+
+    to {
+        bottom: 0;
+    }
+}
+
+//
+// Slide in from left
+// ---
+
+@keyframes slideInFromLeft {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+//
+// Slide down
+// ---
+
+@include keyframes(slideDown) {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+//
+// Slide up
+// ---
+
+@include keyframes(slideUp) {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+//
+// Fade in and move
+// ---
+
+@keyframes mover {
+    from {
+        @include transform(translateY(-100px));
+        opacity: 0;
+    }
+
+    to {
+        @include transform(scale(1));
+        @include transform(translateY(0));
+        opacity: 1;
+    }
+}

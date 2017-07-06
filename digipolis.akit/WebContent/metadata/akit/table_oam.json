@@ -1,0 +1,15 @@
+{
+	"id": "http://www.w3.org/akit/table",
+	"name": "akit.table",
+	"spec": "1.0",
+	"version": "1.0",
+	"content": "<table></table>",
+	"title": {
+		"type": "text/html",
+		"value": "<p>Table with extra styling.</p>"
+	},
+	"description": {
+		"type": "text/html",
+		"value": "<p>Tabellen kunnen extra styling krijgen in functie van hun content: <ul><li><code>.contrast</code></li><li><code>.contrast .secondary</code></li><li><code>.opening-hours</code></li><li><code>.opening-hours .secondary</code></li></ul></p><p>Tabellen die op een gekleurde achtergrond worden weergegeven, moeten de klasse <code>.boxed</code> meekrijgen om ze van de achtergrond te onderscheiden.</p>"
+	}
+}

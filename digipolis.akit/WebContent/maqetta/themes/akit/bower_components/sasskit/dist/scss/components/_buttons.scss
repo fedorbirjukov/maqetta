@@ -1,0 +1,335 @@
+//
+// Components
+// ---
+// Buttons
+//
+
+.button {
+    @extend %button;
+
+    &.link-external, &[rel="external"] {
+
+        &:not(.social) {
+
+            &:after {
+                content: "";
+                display: none;
+            }
+        }
+    }
+
+    &.transparent,
+    &.cancel {
+        @include button-color(transparent);
+
+        background-color: transparent;
+
+        color: $alpha-ui-color;
+        font-weight: $bold;
+
+        text-decoration: underline;
+        box-shadow: none;
+
+        &:hover,
+        &:focus {
+            box-shadow: none;
+            background-color: transparent;
+            color: $beta-ui-color;
+        }
+
+        &:visited {
+            color: $alpha-ui-color;
+        }
+    }
+
+    //
+    // Social Media Icons
+    // ---
+
+    &.a-profile {
+        @extend %has-icon;
+        @include button-color($beta-ui-color);
+
+        &:before {
+            background: relurl("img/a-profile.svg") 0 0 no-repeat;
+            content: "";
+            display: block;
+            left: 0;
+            top: 0;
+            height: $sizer * 2;
+            position: absolute;
+            width: $sizer * 2;
+        }
+    }
+
+    &.facebook {
+        @extend %social-button;
+        @include button-color($facebook);
+
+        &:after {
+            content: "\f09a";
+        }
+    }
+
+    &.twitter {
+        @extend %social-button;
+        @include button-color($twitter);
+
+        &:after {
+            content: "\f099";
+        }
+
+    }
+
+    &.linkedin {
+        @extend %social-button;
+        @include button-color($linkedin);
+
+        &:after {
+            content: "\f0e1";
+        }
+    }
+
+    &.instagram {
+        @extend %social-button;
+        @include button-color($instagram);
+
+        &:after {
+            content: "\f16d";
+        }
+    }
+
+    &.email {
+        @extend %social-button;
+        @include button-color($email);
+
+        &:after {
+            content: "\f003";
+        }
+    }
+
+    &.permalink {
+        @extend %social-button;
+        @include button-color($permalink);
+
+        &:after {
+            content: "\f0c1";
+        }
+    }
+
+    &.google {
+        @extend %social-button;
+        @include button-color($google);
+
+        &:after {
+            content: "\f0d5";
+        }
+    }
+
+    &.reddit {
+        @extend %social-button;
+        @include button-color($reddit);
+
+        &:after {
+            content: "\f281";
+        }
+    }
+
+    &.pinterest {
+        @extend %social-button;
+        @include button-color($pinterest);
+
+        &:after {
+            content: "\f231";
+        }
+    }
+
+    &.stumbleupon {
+        @extend %social-button;
+        @include button-color($stumbleupon);
+
+        &:after {
+            content: "\f1a4";
+        }
+    }
+
+    &.digg {
+        @extend %social-button;
+        @include button-color($digg);
+
+        &:after {
+            content: "\f1a6";
+        }
+    }
+
+    &.yammer {
+        @extend %social-button;
+        @include button-color($yammer);
+
+        // add .icon-yammer to your button. this until font-awesome includes the yammer icon
+        // https://github.com/FortAwesome/Font-Awesome/issues/2707
+        &.icon-yammer{
+            color: $white;
+            display: inline-block;
+            font-size: 1.5rem;
+            text-rendering: auto;
+        }
+    }
+
+    //
+    // Icon buttons
+    // ---
+
+    &.icon {
+        width: $sizer * 2;
+        height: $sizer * 2;
+        min-height: 0;
+        padding: 0;
+        text-align: center;
+
+        .fa {
+            line-height: $sizer * 2;
+            width: $sizer * 2;
+        }
+
+        &:after {
+            line-height: $sizer * 2;
+        }
+
+        &.small {
+            width: $sizer * 1.5;
+            height: $sizer * 1.5;
+
+            .fa {
+                line-height: $sizer * 1.5;
+                width: $sizer * 1.5;
+            }
+
+            &:after {
+                line-height: $sizer * 1.5;
+            }
+        }
+    }
+
+    //
+    // Animated buttons
+    // ---
+    // This only animates the icon in the button
+    //
+
+    &.animated.has-icon,
+    &.animated.icon {
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+
+        .visible,
+        .hidden {
+            will-change: transform;
+            transition: transform 250ms ease-out;
+        }
+
+        .visible {
+            transform: translateY(0);
+        }
+
+        .hidden {
+            transform: translateY(100%);
+        }
+
+        &:hover,
+        &:focus,
+        &.active {
+            .visible {
+                transform: translateY(-100%);
+            }
+
+            .hidden {
+                transform: translateY(0);
+            }
+        }
+    }
+}
+
+//
+// Special buttons
+// ---
+
+.button-load {
+    @extend %button;
+    @extend %has-icon;
+
+    display: block;
+    margin: $sizer auto;
+    padding-left: $sizer * 4;
+    padding-right: $sizer * 2;
+
+    &.loading-more {
+        .fa {
+            @include animate-keyframes(spin, $duration: 1s, $iteration-count: infinite);
+        }
+    }
+}
+
+.button-prev, .button-next {
+    @extend %button;
+    @include button-color;
+    @include rem-dimensions("min-width", 140);
+
+    .fa {
+        transition: transform .15s ease-in-out;
+    }
+}
+
+.button-prev {
+    padding-left: $sizer * 2;
+
+    & + .button-next {
+        border-left: $line-th + 1 solid shade($alpha-ui-color, 20%);
+        margin-left: -$sizer;
+    }
+
+    &:hover {
+        .fa {
+            transform: translateX(-5px);
+        }
+    }
+}
+
+.button-next {
+    padding-right: $sizer * 2;
+
+    .fa {
+        right: 0;
+        left: auto;
+    }
+
+    &:hover {
+
+        .fa {
+            transform: translateX(5px);
+        }
+    }
+}
+
+.button-soundcloud {
+    @extend %button;
+    @include button-color($white);
+
+    width: 3rem;
+    height: 3rem;
+
+    &:hover,
+    &:focus {
+        box-shadow: none;
+        background-color: $alpha-ui-color;
+
+        .fa {
+            color: $white;
+        }
+    }
+
+    .fa {
+        color: $black;
+    }
+}

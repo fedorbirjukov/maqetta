@@ -1,0 +1,16 @@
+//
+// Form components
+// ---
+// Field prefix wrapper
+//
+
+.field-prefix-wrapper {
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+
+    .field,
+    .field + span {
+        display: table-cell;
+    }
+}

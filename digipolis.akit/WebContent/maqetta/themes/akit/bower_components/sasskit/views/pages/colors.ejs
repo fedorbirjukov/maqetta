@@ -1,0 +1,457 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                             <span class="fa fa-paint-brush" style="color: #00AAD3"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Kleurgebruik</h1>
+                            <p class="lead">Richtlijnen en beschikbare kleurpaletten</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+
+            </div> <!-- main-intro-header .inner -->
+
+        </div> <!-- .main-intro -->
+    </header>
+
+    <section class="main-section">
+        <div class="inner">
+            <div class="section-intro">
+                <p class="lead">Hoewel het nieuwe kleurenpalet van Antwerpen zeer uitgebreid is, limiteren we de kleuren voor online gebruik tot een afgelijnde set basiskleuren en een optionele bijkomend palet voor communicatie vanuit moedermerk of descriptor. Dit om visuele consistentie te behouden binnen de site en de gebruiker niet nodeloos te verwarren met een overdaad aan kleuren.</p>
+                <p>We geven in volgende stijlgids zowel de hex-waarde als de beschikbare sass-variabele(n) mee die in de <a href="files">bower-component</a> worden gebruikt; het is uiteraard aangeraden om, indien mogelijk, de sass-variabele(n) te gebruiken om toekomstige aanpassingen aan het palet mee te nemen.</p>
+
+            </div>  <!-- .section-intro -->
+        </div>    <!-- .inner -->
+    </section>
+
+    <section class="main-section" id="colors">
+
+        <div class="component">
+            <div class="inner">
+                <h6 class="section-label lined">Basiskleuren voor typografie</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Voor basis typografie (broodtekst) gebruiken we 1 basis tekstkleur. Er is een lichtere variant voor secundaire informatie of meta-informatie (bijv. de datum bij een artikel).</p>
+                </div>  <!-- context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <ul>
+                        <li>
+                            <b class="color-block alpha-font-color"></b>
+                            <p>#282020<br />
+                            $alpha-font-color</p>
+                        </li>
+                        <li>
+                            <b class="color-block beta-font-color"></b>
+                            <p>#7C7070<br />
+                            $beta-font-color</p>
+                        </li>
+                    </ul>
+                </div>  <!-- .code -->
+            </div>    <!-- .inner -->
+        </div>  <!-- .component -->
+
+        <div class="component">
+            <div class="inner">
+                <h6 class="section-label lined">UI kleuren</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Dit zijn de hoofdkleuren voor links, knoppen en statussen.</p>
+                    <p><span class="fa fa-warning inline-icon"></span> De hoofd brandkleur van de stad Antwerpen wordt online als secundaire kleur gebruikt - aangezien de kleurcontext verwarrend kan zijn met waarschuwingen en/of verplichte gebruiker-acties.</p>
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <ul>
+                        <li>
+                            <b class="color-block alpha-ui-color"></b>
+                            <p>#0064B4<br />
+                            <b>$alpha-ui-color</b><br />
+                            $blue</p>
+                        </li>
+                        <li>
+                            <b class="color-block beta-ui-color"></b>
+                            <p>#CF0039<br />
+                            <b>$beta-ui-color</b></p>
+                        </li>
+                        <li>
+                            <b class="color-block gamma-ui-color"></b>
+                            <p>#4AA32C<br />
+                            <b>$gamma-ui-color</b><br />
+                            $succes<br />
+                            $green</p>
+                        </li>
+                        <li>
+                            <b class="color-block delta-ui-color"></b>
+                            <p>#F18A00;<br />
+                            <b>$delta-ui-color</b><br />
+                            $warning<br />
+                            $orange</p>
+                        </li>
+                        <li>
+                            <b class="color-block epsilon-ui-color"></b>
+                            <p>#90ABBC<br />
+                            <b>$epsilon-ui-color</b><br />
+                            $disabled<br />
+                            $grey</p>
+                        </li>
+                        <li>
+                            <b class="color-block zeta-ui-color"></b>
+                            <p>#DA291C<br />
+                            <b>$zeta-ui-color</b><br />
+                            $danger<br />
+                            $red</p>
+                        </li>
+                    </ul>
+                </div>  <!-- .code -->
+            </div>    <!-- .inner -->
+        </div>  <!-- .component -->
+
+        <div class="component">
+            <div class="inner">
+                <h6 class="section-label lined">Uitgebreid palet</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Naast de hoofdkleuren (zie UI is er een uitgebreid kleurenpalet beschikbaar bestaande uit volgende RGB-kleuren.</p>
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <ul>
+                        <li>
+                            <b class="color-block" style="background: #DCC600; border-bottom: 5px solid #a99800;"></b>
+                            <p>#DCC600<br />
+                            $corn</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #F9B01E; border-bottom: 5px solid #de9606;"></b>
+                            <p>#F9B01E<br />
+                            $sun</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #ECA154; border-bottom: 5px solid #e78826;"></b>
+                            <p>#ECA154<br />
+                            $porsche</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #94450B; border-bottom: 5px solid #652f07;"></b>
+                            <p>#94450B<br />
+                            $korma</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #E04E39; border-bottom: 5px solid #c7341f;"></b>
+                            <p>#E04E39<br />
+                            $punch</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #DF4661; border-bottom: 5px solid #ce2442;"></b>
+                            <p>#DF4661<br />
+                            $mandy</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #E40046; border-bottom: 5px solid #b10036;"></b>
+                            <p>#E40046<br />
+                            $red-ribbon</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #E56DB1; border-bottom: 5px solid #dd429a;"></b>
+                            <p>#E56DB1<br />
+                            $deep-blush</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #E3318A; border-bottom: 5px solid #c61b71;"></b>
+                            <p>#E3318A<br />
+                            $cerise</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #840B55; border-bottom: 5px solid #550737;"></b>
+                            <p>#840B55<br />
+                            $rose-bud-cherry</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #B580D1; border-bottom: 5px solid #9f5bc3;"></b>
+                            <p>#B580D1<br />
+                            $east-side</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #691F82; border-bottom: 5px solid #481559;"></b>
+                            <p>#691F82<br />
+                            $seance</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #6787B7; border-bottom: 5px solid #4c6d9f;"></b>
+                            <p>#6787B7<br />
+                            $ship-cove</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #2C5697; border-bottom: 5px solid #204070;"></b>
+                            <p>#2C5697<br />
+                            $st-tropaz</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #004088; border-bottom: 5px solid #002855;"></b>
+                            <p>#004088<br />
+                            $congress-blue</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #0091D3; border-bottom: 5px solid #006ea0;"></b>
+                            <p>#0091D3<br />
+                            $cerulean</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #00A0D3; border-bottom: 5px solid #0079a0;"></b>
+                            <p>#00A0D3<br />
+                            $light-cerulean</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #007FA3; border-bottom: 5px solid #005770;"></b>
+                            <p>#007FA3<br />
+                            $deep-cerulean</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #7FCAD3; border-bottom: 5px solid #59bac6;"></b>
+                            <p>#7FCAD3<br />
+                            $monte-carlo</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #008C95; border-bottom: 5px solid #005c62;"></b>
+                            <p>#008C95<br />
+                            $blue-lagoon</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #009882; border-bottom: 5px solid #006556;"></b>
+                            <p>#009882<br />
+                            $persian-green</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #007B5F; border-bottom: 5px solid #004838;"></b>
+                            <p>#007B5F<br />
+                            $tropical-rain-forrest</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #6CC24A; border-bottom: 5px solid #55a237;"></b>
+                            <p>#6CC24A<br />
+                            $mantis</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #4AA32C; border-bottom: 5px solid #387b21;"></b>
+                            <p>#4AA32C<br />
+                            $apple</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #AACB57; border-bottom: 5px solid #93b738;"></b>
+                            <p>#AACB57<br />
+                            $celery</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #7A9A01; border-bottom: 5px solid #526701;"></b>
+                            <p>#7A9A01<br />
+                            $limeade</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #789D4A; border-bottom: 5px solid #5e7a3a;"></b>
+                            <p>#789D4A<br />
+                            $asparagus</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #577307; border-bottom: 5px solid #334304;"></b>
+                            <p>#577307<br />
+                            $green-leaf</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #90ABBC; border-bottom: 5px solid #7093a9;"></b>
+                            <p>#90ABBC<br />
+                            $nepal</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #081F2C; border-bottom: 5px solid #000101;"></b>
+                            <p>#081F2C<br />
+                            $black-pearl</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #554741; border-bottom: 5px solid #382f2b;"></b>
+                            <p>#554741<br />
+                            $kabul</p>
+                        </li>
+                        <li>
+                            <b class="color-block" style="background: #000000;"></b>
+                            <p>#000000<br />
+                            $black</p>
+                        </li>
+                    </ul>
+                </div>  <!-- .code -->
+            </div>    <!-- .inner -->
+        </div>  <!-- .component -->
+
+        <div class="component">
+            <div class="inner">
+                <h6 class="section-label lined">Thematische kleuren</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Deze kleuren worden gebruikt voor specifieke thema&#39;s en categorieën op de antwerpen.be-site.</p>
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <ul>
+                        <li>
+                            <h6>Nieuws</h6>
+                            <b class="color-block alpha-ui-color"></b>
+                            <p><b>$news</b><br />
+                            #0064B4<br />
+                            $alpha-ui-color<br />
+                            $blue</p>
+                        </li>
+                        <li>
+                            <h6>Info</h6>
+                            <b class="color-block beta-ui-color"></b>
+                            <p><b>$info</b><br />
+                            #CF0039<br />
+                            $beta-ui-color</p>
+                        </li>
+                        <li>
+                            <h6>Kalender</h6>
+                            <b class="color-block delta-ui-color"></b>
+                            <p><b>$calendar</b><br />
+                            #D18A00<br />
+                            $delta-ui-color<br />
+                            $warning<br />
+                            $orange</p>
+                        </li>
+                        <li>
+                            <h6>Stadsplan</h6>
+                            <b class="color-block pink" style="background: #e3318a; border-bottom: 5px solid #cf1d76;"></b>
+                            <p><b>$map</b><br />
+                            #E3318A<br />
+                            $pink</p>
+                        </li>
+                        <li>
+                            <h6>Vacatures</h6>
+                            <b class="color-block gamma-ui-color"></b>
+                            <p><b>$jobs</b><br />
+                            #4AA32C<br />
+                            $gamma-ui-color<br />
+                            $succes<br />
+                            $green</p>
+                        </li>
+                        <li>
+                            <h6>Medewerkers</h6>
+                            <b class="color-block" style="background: #009781;"></b>
+                            <p><b>$employees</b><br />
+                            #009781</p>
+                        </li>
+                    </ul>
+                </div>  <!-- .code -->
+            </div>    <!-- .inner -->
+        </div>  <!-- .component -->
+
+        <div class="component">
+            <div class="inner">
+                <h6 class="section-label lined">Achtergronden en lijnen</h6>
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Te gebruiken voor achtergronden, lichtere achtergronden en alle lijnen.</p>
+                    <p>De standaard achtergrond op <a href="http://antwerpen.be" target="_blank">antwerpen.be</a> is wit, maar er wordt met een gekleurde achtergrond gewerkt bij:</p>
+                    <ul>
+                        <li>
+                            <h6 class="plain">Opgelijste, evenwaardige content-blokken</h6>
+                            Deze krijgen een lichte achtergrond (<small>$beta-background</small>) om ze als individuele componenten binnen een omvattende component te identificeren.<br /><small>Bijvoorbeeld: een nieuws-feed - zie fig. 4.</small>
+                        </li>
+                        <li>&nbsp;</li>
+                        <li>
+                            <h6 class="plain">Opgelijste, evenwaardige content-blokken onderaan een artikel of info-fiche</h6>
+                            Deze worden wit weergegeven op een standaard achtergrond (<small>$alpha-background</small>), om ze als individuele componenten binnen een omvattende <b>secundaire</b> pagina-componenten te identificeren<br />
+                            <small>zie onderaan Fig. 4.</small>
+                        </li>
+                        <li>&nbsp;</li>
+                        <li>
+                            <h6 class="plain">Standaard pagina-headers</h6>
+                             Deze krijgen een standaard achtergrond <em>$alpha-background</em><br .>
+                             <small>zie Fig. 4. en ook de pagina <a href="https://stijlgids.dev.dcs.antwerpen.be/headers" target="_blank">headers</a> in de stijlkit</small>
+                        </li>
+                    </ul>
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <ul>
+                        <li>
+                            <b class="color-block alpha-background"></b>
+                            <p>#E5E5E6<br />
+                            <b>$alpha-background</b></p>
+                        </li>
+                        <li>
+                            <b class="color-block beta-background"></b>
+                            <p>#F3F3F5<br />
+                            <b>$beta-background</b><br />
+                            $lightbackground</p>
+                        </li>
+                        <li>
+                            <b class="color-block line"></b>
+                            <p>#BABABA<br />
+                            <b>$line</b></p>
+                        </li>
+                    </ul>
+
+                    <div style="clear: both; padding-top: 2em;">
+                        <p>Hieronder enkele voorbeelden van pagina-componenten die een achtergrond krijgen of op een achtergrond worden geplaatst. Steeds zijn het gelijkaardige componenten die worden opgelijst en dmv de achtergrond van elkaar worden gedifferentieerd.</p>
+                        <p>Het laatste voorbeeld betreft dergelijke componenten ondereen een artikel.</p>
+
+                        <figure>
+                            <div class="image">
+                                <img src="img/backgrounds.jpg" alt="Background systeem op antwerpen.be" />
+                            </div>    <!-- .image -->
+                            <figcaption>Fig. 4 Achtergronden op <a href="http://antwerpen.be" target="_blank">antwerpen.be</a></figcaption>
+                        </figure>
+                    </div>
+                </div>  <!-- .code -->
+            </div>    <!-- .inner -->
+        </div>  <!-- .component -->
+
+        <div class="component">
+            <div class="inner">
+                <h6 class="section-label lined">Slagschaduw</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>De 'look &amp; feel' van Antwerpen.be is 'vlak' en minimaal. We vermijden daarom <em>bevels</em>, <em>embossing</em>, gradiënten en texturen.</p>
+                    <p>Pagina-elementen kunnen enkel een functionele slagschaduw krijgen wanneer het element zich in een 'hoger' vlak bevindt dan de basis-laag van de website.</p>
+
+                    <div class="box-highlight-primary">Concreet kunnen dus enkel <b>modal-windows</b>, <b>pop-ups</b> en <b>overlays</b> een slagschaduw krijgen.</div>
+
+                    <p>De <b>standaard slagschaduw</b> loopt naar links-onder, maar er zijn 2 alternatieven voorhanden, mocht deze slagschaduw niet bruikbaar zijn door bijv. de pagina-begrenzing.</p>
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="bg-standard" id="drop-shadow-box">
+                        <div class="square"></div>  <!-- .square -->
+                        <div class="square"></div>  <!-- .square -->
+                        <div class="square"></div>  <!-- .square -->
+                    </div>  <!-- .has-background -->
+
+                    <div class="code-block">
+                        <p>Een slagshaduw kan worden toegekend ahv sass-variabelen:</p>
+                        <code>
+    <pre>
+    box-shadow: <b>$box-shadow-bottom-left</b>;<br/>
+    box-shadow: <b>$box-shadow-bottom-right</b>;<br />
+    box-shadow: <b>$box-shadow-bottom</b>;</pre>
+                        </code>
+                    </div>
+                </div>  <!-- .code -->
+            </div>  <!-- .inner -->
+        </div>  <!-- .component -->
+
+    </section>  <!-- #colors -->
+
+    <div class="page-nav">
+        <a href="typography" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Typografie
+        </a>
+
+        <a href="buttons" class="button-next">
+            Knoppen<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+
+<% include footer %>

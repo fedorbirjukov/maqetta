@@ -1,0 +1,306 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                            <span class="fa fa-font" style="color: #F9B01E"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Typografie</h1>
+                            <p class="lead">Richtlijnen en aanbevelingen bij het gebruik van de beschikbare fonts</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+            </div> <!-- main-intro-header .inner -->
+        </div> <!-- .main-intro -->
+    </header>
+
+    <section class="main-section">
+        <div class="inner">
+            <div class="section-intro">
+                <h4>Indleiding</h4>
+                <p class="lead">Een belangrijk onderdeel van de vernieuwde huisstijl is het ontwerp van een custom lettertype, 'Antwerpen'. Het is een eigenzinnig lettertype geworden met atypische lettervormen die staan voor de creativiteit en het karakter van de stad Antwerpen. </p>
+                <p>Naast het nieuwe Antwerpen-lettertype blijft het 'oude' lettertype Sun behouden dat nu ook in alle digitale communicatie gebruikt. 'Antwerpen' wordt gebruikt voor alle hoofdingen met een minimum <em>font-size</em> van 19px, Sun wordt gebruikt voor alle brood- of paragraaftekst.</p>
+            </div> <!-- .section-intro -->
+        </div>    <!-- .inner -->
+    </section>
+
+    <section class="main-section" id="typography">
+        <div class="inner">
+            <div class="component">
+                <div class="readable-content">
+                    <h6 class="section-label lined">Standaard font-groottes</h6>
+                    <p>De <em>font-size</em> wordt op de standaard <strong>16px (1em)</strong> vastgelegd. Voor de kastgroottes wordt er met een <a href="http://www.modularscale.com/?1&em&1.2&web&text" rel="external" target="_blank">modulaire schaal</a> gewerkt volgens een 1,2 <em>(minor third)</em> ratio.</p>
+                    <p>En om een optimale leesbaarheid te garanderen wordt alle broodtekst verhoogd naar <strong>18px</strong>.</p>
+                    <p>Voor de belangrijkste typografische elementen volgt dan:</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>html element</th>
+                                <th>ms</th>
+                                <th>em</th>
+                                <th>px</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>h1</td>
+                                <td>6</td>
+                                <td>2,98</td>
+                                <td>47,68</td>
+                            </tr>
+                            <tr>
+                                <td>h2</td>
+                                <td>5</td>
+                                <td>2,488</td>
+                                <td>39,813</td>
+                            </tr>
+                            <tr>
+                                <td>h3</td>
+                                <td>4</td>
+                                <td>2,074</td>
+                                <td>33,178</td>
+                            </tr>
+                            <tr>
+                                <td>h4</td>
+                                <td>3</td>
+                                <td>1,728</td>
+                                <td>27,648</td>
+                            </tr>
+                            <tr>
+                                <td>h5</td>
+                                <td>2</td>
+                                <td>1,44</td>
+                                <td>23,04</td>
+                            </tr>
+                            <tr>
+                                <td>h6</td>
+                                <td>1</td>
+                                <td>1,2</td>
+                                <td>19,2</td>
+                            </tr>
+                            <tr>
+                                <td>p / li</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>16</td>
+                            </tr>
+                            <caption>
+                                <small>ms: modular scale</small>
+                            </caption>
+                        </tbody>
+                    </table>
+                </div> <!-- .block -->
+
+                <div class="block span-full tablet--span-half-1 desktop--span-half-1 spacer-t-s">
+                    <h6 class="section-label">Headers</h6>
+                    <h1>h1 Erojs velit ultrjices vivamus aliquet</h1>
+                    <h2>h2 Erojs velit ultrjices vivamus aliquet</h2>
+                    <h3>h3 Erojs velit ultrjices vivamus aliquet</h3>
+                    <h4>h4 Erojs velit ultrjices vivamus aliquet</h4>
+                    <h5>h5 Erojs velit ultrjices vivamus aliquet</h5>
+                    <h6>h6 Erojs velit ultrjices vivamus aliquet</h6>
+                </div> <!-- .block -->
+
+                <div class="block span-full tablet--span-half-2 desktop--span-half-2 spacer-t-s">
+                    <h6 class="section-label">Paragraaf (of <em>broodtekst</em>)</h6>
+                    <p>Een standaard paragraaf met wat extra html tags. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices et enim ut luctus. Etiam <a href="#0">nec pharetra nulla</a>. Nam eget congue nulla. Mauris <b>tekst in vet</b> ut porttitor consequat. Pellentesque condimentum ante at feugiat iaculis. Sed elementum <strong>ook met de strong-tag</strong>.</p>
+                    <p>Vivamus aliquet dictum metus, eu <i>italics quo faucibus odio commodo</i> non. Suspendisse iaculis, <em>nog italics ante id</em> dignissim efficitur, eros velit ultrices nisl, ultrices mollis metus dolor nec libero. <small>En wat kleine letters</small>.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sodales nunc nunc, ac lacinia erat suscipit quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque mollis lorem condimentum, molestie felis nec, bibendum neque. Phasellus diam augue, <b>vestibulum volutpat</b> tristique commodo, luctus non ante. Vivamus mi diam, lobortis at massa volutpat, feugiat blandit magna. Cras et quam turpis. Donec aliquam, enim nec pellentesque molestie, urna urna congue libero, rutrum convallis libero augue eget tellus. Nullam sed bibendum quam. Curabitur <em>efficitur</em> enim ipsum, at volutpat mi egestas sit amet. Maecenas vitae facilisis orci, a maximus magna.</p>
+                </div> <!-- .block -->
+
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Header overrides</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>De typografie van alle headers is opgebouwd volgens een modulaire schaal waarbij 'hogere' headers een grotere font-size krijgen. Echter, soms past deze font-grootte niet in het design, valt deze te groot uit en breekt hij de consistentie van de pagina. Daarvoor zijn de volgende <em>override</em> css-classes beschikbaar om hogere h-waardes een kleiner font-grootte te geven.</p>
+                    <ul class="">
+                        <li><b>.header-xlarge</b> - headergrootte als <b>h3</b></li>
+                        <li><b>.header-large</b> - headergrootte als <b>h4</b></li>
+                        <li><b>.header-medium</b> - headergrootte als <b>h5</b></li>
+                        <li><b>.header-small</b> - headergrootte als <b>h6</b></li>
+                    </ul>
+                    <p><span class="fa fa-warning inline-icon"></span> Er kan enkel een kleinere font-grootte worden overschreven. Als je een h4 de grootte van een h1 wenst te geven, is dat in strijd met sematische html-regels en de design-regels.</p>
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+
+                    <h1 class="header-xlarge">h1 - maar met fontgrootte van een h3</h1>
+                    <h1 class="header-large">h1 - maar met fontgrootte van een h4</h1>
+                    <h1 class="header-medium">h1 - maar met fontgrootte van een h5</h1>
+                    <h1 class="header-small">h1 - maar met fontgrootte van een h6</h1>
+
+                </div>  <!-- .code -->
+
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Hoofdingen in Sun</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Hoewel het custom Antwerpen-lettertype voor alle hoofdingen dient te worden gebruikt, kunnen <code>&lt;h<em>n</em>&gt;</code> elementen ook in Sun gezet worden indien dit nodig is; bijv. als ondertitel onder een standaard header-element.</p>
+                    <p><span class="fa fa-warning inline-icon"></span> De hoofding in Sun <u>moet</u> als 2de worden geplaatst en <u>moet</u> kleiner zijn dan de standaard hoofding.</p>
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <h5>Standaard hoofding</h5>
+                    <h6 class="plain">Een ondertitel in het Sun lettertype.</h6>
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;h4 class="<b>plain</b>"&gt;Deze hoofding staat in het Sun lettertype.&lt;/h4&gt;</pre>
+                        </code>
+                    </div>  <!-- .code-block -->
+                </div>  <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Optimale leeslengte</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Om tekst leesbaar te houden mag deze niet te lang over de regel te lopen, de klasse <code>.readable-content</code> blokkeert de maximale lengte op 720px; dit garandeert een betere leesbaarheid voor de gebruiker.</p>
+                    <p><span class="fa fa-warning inline-icon"></span> Deze klasse kan ook als sass-extend worden gebruikt.</p>
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;div class="<b>readable-content</b>" ...</pre>
+                        </code>
+                    </div>  <!-- .code -->
+                </div>  <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Afbrekingen en afknotten</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Zinnen kunnen worden afgebroken <em>(afgeknot)</em> dmv de klasse <code>.truncate</code> en willekeurige afbreking kan bovendien worden geforceerd door de klasse <code>.break-word</code> (vooral handig bij lange hyperlinks).</p>
+                </div> <!-- .context -->
+
+                 <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                     <p><b>Een normale hyperlink</b></p>
+                     <p><a href="#0">https://www.antwerpen.be/nl/</a></p>
+
+                     <div class="code-block">
+                         <code>
+    <pre>
+    &lt;a href="#0"&gt;...&lt;/a&gt;
+    </pre>
+                         </code>
+                     </div> <!-- .code -->
+
+                     <p><b>Een afgeknotte hyperlink met ellips</b></p>
+                     <p class="truncate"><a href="#0" >https://www.antwerpen.be/nl/info/5360f244b1a8a76a088b45c4/contacteer-stad-antwerpen/content-informatie-van-alle-disctricten</a></p>
+
+                     <div class="code-block">
+                         <code>
+    <pre>
+    &lt;a href="#0" class="truncate"&gt;...&lt;/a&gt;
+    </pre>
+                         </code>
+                     </div> <!-- .code -->
+
+                     <p><b>Een hyperlink die op elk karakter kan worden afgebroken</b></p>
+                     <p class="break-word" style="max-width: 224px;"><a href="#0">https://www.antwerpen.be/nl/info/5360f244b1a8a76a088b45c4/contacteer-stad-antwerpen/content-informatie-van-alle-disctricten</a></p>
+
+                     <div class="code-block">
+                         <code>
+    <pre>
+    &lt;a href="#0" class="bread-word"&gt;...&lt;/a&gt;
+    </pre>
+                         </code>
+                     </div> <!-- .code -->
+                 </div> <!-- .code -->
+             </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Stijl, alignering en transformatie</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>De volgende klassen zijn beschikbaar voor typografische aanpassingen en spreken voor zich:</p>
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="span-full tablet--span-4-1 desktop-span--4-1">
+                        <h6>Tekst stijl</h6>
+                        <div class="code-block">
+                            <code>
+    <pre>
+    .text-bold<br />
+    .text-italic</pre>
+                            </code>
+                        </div>  <!-- .code-block -->
+                    </div>
+
+                    <div class="span-full tablet--span-4-5 desktop-span--4-5">
+                        <h6>Tekst alignering</h6>
+                        <div class="code-block">
+                            <code>
+    <pre>
+    .text-left<br />
+    .text-center<br />
+    .text-right<br />
+    .text-justify<br />
+    .text-nowrap</pre>
+                            </code>
+                        </div>  <!-- .code-block -->
+                    </div>
+
+                    <div class="span-full tablet--span-4-9 desktop-span--4-9">
+                        <h6>Tekst transformatie</h6>
+                        <div class="code-block">
+                            <code>
+    <pre>
+    .text-lowercase<br />
+    .text-uppercase<br />
+    .text-capitalize</pre>
+                            </code>
+                        </div>  <!-- .code-block -->
+                    </div>
+
+                </div><!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <h6 class="section-label lined">Andere typografische elementen</h6>
+                    <p>Typografie voor <code>blockquote</code>, <code>q</code> en <code>cite</code> elementen.</p>
+                    <p><span class="fa fa-warning inline-icon"></span> Het is mogelijk om header-elementen weer te geven in het Sun lettertype door rechtstreeks op het element de klasse <code>.plain</code> toe te voegen. <b>Let wel:</b> dat kan enkel indien het een sub-titel betreft rechtstreeks onder een hoofdtitel in het 'Antwerpen' lettertype (zie bv. de quotes hiernaast).</small></p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div>
+                        <blockquote>
+                            <p>Je kan paragrafen gebruiken binnen in een blockquote. En zoveel paragrafen als je nodig acht.</p>
+                            <cite>Dit is een citaat met <a href="#0">hyperlink.</a></cite>
+                        </blockquote>
+                    </div>
+                    <div>
+                        <blockquote>
+                            <h4>Je kan ook hoofdingen gebruiken.</h4>
+                            <cite>Nog een citaat met een <a href="#0" rel="external">externe link.</a></cite>
+                        </blockquote>
+                    </div>
+                    <div>
+                        <blockquote>
+                            <h3>Of standaard hoofdingen mixen met</h3>
+                            <h5 class="plain">hoofdingen in het sun-lettertype</h5>
+                            <p><small><b>Let op:</b> de <em>.plain</em> hoofding dient steeds <u>na</u> een standaard header te komen.</small></p>
+                        </blockquote>
+                    </div>
+                </div> <!-- .code -->
+            </div>  <!-- .component -->
+        </div> <!-- .inner -->
+    </section> <!-- #typography -->
+
+    <div class="page-nav">
+        <a href="layout" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Layout
+        </a>
+
+        <a href="colors" class="button-next">
+            Kleurgebruik<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+
+<% include footer %>

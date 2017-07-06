@@ -1,0 +1,482 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                            <span class="fa fa-table" style="color: #007B5F"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Formulieren</h1>
+                            <p class="lead">Opmaak en css-klassen voor formulieren</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+            </div> <!-- main-intro-header .inner -->
+        </div> <!-- .main-intro -->
+    </header>
+
+
+    <section class="main-section">
+        <div class="inner">
+            <p></p>
+        </div> <!-- .inner -->
+    </section>  <!-- .main-section -->
+
+    <section class="main-section" id="forms">
+        <div class="inner">
+            <div class="component">
+                <h6 class="section-label lined">Standaard formulier elementen</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Een overzicht van de standaard html-elementen in formulieren en hun styling.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="form-div">
+                        <label class="label" for="field_1">Standaard tekstveld</label>
+                        <input type="text" name="field_1" id="field_1" class="field" value="" tabindex="1" />
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div">
+                        <label class="label required" for="field_2">Standaard tekstveld (verplicht)</label>
+                        <input type="text" name="field_2" id="field_2" class="field" value="" placeholder="met een placeholder" tabindex="2" />
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div">
+                        <label class="label required" for="field_3">Je wachtwoord</label>
+                        <input type="password" name="field_3" id="field_3" class="field" value="" placeholder="met een placeholder" tabindex="3" />
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div field-container">
+                        <label class="label required" for="field_4">Standaard tekstveld met beschrijving</label>
+
+                        <div class="field-wrapper">
+                            <input type="text" name="field_4" id="field_4" class="field" value="" placeholder="met een placeholder" tabindex="4" />
+                            <small class="field-description">Beschrijvende tekst van het tekstveld</small>
+                        </div>
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div field-container">
+                        <label class="label" for="field_5">Standaard disabled tekstveld</label>
+                        <div class="field-wrapper">
+                            <input type="text" name="field_5" id="field_5" class="field disabled" value="Dit veld is disabled" tabindex="5"
+                            disabled="disabled" />
+                        </div>  <!-- .field-wrapper -->
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div field-container">
+                        <label class="label" for="field_6">Standaard tekstveld met delete knop</label>
+                        <div class="field-wrapper field-layout-wrapper">
+                            <input type="text" name="field_6" id="field_6" class="full field" value="Deze waarde kan worden verwijderd" tabindex="6" />
+                            <a href="#" class="button button-right icon danger">
+                                <span class="fa fa-times"></span>
+                            </a>
+                        </div>  <!-- .field-wrapper -->
+                    </div> <!-- .form-div -->
+
+                    <div class="code-block">
+                        <code>
+<pre>
+&lt;div class="form-div field-container"&gt;<br />
+&nbsp;&lt;label class="label" for="field"&gt;Standaard tekstveld met delete knop&lt;/label&gt;<br />
+&nbsp;&lt;div class="field-wrapper <b>field-layout-wrapper</b>"&gt;<br />
+&nbsp;&nbsp;&lt;input type="text" name="field" id="field" class="full field" value="Deze waarde kan worden verwijderd" /&gt;<br />
+&nbsp;&nbsp;&lt;a href="#" class="button <b>button-right</b> icon danger"&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;span class="fa fa-times"&gt;&lt;/span&gt;<br />
+&nbsp;&nbsp;&lt;/a&gt;<br />
+&nbsp;&lt;/div&gt;  &lt;!-- .field-wrapper --&gt;<br />
+&lt;/div&gt; &lt;!-- .form-div --&gt;
+</pre>
+                        </code>
+                    </div>  <!-- .code-block -->
+
+                    <div class="form-div">
+                        <fieldset>
+                            <legend>Fieldset</legend>
+
+                            <div>
+                                <input type="radio" name="radio-choice-1" id="radio-choice-1" class="field" tabindex="7" value="choice-1" />
+                                <label for="radio-choice-1">Radio button</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" name="radio-choice-1" id="radio-choice-2" class="field" tabindex="8" value="choice-2" checked="checked"/>
+                                <label for="radio-choice-2">Radio button checked</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" name="radio-choice-1" id="radio-choice-3" class="field" tabindex="9" value="choice-3" disabled="disabled" />
+                                <label for="radio-choice-3">Radio button disabled</label>
+                            </div>
+
+                        </fieldset>
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div">
+                        <div>
+                            <input type="checkbox" name="checkbox_1" class="field" tabindex="10" id="checkbox_1" />
+                            <label for="checkbox_1">Checkbox</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="checkbox_2" id="checkbox_2" class="field" tabindex="11" checked="checked"/>
+                            <label for="checkbox_2">Checkbox that is checked</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="checkbox_3" id="checkbox_3" class="field" tabindex="12" disabled="disabled"/>
+                            <label for="checkbox_3">Checkbox that is disabled</label>
+                        </div>
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div">
+                        <label class="label" for="select-choice">Selecteer </label>
+                        <select name="select-choice" id="select-choice" class="field select" tabindex="13">
+                            <option value="Choice 1">Optie 1</option>
+                            <option value="Choice 2">Optie 2</option>
+                            <option value="Choice 3">Optie 3</option>
+                        </select>
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div">
+                        <label class="label" for="textarea">Standaard tekst-inhoud:</label>
+                        <textarea cols="40" rows="3" name="textarea" id="textarea" class="field textarea" tabindex="14"></textarea>
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div">
+                        <input type="submit" value="Submit" class="button small"/>
+                        <input type="submit" value="Submit" class="button success"/>
+                        <input type="submit" value="Submit" class="button danger big"/>
+                        <p><small><b>NB:</b> Submit knoppen kunnen uiteraard dezelfde css-klassen krijgen als <a href="#buttons" data-target="#buttons" class="js-scroll">standaard knoppen</a> in functie van hun grootte en kleur. Wens je echter een icoon in je submit, vervang deze dan door een <code>button</code> element.</small></p>
+                    </div> <!-- .form-div -->
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Block-vullende formulier-elementen</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Om formulier elementen de beschikbare ruimte te laten opvullen, volstaat het om ze de klasse <code>.full</code> te geven, analoog met <a href="#buttons" data-target="#buttons" class="js-scroll">standaard knoppen</a>.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="form-div">
+                        <input class="full field" type="text" name="field_15" id="field_15" value="" placeholder="Standaard tekstveld met een placeholder" tabindex="15" />
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div">
+                        <fieldset class="full">
+                            <legend>Fieldset</legend>
+
+
+                            <input type="radio" name="radio-choice-2" id="radio-choice-4" tabindex="16" value="choice-4" />
+                            <label for="radio-choice-4">Optie 1</label>
+
+                            <input type="radio" name="radio-choice-2" id="radio-choice-5" tabindex="17" value="choice-5" />
+                            <label for="radio-choice-5">Optie 2</label>
+                        </fieldset>
+                    </div> <!-- .form-div -->
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Veld validatie</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Om formulier elementen de beschikbare ruimte te laten opvullen, volstaat het om ze de klasse <code>.full</code> te geven, analoog met <a href="#buttons" data-target="#buttons" class="js-scroll">standaard knoppen</a>.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+
+                    <div class="row">
+                        <div class="field-container span-full tablet--span-half-1">
+                            <label class="label required" for="field_valid">Valid field</label>
+
+                            <div class="field-layout-wrapper">
+                                <input class="field full valid" type="text" name="field_valid" id="field_valid" value="" placeholder="Standaard tekstveld met een placeholder" tabindex="18" />
+                                <span class="fa fa-check field-icon valid"></span>
+
+                                <small class="field-description">This is a field description <a href="#0">with link</a></small>
+                            </div>
+
+                        </div>
+
+                        <div class="field-container span-full tablet--span-half-2">
+
+                            <label class="label required" for="field_invalid">Invalid field</label>
+
+                            <div class="field-layout-wrapper">
+                                <input class="field full invalid" type="text" name="field_invalid" id="field_invalid" value="" placeholder="Standaard tekstveld met een placeholder" tabindex="19" />
+                                <span class="fa fa-warning field-icon invalid"></span>
+
+                                <small class="field-description">This is a field description</small>
+
+                                <p class="field-problem">There is something wrong with your input</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Custom dropdown</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Een uitgebreide, custom dropdown veld.</p>
+                </div>
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <h6>Custom dropdown</h6>
+                    <div class="custom-dropdown has-icon js-dropdown">
+                        <a href="#0" class="input-dropdown">
+                            <span class="fa fa-anchor"></span>
+                            Titel van de custom dropdown
+                        </a>
+
+                        <ul class="dropdown-content" id="dropdown_01">
+                            <li data-value="1">Eerste optie in de custom dropdown</li>
+                            <li data-value="1">Tweede optie in de custom dropdown</li>
+                            <li data-value="1">Derde optie in de custom dropdown met een stuk meer tekst</li>
+                            <li data-value="1">Vierde optie in de custom dropdown</li>
+                        </ul>
+                    </div> <!-- .custom-dropdown -->
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Tags en checkbox-tags</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Tags die gebruikt worden voor bijv. wizards, zoekcriteria, ed..</p>.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <h6>Tags</h6>
+                    <p>Standaard tags kunnen uitgebreid worden met een sluitknop en een drag-handle indien ze versleept kunnen worden dmv <code>&lt;span&gt;</code> tags met de correcte icoon-klassen <code>.fa-times</code> en <code>.fa-arrows</code>.</p>
+
+                    <p><span class="fa fa-warning inline-icon"></span> Indien tags editeerbaar zijn (vnl. in de redactie applicaties) kunnen ze ook een input-veld bevatten.</p>
+
+                    <span class="tag js-tag">
+                        <span>District Berchem</span>
+                    </span>
+
+                    <span class="tag js-tag">
+                        <span class="fa fa-times tag-close"></span>
+                        <input type="text" value="Sport en ontspanning" />
+                    </span>
+
+                    <span class="tag js-tag">
+                        <span class="fa fa-times tag-close"></span>
+                        <span class="fa fa-arrows tag-drag"></span>
+                        <span>District Mortsel</span>
+                    </span>
+
+                    <div class="code-block">
+                        <code>
+    <pre>
+    &lt;span href="#0" class="<b>tag</b>"&gt;<br />
+    &nbsp;&lt;span>District Berchem&lt;/span&gt;<br />
+    &lt;/span&gt;<br /><br />
+
+    &lt;span class="<b>tag</b>"&gt;<br />
+    &nbsp;&lt;span class="fa fa-times"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;input type="text" value="Sport en ontspanning" /&gt;<br />
+    &lt;/span&gt;<br /><br />
+
+    &lt;span class="<b>tag</b>"&gt;<br />
+    &nbsp;&lt;span class="fa fa-times <b>tag-close</b>"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;span class="fa fa-arrows <b>tag-drag</b>"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;span&gt;District Mortsel&lt;/span&gt;<br />
+    &lt;/span&gt;
+    </pre>
+                        </code>
+                    </div>  <!-- .code-block -->
+
+                    <p>Als tags worden weergegeven op een gekleurde achtergrond, dienen ze de css-klasse <code>.light</code> mee te krijgen om hun achtergrond lichter te maken.</p>
+
+                    <div class="bg-standard" style="padding: 1em; padding-bottom: 0;">
+
+                        <span class="tag light js-tag">
+                            <span class="fa fa-times tag-close"></span>
+                            <span class="fa fa-arrows tag-drag"></span>
+                            <span>District Berchem</span>
+                        </span>
+
+                        <span class="tag light js-tag">
+                            <span class="fa fa-times tag-close"></span>
+                            <span>District Berchem</span>
+                        </span>
+
+                    </div>
+
+                    <div class="code-block">
+                        <code>
+    <pre>
+    &lt;span href="#0" class="tag <b>light</b>"&gt;<br />
+    &nbsp;&lt;span class="fa fa-times tag-close"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;span class="fa fa-arrows tag-drag"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;span&gt;District Berchem&lt;/span&gt;<br />
+    &lt;/span&gt;<br /><br />
+
+    &lt;span href="#0" class="tag light js-tag"&gt;<br />
+    &nbsp;&lt;span class="fa fa-times tag-close"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;span&gt;District Berchem&lt;/span&gt;<br />
+    &lt;/span&gt;</pre>
+                        </code>
+                    </div>  <!-- .code-block -->
+
+                    <h6>Checkbox tags</h6>
+                    <p>Checkbox tags zijn gelijkaardig aan standaard tags, maar bestaan uit <code>&lt;a&gt;</code>-tags en zijn zodoende volledig klikbaar. Bij een klik op tap, togglen ze hierbij een css-klasse <code>.checked</code>.</p>
+                    <p>Ook checkbox-tags kunnen een css-klasse <code>.light</code> meekrijgen, indien ze op een achtergrond geplaats worden.</p>
+
+                    <a href="#0" class="checkbox-tag js-tag">
+                        <span class="fa fa-check"></span>
+                        <span>District Berchem</span>
+                    </a>
+
+                    <a href="#0" class="checkbox-tag js-tag"><span class="fa fa-check"></span><span>District Wilrijk</span></a>
+                    <a href="#0" class="checkbox-tag js-tag checked"><span class="fa fa-check"></span><span>District Mortsel</span></a>
+                    <a href="#0" class="checkbox-tag js-tag"><span class="fa fa-check"></span><span>District Deurne</span></a>
+
+                    <div class="bg-standard" style="padding: 1em; padding-bottom: 0;">
+                        <a href="#0" class="checkbox-tag light js-tag">
+                            <span class="fa fa-check tag-check"></span>
+                            <span>District Wilrijk</span>
+                        </a>
+                    </div>
+
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;a href="#0" class="<b>checkbox-tag</b> js-tag"&gt;&lt;span class="fa fa-check"&gt;&lt;/span&gt;&lt;span&gt;District Berchem&lt;/span&gt;&lt;/a&gt;</pre>
+                        </code>
+                    </div>  <!-- .code-block -->
+
+                    <h6>Kleinere versies van de tag en checkbox-tag</h6>
+                    <p>Tags en Checkbox-tags kunnen ook verkleind worden.</p>
+                    <a href="#0" class="tag small js-tag"><span class="fa fa-times tag-close"></span><span>District Berchem</span></a>
+                    <a href="#0" class="checkbox-tag small js-tag"><span class="fa fa-check"></span><span>District Berchem</span></a>
+
+
+
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Input velden met unit prefix en/of suffix.</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Inputvelden kunnen uitgebreid worden met pre- en suffixen - voor of achter het veld - om bijv. een eenheid mee te geven.</p>
+                    <p><b>Let op:</b> inputvelden met pre- of suffix dienen te worden geëncapsuleerd in een bijkomend element en worden ook over de volledige breedte uitgevuld.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-ful tablet--span-8-5 desktop--8-5">
+                    <div class="form-div">
+                        <h6>Prefix</h6>
+
+                        <div class="field-container">
+                            <label class="label" for="field_3">Geef uw website in:</label>
+                            <div class="field-wrapper">
+                                <div class="input-group">
+                                    <span class="input-group-addon">http://</span>
+                                    <input class="field" size="" type="text" name="field_20" id="field_20" value="" placeholder="De url van uw website" tabindex="20" />
+                                </div> <!-- .prefixed -->
+                            </div>
+                        </div>
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div">
+                        <h6>Suffix</h6>
+
+                        <div class="field-container">
+                            <label class="label" for="field_19">De grote van uw perceel:</label>
+                            <div class="field-wrapper">
+                                <div class="input-group">
+                                    <input class="field" type="text" name="field_21" id="field_21" value="" placeholder="Geef de oppervlakte van uw perceel in" tabindex="21" />
+                                    <span class="input-group-addon">m<sup>2</sup></span>
+                                </div>
+                            </div> <!-- .suffixed -->
+                        </div>
+                    </div> <!-- .form-div -->
+
+                    <div class="form-div">
+                        <h6>Suffix met icoon</h6>
+                        <div class="field-container">
+                            <div class="field-wrapper">
+                                <div class="input-group">
+                                    <input class="field" type="text" name="field_22" id="field_22" value="" placeholder="Uw creditkaart nummer" tabindex="22" />
+                                    <span class="input-group-addon fa fa-credit-card"></span>
+                                </div> <!-- .suffixed -->
+                            </div>
+                        </div>
+                    </div> <!-- .form-div -->
+
+                    <div class="code-block">
+                        <code>
+                            <pre>&lt;div class="<b>input-group</b>"&gt;<br>&#9;&lt;input type="text" name="field" id="field" value="" placeholder="Uw creditkaart nummer" /&gt;<br>&#9;&lt;span class="<b>addon</b> fa fa-credit-card"&gt;&lt;/span&gt;<br>&lt;/div&gt; &lt;!-- .suffixed --&gt;</pre>
+                        </code>
+                    </div> <!-- .code -->
+                </div>
+            </div> <!-- .component -->
+
+            <div class="component">
+                <h6 class="section-label lined">Schakelaar</h6>
+
+                <div class="content span-full tablet--span-4-1 desktop--4-1">
+                    <p>Een handige schakelaar die gebruikt kan worden ipv een checkbox, indien de gebruiker een twee-ledige keuze (met default) dient te maken.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--8-5">
+                    <div class="switch">
+                        <input type="checkbox" name="switch-01" class="field switch-checkbox" id="switch-01">
+                        <label class="label switch-label label" for="switch-01" title="">
+                            <span class="switch-button"></span>
+                        </label>
+                        <span>Ben je een medewerker?</span>
+                    </div> <!-- .switch -->
+
+                    <div class="switch">
+                        <span>Uit</span>
+                        <input type="checkbox" name="switch-02" class="field switch-checkbox" id="switch-02">
+                        <label class="label switch-label" for="switch-02" title="">
+                            <span class="switch-button"></span>
+                        </label>
+                        <span>Aan</span>
+                    </div> <!-- .switch -->
+
+                    <div class="switch disabled">
+                        <span>Uit</span>
+                        <input type="checkbox" name="switch-03" class="field switch-checkbox" id="switch-03" disabled="disabled">
+                        <label class="label switch-label" for="switch-03" title="">
+                            <span class="switch-button"></span>
+                        </label>
+                        <span>Aan</span>
+                    </div> <!-- .switch -->
+
+                    <div class="code-block">
+                        <code>
+    <pre>
+    &lt;div class="<b>switch</b>"&gt;<br />
+    &nbsp;&lt;span&gt;Uit&lt;/span&gt;<br /><br />
+    &nbsp;&lt;input type="checkbox" name="switch-03" class="field <b>switch-checkbox</b>" id="switch-03"&gt;<br />
+    &nbsp;&lt;label class="label <b>switch-label</b>" for="switch-03" title=""&gt;<br />
+    &nbsp;&nbsp;&lt;span class="<b>switch-button</b>"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;/label&gt;<br /><br />
+    &nbsp;&lt;span&gt;Aan&lt;/span&gt;<br />
+    &lt;/div&gt; &lt;!-- .switch --&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+
+                    <p><span class="fa fa-warning inline-icon"></span> Let op: om een switch duidelijk te 'disablen' moet je de parent-div <code>.switch</code> <u>ook</u> een css-klasse <code>.disabled</code> meegeven.</p>
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+        </div> <!-- .inner -->
+    </section> <!-- #forms -->
+
+    <div class="page-nav">
+        <a href="tables" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Tabellen
+        </a>
+
+        <a href="images" class="button-next">
+            Afbeeldingen<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+
+<% include footer %>

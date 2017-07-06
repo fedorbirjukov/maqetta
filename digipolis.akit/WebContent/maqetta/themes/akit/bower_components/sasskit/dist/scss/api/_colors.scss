@@ -1,0 +1,198 @@
+//
+// API: Colors
+// ---
+// Collection of color variables
+//
+
+//
+// Palette function
+// ---
+// eg. palette(color-alpha, "base")
+//
+
+@function palette($color, $tone: "base") {
+    @if $tone == "x-light" {
+        @return lighten($color, 36);
+    } @else if $tone == "light" {
+        @return lighten($color, 17);
+    } @else if $tone == "base" {
+        @return $color;
+    } @else if $tone == "dark" {
+        @return darken($color, 13);
+    } @else if $tone == "x-dark" {
+        @return darken($color, 31);
+    }
+}
+
+//
+// UI colors
+// ---
+// These are the main colors for links, buttons and statuses
+//
+
+// A-Stad blue
+$blue:                          #0064B4;
+$alpha-ui-color:                $blue;
+
+// A-Stad red
+$beta-ui-color:                 #CF0039;
+
+// Green / Success
+$green:                         #4AA32C;
+$gamma-ui-color:                $green;
+$success:                       $green;
+
+// Orange / Warning
+$orange:                        #F18A00;
+$delta-ui-color:                $orange;
+$warning:                       $orange;
+
+// Gray / Disabled
+$gray:                          #90ABBC;
+$grey:                          $gray; // This one is used for backwards compatibility reasons, but is deprecated.
+$epsilon-ui-color:              $gray;
+$disabled:                      $gray;
+
+// Red / Danger
+$red:                           #DA291C;
+$zeta-ui-color:                 $red;
+$danger:                        $red;
+
+// Yellow / Stad
+$yellow:                        #F9B01E;
+$eta-ui-color:                  $yellow;
+$star:                          $yellow;
+
+//
+// Text colors
+// ---
+// These are the main colors for text
+//
+
+// The one and only main color for titles and text
+$alpha-font-color:              #282020;
+
+// A lighter variant to highlight secondary or less important information
+$beta-font-color:               #7C7070;
+
+//
+// Link colors
+// ---
+// These are the main colors for links
+//
+
+$link:                          $alpha-ui-color;
+$visited:                       shade($alpha-ui-color, 60%);
+$hover:                         shade($alpha-ui-color, 40%);
+$active:                        $warning;
+
+//
+// Background colors
+// ---
+// These are the main colors for backgrounds
+//
+
+$alpha-background:              #E5E5E6;
+$beta-background:               #F3F3F5;
+$lightbackground:               $beta-background;
+
+//
+// Line colors
+// ---
+// These are the main colors for lines
+//
+
+$line:                          #BABABA;
+$line-accent:                   #A6A6A6;
+
+//
+// Social colors
+// ---
+// These are the colors for different social media brands
+//
+
+$twitter:                       #00ACED;
+$facebook:                      #3B5998;
+$linkedin:                      #0077B5;
+$instagram:                     #3F729B;
+$behance:                       #1769FF;
+$permalink:                     #7C7070;
+$email:                         #4AA32C;
+$google:                        #DC4E41;
+$reddit:                        #FF4500;
+$pinterest:                     #BD081C;
+$stumbleupon:                   #EB4924;
+$digg:                          #000;
+$yammer:                        #008FBE;
+
+//
+// Thematic colors
+// ---
+// These are the colors for different apps or users used in A-Stad
+//
+
+$news:                          $alpha-ui-color; // Antwerp blue (also the DEFAULT for thematic colors)
+$info:                          $beta-ui-color; // Antwerp red
+$calendar:                      $delta-ui-color; // Antwerp orange
+$map:                           #E3318A; // Pink
+$jobs:                          $gamma-ui-color; // Green
+$employees:                     #009781; // Greyish green
+
+//
+// Other colors
+// ---
+
+$calendar-event:                $beta-ui-color; // old variable, needs to be removed
+$calendar-today:                $alpha-ui-color; // old variable, needs to be removed
+
+//
+// Dropshadow
+// ---
+
+$box-shadow-bottom-left:        $sizer / - 2 $sizer / 2 0 rgba(0, 0, 0, .1);
+$box-shadow-bottom-right:       $sizer / 2 $sizer / 2 0 rgba(0, 0, 0, .1);
+$box-shadow-bottom:             0 $sizer / 2 0 rgba(0, 0, 0, .1);
+
+//
+// Complete color palette
+// ---
+// as defined in the styleguide
+// color names, courtesy of http://chir.ag/projects/name-that-color
+//
+
+$corn: #DCC600 !default;
+$sun: #F9B01E !default;
+$porsche: #ECA154 !default;
+$korma: #94450B !default;
+$punch: #E04E39 !default;
+$mandy: #DF4661 !default;
+$red-ribbon: #E40046 !default;
+$deep-blush: #E56DB1 !default;
+$cerise: #E3318A !default;
+$rose-bud-cherry: #840B55 !default;
+$east-side: #B580D1 !default;
+$seance: #691F82 !default;
+$ship-cove: #6787B7 !default;
+$st-tropaz: #2C5697 !default;
+$congress-blue: #004088 !default;
+$cerulean: #0091D3 !default;
+$light-cerulean: #00A0D3 !default;
+$deep-cerulean: #007FA3 !default;
+$monte-carlo: #7FCAD3 !default;
+$blue-lagoon: #008C95 !default;
+$persian-green: #009882 !default;
+$tropical-rain-forrest: #007B5F !default;
+$mantis: #6CC24A !default;
+$apple: #4AA32C !default;
+$celery: #AACB57 !default;
+$limeade: #7A9A01 !default;
+$asparagus: #789D4A !default;
+$green-leaf: #577307 !default;
+$nepal: #90ABBC !default;
+$black-pearl: #081F2C !default;
+$kabul: #554741 !default;
+
+$white:                         #FFF !default;
+$silver:                        #DDD !default;
+$gray:                          #AAA !default;
+$black:                         #000 !default;

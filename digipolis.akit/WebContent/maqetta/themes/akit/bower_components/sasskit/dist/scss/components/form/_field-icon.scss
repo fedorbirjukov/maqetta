@@ -1,0 +1,33 @@
+//
+// Form components
+// ---
+// Field icon
+//
+
+.field-container {
+
+    .field-icon {
+        font-size: 1.25rem;
+        line-height: $sizer * 2;
+        padding: 0 $sizer / 2;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+
+        //
+        // Modifiers
+        // ---
+
+        &.valid {
+            color: $success;
+            background-color: transparent;
+        }
+
+        &.invalid {
+            color: $white;
+            background-color: $danger;
+        }
+    }
+}

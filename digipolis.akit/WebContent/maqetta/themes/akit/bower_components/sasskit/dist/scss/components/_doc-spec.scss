@@ -1,0 +1,90 @@
+//
+// Components: Document link specifications
+// ---
+// Indicates the doc type for a downloadable link (eg. name_of_document [.pdf]
+//
+
+.doc-spec {
+    @include text-dimensions(-1, .85);
+    color: $beta-font-color;
+
+    &:before {
+        content: "[";
+    }
+
+    &:after {
+        content: "]";
+    }
+}
+
+.doc-info {
+    color: $alpha-font-color;
+    display: block;
+    font-size: rem(14px);
+}
+
+// When a link points to a document for download, this class adds a download-icon
+
+a.file-link {
+    @include clearfix();
+
+    display: block;
+
+    border-bottom: $line-th solid $line;
+    border-top: $line-th solid $line;
+
+    padding: $sizer / 2 $sizer $sizer / 2 $sizer * 2;
+    position: relative;
+
+    &:before {
+        content: "\f0ed";
+        display: inline-block;
+
+        font: normal normal normal 18px / 1 FontAwesome;
+        float: left;
+
+        position: absolute;
+        top: rem(16px);
+        left: $sizer / 2;
+
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .copyright {
+        @include text-dimensions(-1);
+
+        color: $beta-font-color;
+        font-style: italic;
+
+        display: block;
+    }
+
+    &:hover, &:focus {
+        background: $beta-background;
+        text-decoration: none;
+    }
+
+    // If there's more links, each following one doesn't need a border-top
+    + .file-link {
+        border-top: 0;
+    }
+
+    // Variant for less consicuous styling
+    &.small {
+        border: 0;
+        padding-left: $sizer;
+
+        .copyright {display: inline;}
+
+        &:before {
+            left: 0;
+            top: rem(15px);
+        }
+
+        &:hover, &:focus {
+            background: none;
+        }
+    }
+}

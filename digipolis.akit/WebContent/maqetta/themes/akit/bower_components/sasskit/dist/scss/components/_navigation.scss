@@ -1,0 +1,218 @@
+//
+// List navigation
+// ---
+
+.list-navigation {
+    @include clearfix();
+    @include nav();
+
+    margin: 0;
+    padding: 0;
+
+    > .leaf {
+
+        input[type="checkbox"] + label {
+            top: $sizer / 2;
+        }
+
+        .switch {
+
+            input[type="checkbox"] + label {
+                top: 0;
+            }
+        }
+
+        &.active {
+
+            > .leaf-link {
+                color: $alpha-ui-color;
+                font-weight: $bold;
+            }
+        }
+    }
+
+    //
+    // Sub navigation
+    // ---
+
+    .sub-nav {
+        display: none;
+        margin: 0;
+
+        .leaf > .leaf-link {
+            padding-left: $sizer * 1.5;
+        }
+    }
+}
+
+.list-navigation .leaf {
+    border-bottom: $line-th solid $line;
+    margin: 0;
+    padding: 0;
+    min-height: $sizer * 2;
+
+    color: $alpha-font-color;
+
+    //
+    // Context
+    // ---
+
+    &:first-child {
+        border-top: $line-th solid $line;
+    }
+
+    //
+    // States
+    // ---
+
+    &.active {
+        color: $alpha-ui-color;
+        font-weight: $bold;
+
+        > .leaf-link {
+            color: inherit;
+            font-weight: inherit;
+        }
+    }
+
+    &.has-children {
+
+        .subnav-toggle {
+
+            > .fa {
+                background: $beta-background;
+            }
+
+            &:hover {
+
+                > .fa {
+                    background: $alpha-ui-color;
+                    color: $white;
+                }
+            }
+        }
+
+        &.open {
+            border-bottom: 0;
+
+            .sub-nav {
+                display: block;
+            }
+
+            > .leaf-link {
+                font-weight: $bold;
+            }
+        }
+    }
+
+    //
+    // Types
+    // ---
+
+    &.radio,
+    &.checkbox {
+        line-height: $sizer * 2;
+    }
+}
+
+.list-navigation .leaf .leaf-link {
+    color: inherit;
+    display: block;
+    padding: $sizer / 1.72 $sizer * 2 $sizer / 1.72 $sizer / 2;
+    position: relative;
+
+    .fa {
+        @include rem-dimensions("top", 9);
+        transition: transform 200ms ease-out;
+        font-size: $sizer / 2;
+        text-align: center;
+        position: absolute;
+        padding: .83em .94em;
+        right: $sizer / 3;
+    }
+
+    &:hover {
+        color: $hover;
+        background: $beta-background;
+        text-decoration: none;
+
+        .fa {
+            transform: scale(1.35) translateX(-3px);
+            color: $alpha-font-color;
+        }
+    }
+
+    &:focus {
+        text-decoration: none;
+    }
+
+    // If the list item has an icon, add this class to a.leaf-link
+    &.has-icon {
+        padding: $sizer / 1.72 $sizer * 2 $sizer / 1.72 $sizer * 2.5;
+
+        .fa:first-of-type {
+            background: $alpha-ui-color;
+            color: $white;
+            font-size: $sizer;
+            height: rem(49px);
+            line-height: $sizer * 2;
+            padding: 0;
+            right: auto;
+            left: 0;
+            top: 0;
+            width: $sizer * 2;
+        }
+
+        &:hover {
+            .fa:first-of-type {
+                transform: scale(1) translateX(0);
+            }
+        }
+    }
+}
+
+.list-navigation.facet-filter .leaf .facet-title .leaf-link {
+
+    &:hover {
+        color: $alpha-ui-color;
+    }
+}
+
+.list-navigation.negative .leaf {
+    color: $white;
+    border-color: rgba(255, 255, 255, .5);
+
+    .leaf-link {
+
+        &:hover,
+        &:focus {
+            color: $white;
+            background: rgba(255, 255, 255, .1);
+
+            .fa {
+                color: $white;
+            }
+        }
+    }
+
+    //
+    // States
+    // ---
+
+    &.has-children {
+
+        .subnav-toggle {
+
+            > .fa {
+                background: rgba(255, 255, 255, .1);
+            }
+
+            &:hover {
+
+                > .fa {
+                    background: rgba(255, 255, 255, .3);
+                }
+            }
+        }
+    }
+}

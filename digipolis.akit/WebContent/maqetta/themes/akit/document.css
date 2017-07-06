@@ -1,0 +1,5 @@
+div:empty {
+	height: 4em;
+	border: 1px dashed black;
+	border-radius: 6px;
+}

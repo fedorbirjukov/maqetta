@@ -1,0 +1,60 @@
+//
+// API: Typography
+// ---
+// Collection of typography variables
+//
+
+//
+// Font Family
+// ---
+
+$alpha-font-family:             "Sun Regular", "Helvetica Neue", Helvetica, Arial, Georgia, Sans-serif;
+$beta-font-family:              "Antwerpen", "SunRegular", "Helvetica Neue", Helvetica, Arial, Georgia, Sans-serif;
+$gamma-font-family:             "Antwerpen-Tall", "SunRegular", "Helvetica Neue", Helvetica, Arial, Georgia, Sans-serif;
+
+$base-font-family:              $alpha-font-family; // old variable, needs to be removed
+$title-font-family:             $alpha-font-family; // old variable, needs to be removed
+
+//
+// Font size
+// ---
+
+$alpha-font-size:               16; // pixel-value
+$base-font-size:                $alpha-font-size * 1px; // old variable, needs to be removed
+
+//
+// Font weights
+// ---
+
+$heavy:                         900;
+$bold:                          700;
+$normal:                        500;
+$light:                         300;
+
+//
+// Line height
+// ---
+
+$alpha-line-height:             1.4; // em-value
+$base-line-height:              $alpha-line-height; // old variable, needs to be removed
+
+//
+// Modular scale settings
+// ---
+
+$ratio:                         1.2;
+$font-ratio:                    $ratio; // old variable, needs to be removed
+
+$baseline-unit:                 $alpha-font-size * $alpha-line-height;
+
+//
+// Header dimensions
+// ---
+$h1-font-dimensions:            (6, 2.5,   .75,  1, 0, 0);
+$h2-font-dimensions:            (5, 1.95,   .5,  1, 0, 0);
+$h3-font-dimensions:            (4, 1.65,   .5,  1, 0, 0);
+$h4-font-dimensions:            (3, 1.35,   .5,  1, 0, 0);
+$h5-font-dimensions:            (2, 1.35,   .5,  1, 0, 0);
+$h6-font-dimensions:            (1, 1,      .5,  1, 0, 0);
+
+

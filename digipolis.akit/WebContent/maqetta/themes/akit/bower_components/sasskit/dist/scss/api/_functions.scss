@@ -1,0 +1,151 @@
+//
+// API: Functions
+// ---
+// Different helpers that can be used throughout A-stad
+//
+
+// Strip units from any number
+@function su($number) {
+    @return $number / ($number * 0 + 1);
+}
+
+// Convert unitless dimensions to pixels
+@function pixel-dimensions($numbers) {
+    $v: "";
+
+    @each $number in $numbers {
+        @if type-of($number) == "string" {
+            $v: $v + $number + " ";
+        } @else {
+            @if unitless($number) {
+                $v: $v + ($number * 1px) + " ";
+            } @else {
+                $v: $v + $number + " ";
+            }
+        }
+    }
+
+    @return unquote($v);
+}
+
+// Return a space separated list as em values
+// e.g. padding: em-dimensions(10 20 10 15);
+@function em-dimensions($values, $context: $base-font-size) {
+    $v: "";
+
+    @each $value in $values {
+        @if type_of($value) == "number" {
+            $v: $v + px-to-em($value, $context) + " ";
+        } @else {
+            $v: $v + $value + " ";
+        }
+    }
+
+    @return unquote($v);
+}
+
+// Convert a pixel value to rem
+// e.g. padding: px-to-rem(10);
+@function px-to-rem($pixels, $context: $alpha-font-size) {
+    @if unitless($pixels) {
+        @return #{$pixels/($context / 1px)}rem;
+    }
+    @if (unit($pixels) == "px") {
+        @return #{$pixels/$context}rem;
+    }
+    @warn "The parameter value should be in pixels.";
+}
+
+// Convert a rem value to px
+// e.g. padding: rem-to-px(3);
+@function rem-to-px($rem, $context: $alpha-font-size) {
+    @if unitless($rem) {
+        @return #{$rem*($context / 1rem)}px;
+    }
+    @if (unit($rem) == "rem") {
+        @return #{su($rem)*$context}px;
+    }
+    @warn "The parameter value should be in rem.";
+}
+
+// Convert a pixel value to em
+// e.g. padding: px-to-em(10);
+@function px-to-em($pixels, $context: $base-font-size) {
+    @if unitless($pixels) {
+        @return #{$pixels/($context / 1px)}em;
+    } @else {
+        @if (unit($pixels) == "px") {
+            @return #{$pixels/$context}em;
+        } @else {
+            @warn "The parameter value should be in pixels.";
+        }
+    }
+}
+
+// Convert a em value to px
+// e.g. padding: em-to-px(3);
+@function em-to-px($em, $context: $alpha-font-size) {
+    @if unitless($em) {
+        @return #{$em*($context / 1em)}px;
+    }
+    @if (unit($em) == "em") {
+        @return #{su($em)*$context}px;
+    }
+    @warn "The parameter value should be in em.";
+}
+
+// Return a space separated list as rem values
+// e.g. padding: rem-dimensions(10 20 10 15);
+@function rem-dimensions($values, $context: $base-font-size) {
+    $v: "";
+
+    @each $value in $values {
+        @if type_of($value) == "number" {
+            @if unit($value) == "rem" or unit($value) == "em" {
+                $v: $v + $value + " ";
+            } @else {
+                $v: $v + px-to-rem($value, $context) + " ";
+            }
+        } @else {
+            $v: $v + $value + " ";
+        }
+    }
+
+    @return unquote($v);
+}
+
+//
+// Modular scale
+// ---
+// use ms($value, $increment, $ratio)
+//
+// Example:
+//      div {
+//          Increment Up GR with positive value
+//          font-size: ms(14px, 1, 1.618); // returns: 22.652px
+//
+//          Increment Down GR with negative value
+//          font-size: ms(14px, -1, 1.618); // returns: 8.653px
+//      }
+//
+@function ms($increment, $value: $alpha-font-size, $ratio: $ratio) {
+    @if $increment > 0 {
+        @for $i from 1 through $increment {
+            $value: ($value * $ratio);
+        }
+    }
+
+    @if $increment < 0 {
+        $increment: abs($increment);
+        @for $i from 1 through $increment {
+            $value: ($value / $ratio);
+        }
+    }
+
+    @return $value;
+}
+
+// Prefix url
+@function relurl($url) {
+    @return url($urlprefix + $url);
+}

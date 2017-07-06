@@ -1,0 +1,16 @@
+//
+// File
+// ---
+
+@import "../base/images";
+
+.file {
+
+    .filecaption {
+        @extend %figcaption;
+    }
+
+    .filecredit {
+        color: $alpha-font-color;
+    }
+}

@@ -1,0 +1,83 @@
+//
+// Text helper classes
+// ---
+
+//
+// Text style classes
+// ---
+
+.text-bold {
+    font-weight: 600;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+//
+// Text alignment classes
+// ---
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+//
+// Text transformation classes
+// ---
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.break-word {
+    @include break-word();
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &.no-wrap {
+        white-space: normal;
+    }
+}
+
+.preserved-whitespace {
+    white-space: pre;
+}
+
+%caps {
+    font-family: $alpha-font-family;
+    font-weight: $bold;
+    text-transform: uppercase;
+}

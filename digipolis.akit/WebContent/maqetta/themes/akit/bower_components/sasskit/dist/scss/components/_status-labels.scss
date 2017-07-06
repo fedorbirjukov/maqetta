@@ -1,0 +1,34 @@
+// Status-labels
+.status-label {
+    border: $line-th solid $line;
+    color: $beta-font-color;
+
+    display: inline-block;
+    font-size: rem(14px);
+
+    margin-right: $sizer / 2;
+    max-height: $sizer;
+    line-height: rem(23px);
+
+    padding: 0 $sizer / 2;
+
+    &.contrast {
+        border-color: $alpha-ui-color;
+        color: $alpha-ui-color;
+    }
+
+    &.success {
+        border-color: $success;
+        color: $success;
+    }
+
+    &.warning {
+        border-color: $warning;
+        color: $warning;
+    }
+
+    &.danger {
+        border-color: $danger;
+        color: $danger;
+    }
+}

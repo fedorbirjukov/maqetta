@@ -1,0 +1,330 @@
+//
+// API: Mixins
+// ---
+// Various mixins and helpers
+//
+
+//
+// Text dimensions
+// ---
+// Parameters can be passed separately or as a list
+// Order: font-size, line-height, margin-top, margin-bottom, padding-top, padding-bottom
+//
+
+@mixin text-dimensions($params...) {
+    // If not a list cast parameters as list
+    $list: ();
+    @if length($params) == 1 {
+        $list: nth($params,1);
+    } @else {
+        @each $param in $params {
+            $list: append($list, $param);
+        }
+    }
+
+    // Set default font size
+    $fs: 1;
+
+    @if length($list) >= 1 {
+        $fs: nth($list, 1);
+    }
+
+    // Set default line height
+    $lh: 1;
+
+    @if length($list) >= 2 {
+        $lh: nth($list, 2);
+    }
+
+    // Apply font size and line height
+    @include rem-dimensions('font-size', ms($fs));
+    line-height: #{($baseline-unit / ms($fs)) * $lh}em;
+
+    // Apply spacing
+    @if length($list) > 2 {
+        @for $i from 3 through length($list) {
+            $property: '';
+
+            @if $i == 3 {
+                $property: 'margin-top';
+            } @elseif $i == 4 {
+                $property: 'margin-bottom';
+            } @elseif $i == 5 {
+                $property: 'padding-top';
+            } @elseif $i == 6 {
+                $property: 'padding-bottom';
+            }
+
+            $value: nth($list, $i);
+
+            @if $value == 0 {
+                // The value was "0"
+                #{$property}: 0;
+            } @else if unit($value) == "px" {
+                // Pixel value was provided
+                #{$property}: px-to-rem($value);
+            } @else if unit($value) == "rem" {
+                // Rem value was provided
+                #{$property}: $value;
+            } @else if unitless($value) {
+                // No value was provided
+                #{$property} : $value * 1rem;
+            }
+        }
+    }
+}
+
+//
+// General stuff
+// ---
+
+// Vertical navigation
+@mixin nav {
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        margin: 0;
+        list-style: none;
+    }
+}
+
+// Horizontal navigation
+@mixin nav-hor($mr: 1) {
+    li {
+        float: left;
+        margin-right: $mr + em;
+    }
+}
+
+//
+// Animations and transitions
+// ---
+
+// Fade in
+@mixin fade-in($property, $duration) {
+    transition: $property $duration + s ease-out;
+    -moz-transition: $property $duration + s ease-out;
+    -webkit-transition: $property $duration + s ease-out;
+    -o-transition: $property $duration + s ease-out;
+    -ms-transistion: $property $duration + s ease-out;
+}
+
+// Center vertically and/or horizontally
+@mixin center($xy:xy) {
+    @if $xy == xy {
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        right: auto;
+        @include transform(translateX(-50%) translateY(-50%));
+    }
+    @else if $xy == x {
+        left: 50%;
+        right: auto;
+        @include transform(translateX(-50%));
+    }
+    @else if $xy == y {
+        top: 50%;
+        bottom: auto;
+        @include transform(translateY(-50%));
+    }
+}
+
+// Vertical align
+@mixin vertical-align($position: relative) {
+    position: $position;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+// Omega reset (Bourbon Neat grid)
+@mixin omega-reset($nth) {
+    &:nth-child(#{$nth}) {
+        margin-right: flex-gutter();
+    }
+
+    &:nth-child(#{$nth}+1) {
+        clear: none;
+    }
+}
+
+//
+// Media queries
+// ---
+
+// @include mq(#point, #query1, #query2);
+@mixin mq($point, $query1: min, $query2: width) {
+    @media screen and (#{$query1}-#{$query2}: $point) {
+        @content;
+    }
+}
+
+// Rem dimensions (with IE8 fallback)
+@mixin rem-dimensions($property, $dimensions, $context: $base-font-size) {
+    #{$property}: rem-dimensions($dimensions, $context);
+}
+
+// Box-sizing
+@mixin box-sizing($bs) {
+    -moz-box-sizing: $bs;
+    -webkit-box-sizing: $bs;
+    box-sizing: $bs;
+}
+
+// Border-box polyfill helper
+@mixin border-box {
+    @include box-sizing(border-box);
+}
+
+// Remove styling for lists
+@mixin list-unstyled() {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        list-style: none;
+    }
+}
+
+// Square
+@mixin square($dimension) {
+    @include rem-dimensions("width", $dimension);
+    @include rem-dimensions("height", $dimension);
+}
+
+// Only readable for screenreaders
+@mixin sr-only () {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+// Disable user text selection
+@mixin disable-user-selection {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+// Reset margin and padding
+@mixin reset-mp() {
+    margin: 0;
+    padding: 0;
+}
+
+// Dimensions
+// e.g. @include dimensions(10 20);
+@mixin dimensions($width, $height: $width) {
+    @include rem-dimensions("width", $width);
+    @include rem-dimensions("height", $height);
+}
+
+// Cross-browser placeholder color mixin
+@mixin placeholder-style($color, $style: "italic", $weight: "normal") {
+    &:placeholder {
+        color: $color;
+        font:{
+            style: $style;
+            weight: $weight;
+        }
+    }
+
+    &:-ms-input-placeholder{
+        color: $color;
+        font:{
+            style: $style;
+        }
+    }
+
+    &:-moz-placeholder {
+        color: $color;
+        font:{
+            style: $style;
+        }
+    }
+
+    &::-moz-placeholder{
+        color: $color;
+        font:{
+            style: $style;
+        }
+    }
+
+    &::-webkit-input-placeholder {
+        color: $color;
+        font:{
+            style: $style;
+        }
+    }
+}
+
+// Article Typography
+@mixin articleTypo () {
+    h1 {
+        @include articleTypo-h1;
+    }
+
+    h2, h3 {
+        @include articleTypo-h2;
+    }
+}
+
+@mixin articleTypo-h1 () {
+    @include text-dimensions($h3-font-dimensions);
+    font-weight: $normal;
+
+    @include respond-to("tablet") {
+        @include text-dimensions($h1-font-dimensions);
+        font-weight: $light;
+    }
+}
+
+@mixin articleTypo-h2 () {
+    @include text-dimensions($h5-font-dimensions);
+    font-weight: $normal;
+
+    @include respond-to("tablet") {
+        @include text-dimensions($h4-font-dimensions);
+    }
+}
+
+// Scale an icon based on its original size
+@mixin scale-icon-by-size($originalSize, $desiredSize) {
+    $scale-factor: su($desiredSize) / su($originalSize);
+    $offset: (su($originalSize) - su($desiredSize)) * -1;
+
+    @include transform(scale($scale-factor));
+    @include rem-dimensions("margin-bottom", $offset);
+    @include rem-dimensions("margin-right", $offset);
+}
+
+@mixin break-word {
+    // These are technically the same, but use both
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    // This is the dangerous one in WebKit, as it breaks things wherever
+    word-break: break-all;
+    // Instead use this non-standard one:
+    word-break: break-word;
+
+    // Adds a hyphen where the word breaks, if supported (No Blink)
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}

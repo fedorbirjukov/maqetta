@@ -1,0 +1,58 @@
+//
+// API: Variables
+// ---
+// Other variables and global settings
+//
+
+//
+// Sizer
+// ---
+// Use the sizer to set margins and paddings to maintain a grid-like feel for spacing
+//
+
+$sizer:                         rem(24);
+
+//
+// Border Radius
+// ---
+// Default border radius for all elements
+//
+
+$radius:                        0;
+$radius-big:                    0;
+
+$form-radius:                   $radius;
+
+//
+// Line thickness
+// ---
+// Default thickness of every line, border or stroke
+//
+
+$line-th:                       1px;
+
+//
+// Icon size
+// ---
+// Default size of all icons
+//
+
+$icon-size:                     rem(26);
+
+//
+// Avatar
+// ---
+// Avatars can be found in 5 different sizes, the default size is 48px
+//
+
+$avatar-small:                  $sizer * 3 / 2;
+$avatar-normal:                 $sizer * 2;
+$avatar-medium:                 $sizer * 3;
+$avatar-large:                  $sizer * 4;
+$avatar-xlarge:                 $sizer * 5;
+
+//
+// Url prefix
+// ---
+
+$urlprefix:                     "../" !default;

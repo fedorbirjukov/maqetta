@@ -1,0 +1,89 @@
+//
+// Accent content
+// ---
+
+//
+// Base content-box
+// ---
+
+%content-box {
+    background-color: $beta-background;
+
+    border-radius: $radius;
+    border-bottom: $line-th + 1 solid $alpha-background;
+
+    color: $alpha-font-color;
+    min-height: $sizer * 2;
+
+    font-family: $alpha-font-family;
+
+    text-align: left;
+    text-decoration: none;
+
+    margin-bottom: $sizer;
+    margin-top: 0;
+    padding: $sizer;
+    display: block;
+
+    vertical-align: middle;
+
+    .button {
+        margin-bottom: 0;
+    }
+}
+
+//
+// Modifiers
+// ---
+
+.content-box-wrapper {
+    display: block;
+    width: 100%;
+
+    margin-bottom: $sizer;
+    margin-top: 0;
+
+    outline: none;
+    overflow: hidden;
+
+    position: relative;
+
+    .content-box {
+        margin: 0;
+    }
+
+    .subtitle {
+        font-size: .75rem;
+        line-height: 1rem;
+        color: $beta-font-color;
+        display: block;
+        padding-left: $sizer / 2;
+        margin-top: $sizer / 2;
+        text-align: left;
+    }
+}
+
+.content-box {
+    @extend %content-box;
+
+    &.as-button {
+        @include fade-in(background, .25);
+        font-weight: $bold;
+
+        &:hover,
+        &:focus,
+        &.active {
+            background: shade($alpha-ui-color, 20);
+            color: $white;
+            cursor: pointer;
+            box-shadow: inset 0 2px 0 rgba(0, 0, 0, .1);
+            text-decoration: none;
+            border-bottom: $line-th + 1 solid $alpha-ui-color;
+        }
+    }
+
+    &.border-top {
+        border-top: $line-th + 1 solid $alpha-background;
+        border-bottom: 0;
+    }
+}

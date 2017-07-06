@@ -1,0 +1,52 @@
+//
+// User avatar
+// ---
+// Avatar of the user + special label in some cases
+//
+
+%avatar {
+    @include dimensions($avatar-normal);
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+    &.small {
+        @include dimensions($avatar-small);
+    }
+
+    &.medium {
+        @include dimensions($avatar-medium);
+    }
+
+    &.large {
+        @include dimensions($avatar-large);
+    }
+
+    &.xlarge {
+        @include dimensions($avatar-xlarge);
+    }
+
+    img {
+        @include transform-origin(center center);
+        @include transition-property(all);
+        @include transition-duration(.3s);
+        @include transition-timing-function(ease-out);
+        display: block;
+        width: 100%;
+
+        // The user-avatar directive binds a "data-ng-click" to the img, regardless of it having an actual click action.
+        // This in turn causes a generic UX-style "*[data-ng-click]" to set "cursor: pointer".
+        // The ".pointer" class checks if a click action is actually defined, so if no ".pointer" class is present, set "cursor:default".
+        &:not(.pointer) {
+            cursor: default;
+        }
+    }
+
+    &:hover, a:focus {
+
+        img {
+            @include transform(scale(1.3));
+        }
+    }
+}

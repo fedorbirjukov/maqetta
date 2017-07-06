@@ -1,0 +1,17 @@
+//
+// Form components
+// ---
+// Field container
+//
+
+.field-container {
+    @include clearfix;
+
+    position: relative;
+    margin-bottom: $sizer / 2;
+
+    // Input clear fix for >IE10
+    input::-ms-clear {
+        display: none;
+    }
+}

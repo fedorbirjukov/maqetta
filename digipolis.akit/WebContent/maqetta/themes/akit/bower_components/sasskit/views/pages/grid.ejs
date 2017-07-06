@@ -1,0 +1,136 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                            <span class="fa fa-th" style="color: #008C95"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Grid</h1>
+                            <p class="lead">Een technisch hulpmiddel voor de layout van je site of app</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+
+            </div> <!-- main-intro-header .inner -->
+
+        </div> <!-- .main-intro -->
+    </header>
+
+    <section class="main-section" id="grid">
+        <div class="inner">
+            <div class="section-intro">
+                <p>Op <a href="https://www.antwerpen.be" target="_blank">antwerpen.be</a> gebruiken we een vloeibaar en responsive grid-systeem gebaseerd op het <a href="https://github.com/at-import/Singularity" target="_blank">Singularity grid</a>. Hieronder vind je de voornaamste klasses die gebruikt kunnen worden om componenten in het grid te plaatsen.</p>
+            </div> <!-- .section-intro -->
+
+            <div class="component" id="grid">
+                <h4>Responsive Grid</h4>
+                <p>Het responsive grid wordt gecompileerd met behulp van  SingularityGS. Toegelaten grid spans worden gedefinieerd in je thema&#39;s in <code>_grid</code> config bestand.</p>
+
+                <h6 class="section-label lined">Isolation Grid</h6>
+
+                <div class="code-block">
+                    <code>
+                        <pre>$allowed-isolation-spans: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 !default;</pre>
+                    </code>
+                </div>
+
+                <div class="span-full tablet--span-3-1 desktop--span-3-1 sg-grid">
+                    <span>3-1</span>
+                </div>
+
+                <div class="span-full tablet--span-3-4 desktop--span-3-4 sg-grid">
+                    <span>3-4</span>
+                </div>
+
+                <div class="span-full tablet--span-3-7 desktop--span-3-7 sg-grid">
+                    <span>3-7</span>
+                </div>
+
+                <div class="span-full tablet--span-3-10 desktop--span-3-10 sg-grid">
+                    <span>3-10</span>
+                </div>
+
+                <div class="span-full tablet--span-4-1 desktop--span-4-1 sg-grid">
+                    <span>4-1</span>
+                </div>
+                <div class="span-full tablet--span-4-5 desktop--span-4-5 sg-grid">
+                    <span>4-5</span>
+                </div>
+                <div class="span-full tablet--span-4-9 desktop--span-4-9 sg-grid">
+                    <span>4-9</span>
+                </div>
+
+                <div class="span-full tablet--span-half-1 desktop--span-half-1 sg-grid">
+                    <span>6-1 / half-1</span>
+                </div>
+                <div class="span-full tablet--span-half-2 desktop--span-half-2 sg-grid">
+                    <span>6-7 / half-2</span>
+                </div>
+
+                <div class="span-full tablet--span-centered-3 desktop--span-centered-3 sg-grid">
+                    <span>centered-3</span>
+                </div>
+                <div class="span-full tablet--span-centered-4 desktop--span-centered-4 sg-grid">
+                    <span>centered-4</span>
+                </div>
+                <div class="span-full tablet--span-centered-6 desktop--span-centered-6 sg-grid">
+                    <span>centered-6</span>
+                </div>
+                <div class="span-full tablet--span-centered-8 desktop--span-centered-8 sg-grid">
+                    <span>centered-8</span>
+                </div>
+                <div class="span-full tablet--span-centered-9 desktop--span-centered-9 sg-grid">
+                    <span>centered-9</span>
+                </div>
+                <div class="span-full tablet--span-full desktop--span-full sg-grid">
+                    <span>centered-12 / full</span>
+                </div>
+
+                <h6 class="section-label lined" style="clear:both;">Floating grid</h6>
+                <p>Het 'floating grid' voorziet kolommen zonder 'gutter', met behoud van de bestaande ratio's gebruikt in het 'isolation grid'.</p>
+
+                <div class="code-block">
+                    <code>
+                        <pre>$allowed-floating-spans: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 !default;</pre>
+                    </code>
+                </div> <!-- .code-block -->
+
+                <div class="float-full tablet--float-3 desktop--float-3 sg-grid">
+                    <span>3 / fourth</span>
+                </div>
+
+                <div class="float-full tablet--float-3 desktop--float-fourth sg-grid">
+                    <span>3 / fourth</span>
+                </div>
+
+                <div class="float-full tablet--float-3 desktop--float-3 sg-grid">
+                    <span>3 / fourth</span>
+                </div>
+
+                <div class="float-full tablet--float-3 desktop--float-fourth sg-grid">
+                    <span>3 / fourth</span>
+                </div>
+
+                <div class="float-full tablet--float-4 desktop--float-4 sg-grid">
+                    <span>4 / third</span>
+                </div>
+                <div class="float-full tablet--float-4 desktop--float-4 sg-grid">
+                    <span>4 / third</span>
+                </div>
+                <div class="float-full tablet--float-4 desktop--float-4 sg-grid">
+                    <span>4 / third</span>
+                </div>
+
+                <div class="float-full tablet--float-half desktop--float-half sg-grid">
+                    <span>6 / half</span>
+                </div>
+                <div class="float-full tablet--float-half desktop--float-half sg-grid">
+                    <span>6 / half</span>
+                </div>
+            </div> <!-- .component -->
+        </div class="inner">
+    </section>

@@ -1,0 +1,1820 @@
+{
+    "collections": {
+        "html": {
+            "name": "HTML"
+        }
+    },
+    "categories": {
+        "html": {
+            "name": "HTML",
+            "widgetClass": "html"
+        }
+    },
+    "widgets": [
+        {//A-kit table
+            "name": "Standard",
+            "description": "Table with extra styling.",
+            "type": "akit.table",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit table",
+            "icon": "resources/imagesLarge/table.png",
+            "iconLarge": "resources/imagesLarge/table.png",
+            "children": [
+                {
+                    "type": "html.thead",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 1"
+                                },
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "html.tbody",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "initialSize": {
+                "absolute": {
+                    "width": "300px"
+                }
+            },
+            "allowedChild": "html.tbody, html.thead, html.tfoot, html.tr, html.caption, html.colgroup"
+        },
+        {//A-kit table .boxed
+            "name": "Boxed",
+            "description": "Table with extra styling.",
+            "type": "akit.table",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit table .boxed",
+            "icon": "resources/imagesLarge/table-boxed.png",
+            "iconLarge": "resources/imagesLarge/table-boxed.png",
+            "properties": {"class": "boxed"},
+            "children": [
+                {
+                    "type": "html.thead",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 1"
+                                },
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "html.tbody",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "initialSize": {
+                "flow": {
+                    "width": "100%",
+                    "height": "auto"
+                },
+                "absolute": {
+                    "width": "300px",
+                    "height": "auto"
+                }
+            },
+            "allowedChild": "html.tbody, html.thead, html.tfoot, html.tr, html.caption, html.colgroup"
+        },
+        {//A-kit table .contrast
+            "name": "Contrast",
+            "description": "Table with extra styling.",
+            "type": "akit.table",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit table .contrast",
+            "icon": "resources/imagesLarge/table-contrast.png",
+            "iconLarge": "resources/imagesLarge/table-contrast.png",
+            "properties": {"class": "contrast"},
+            "children": [
+                {
+                    "type": "html.thead",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 1"
+                                },
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "html.tbody",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "initialSize": {
+                "absolute": {
+                    "width": "300px"
+                }
+            },
+            "allowedChild": "html.tbody, html.thead, html.tfoot, html.tr, html.caption, html.colgroup"
+        },
+        {//A-kit table .contrast .secondary
+            "name": "Contrast secondary",
+            "description": "Table with extra styling.",
+            "type": "akit.table",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit table .contrast .secondary",
+            "icon": "resources/imagesLarge/table-contrast-secondary.png",
+            "iconLarge": "resources/imagesLarge/table-contrast-secondary.png",
+            "properties": {"class": "contrast secondary"},
+            "children": [
+                {
+                    "type": "html.thead",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 1"
+                                },
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "html.tbody",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "initialSize": {
+                "absolute": {
+                    "width": "300px"
+                }
+            },
+            "allowedChild": "html.tbody, html.thead, html.tfoot, html.tr, html.caption, html.colgroup"
+        },
+        {//A-kit table .opening-hours
+            "name": "Opening-hours",
+            "description": "Table with extra styling.",
+            "type": "akit.table",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit table .opening-hours",
+            "icon": "resources/imagesLarge/table-opening-hours.png",
+            "iconLarge": "resources/imagesLarge/table-opening-hours.png",
+            "properties": {"class": "opening-hours"},
+            "children": [
+                {
+                    "type": "html.thead",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 1"
+                                },
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "html.tbody",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "initialSize": {
+                "absolute": {
+                    "width": "300px"
+                }
+            },
+            "allowedChild": "html.tbody, html.thead, html.tfoot, html.tr, html.caption, html.colgroup"
+        },
+        {//A-kit table .opening-hours .secondary
+            "name": "Hours secondary",
+            "description": "Table with extra styling.",
+            "type": "akit.table",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit table .opening-hours .secondary",
+            "icon": "resources/imagesLarge/table-opening-hours-secondary.png",
+            "iconLarge": "resources/imagesLarge/table-opening-hours-secondary.png",
+            "properties": {"class": "opening-hours secondary"},
+            "children": [
+                {
+                    "type": "html.thead",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 1"
+                                },
+                                {
+                                    "type": "html.th",
+                                    "children": "Heading 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "html.tbody",
+                    "children": [
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "html.tr",
+                            "children": [
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 1"
+                                },
+                                {
+                                    "type": "html.td",
+                                    "children": "Data 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "initialSize": {
+                "absolute": {
+                    "width": "300px"
+                }
+            },
+            "allowedChild": "html.tbody, html.thead, html.tfoot, html.tr, html.caption, html.colgroup"
+        },
+        {//A-kit Isolation Grid 4 columns
+            "name": "4 columns",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 4 columns",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "children": [
+                {
+                    "type": "html.div",
+                    "properties": {"class": "span-full tablet--span-3-1 desktop--span-3-1"},
+                    "children": [
+                        {
+                            "type": "html.span",
+                            "children": "Col 1"
+                        }
+                    ]
+                },
+                {
+                    "type": "html.div",
+                    "properties": {"class": "span-full tablet--span-3-4 desktop--span-3-4"},
+                    "children": [
+                        {
+                            "type": "html.span",
+                            "children": "Col 2"
+                        }
+                    ]
+                },
+                {
+                    "type": "html.div",
+                    "properties": {"class": "span-full tablet--span-3-7 desktop--span-3-7"},
+                    "children": [
+                        {
+                            "type": "html.span",
+                            "children": "Col 3"
+                        }
+                    ]
+                },
+                {
+                    "type": "html.div",
+                    "properties": {"class": "span-full tablet--span-3-10 desktop--span-3-10"},
+                    "children": [
+                        {
+                            "type": "html.span",
+                            "children": "Col 4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 3 columns
+            "name": "3 columns",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 3 columns",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "children": [
+                {
+                    "type": "html.div",
+                    "properties": {"class": "span-full tablet--span-4-1 desktop--span-4-1"},
+                    "children": [
+                        {
+                            "type": "html.span",
+                            "children": "Col 1"
+                        }
+                    ]
+                },
+                {
+                    "type": "html.div",
+                    "properties": {"class": "span-full tablet--span-4-5 desktop--span-4-5"},
+                    "children": [
+                        {
+                            "type": "html.span",
+                            "children": "Col 2"
+                        }
+                    ]
+                },
+                {
+                    "type": "html.div",
+                    "properties": {"class": "span-full tablet--span-4-9 desktop--span-4-9"},
+                    "children": [
+                        {
+                            "type": "html.span",
+                            "children": "Col 3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 2 columns
+            "name": "2 columns",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 2 columns",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "children": [
+                {
+                    "type": "html.div",
+                    "properties": {"class": "span-full tablet--span-6-1 desktop--span-6-1"},
+                    "children": [
+                        {
+                            "type": "html.span",
+                            "children": "Col 1"
+                        }
+                    ]
+                },
+                {
+                    "type": "html.div",
+                    "properties": {"class": "span-full tablet--span-6-7 desktop--span-6-7"},
+                    "children": [
+                        {
+                            "type": "html.span",
+                            "children": "Col 2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 1 column
+            "name": "1 column",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 1 column",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-full desktop--span-full"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "Col 1"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid centered-3
+            "name": "centered-3",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid centered-3",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-centered-3 desktop--span-centered-3"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "Col 1"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid centered-4
+            "name": "centered-4",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid centered-4",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-centered-4 desktop--span-centered-4"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "Col 1"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid centered-6
+            "name": "centered-6",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid centered-6",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-centered-6 desktop--span-centered-6"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "Col 1"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid centered-8
+            "name": "centered-8",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid centered-8",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-centered-8 desktop--span-centered-8"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "Col 1"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid centered-9
+            "name": "centered-9",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid centered-9",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-centered-9 desktop--span-centered-9"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "Col 1"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid centered-10
+            "name": "centered-10",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid centered-10",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-centered-10 desktop--span-centered-10"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "Col 1"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 3-1
+            "name": "3-1",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 3-1",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-3-1 desktop--span-3-1"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "3-1"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 3-4
+            "name": "3-4",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 3-4",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-3-4 desktop--span-3-4"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "3-4"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 3-7
+            "name": "3-7",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 3-7",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-3-7 desktop--span-3-7"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "3-7"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 3-10
+            "name": "3-10",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 3-10",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-3-10 desktop--span-3-10"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "3-10"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 4-1
+            "name": "4-1",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 4-1",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-4-1 desktop--span-4-1"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "4-1"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 4-5
+            "name": "4-5",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 4-5",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-4-5 desktop--span-4-5"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "4-5"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 4-9
+            "name": "4-9",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 4-9",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-4-9 desktop--span-4-9"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "4-9"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 6-1
+            "name": "6-1",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 6-1",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-6-1 desktop--span-6-1"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "6-1"
+                }
+            ]
+        },
+        {//A-kit Isolation Grid 6-7
+            "name": "6-7",
+            "description": "Isolation Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Isolation Grid 6-7",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "span-full tablet--span-6-7 desktop--span-6-7"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "6-7"
+                }
+            ]
+        },
+        {//A-kit Floating Grid 1
+            "name": "1",
+            "description": "Floating Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Floating Grid 1",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "float-full tablet--float-1 desktop--float-1"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "float-1"
+                }
+            ]
+        },
+        {//A-kit Floating Grid 2
+            "name": "2",
+            "description": "Floating Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Floating Grid 2",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "float-full tablet--float-2 desktop--float-2"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "float-2"
+                }
+            ]
+        },
+        {//A-kit Floating Grid 3
+            "name": "3 (fourth)",
+            "description": "Floating Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Floating Grid 3",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "float-full tablet--float-3 desktop--float-3"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "float-3"
+                }
+            ]
+        },
+        {//A-kit Floating Grid 4
+            "name": "4 (third)",
+            "description": "Floating Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Floating Grid 4",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "float-full tablet--float-4 desktop--float-4"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "float-4"
+                }
+            ]
+        },
+        {//A-kit Floating Grid 6
+            "name": "6 (half)",
+            "description": "Floating Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Floating Grid 6",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "float-full tablet--float-6 desktop--float-6"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "float-6"
+                }
+            ]
+        },
+        {//A-kit Floating Grid 12
+            "name": "12 (full)",
+            "description": "Floating Grid layout.",
+            "type": "akit.empty",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Floating Grid 12",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "float-full tablet--float-12 desktop--float-12"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "children": "float-12"
+                }
+            ]
+        },
+        {//A-kit short quote
+            "name": "<q> sample",
+            "description": "Short quote sample.",
+            "type": "html.p",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit short quote",
+            "icon": "resources/imagesLarge/q.png",
+            "iconLarge": "resources/imagesLarge/q.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "children": [
+                {
+                    "type": "html.cite",
+                    "children": "Sean Stephenson"
+                },
+                " said ",
+                {
+                    "type": "html.q",
+                    "properties": { "cite": "http://seanstephenson.com/" },
+                    "children": "You'll always have an ego. The moment you forget that, it will start running the show"
+                },
+                " and I tend to agree."
+            ]
+        },
+        {//A-kit button .primary
+            "name": "primary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .primary",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button primary"},
+            "children": [
+                "primary"
+            ]
+        },
+        {//A-kit button .secondary
+            "name": "secondary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .secondary",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button secondary"},
+            "children": [
+                "secondary"
+            ]
+        },
+        {//A-kit button .success
+            "name": "success",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .success",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button success"},
+            "children": [
+                "success"
+            ]
+        },
+        {//A-kit button .warning
+            "name": "warning",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .warning",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button warning"},
+            "children": [
+                "warning"
+            ]
+        },
+        {//A-kit button .danger
+            "name": "danger",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .danger",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button danger"},
+            "children": [
+                "danger"
+            ]
+        },
+        {//A-kit button .gray
+            "name": "gray",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .gray",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button gray"},
+            "children": [
+                "gray"
+            ]
+        },
+        {//A-kit button .cancel
+            "name": "cancel",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .cancel",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button cancel"},
+            "children": [
+                "cancel"
+            ]
+        },
+        {//A-kit button .transparent
+            "name": "transparent",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .transparent",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button transparent"},
+            "children": [
+                "transparent"
+            ]
+        },
+        {//A-kit button .primary .small
+            "name": "primary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .primary .small",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button primary small"},
+            "children": [
+                "primary"
+            ]
+        },
+        {//A-kit button .secondary .small
+            "name": "secondary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .secondary .small",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button secondary small"},
+            "children": [
+                "secondary"
+            ]
+        },
+        {//A-kit button .success .small
+            "name": "success",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .success .small",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button success small"},
+            "children": [
+                "success"
+            ]
+        },
+        {//A-kit button .warning .small
+            "name": "warning",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .warning .small",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button warning small"},
+            "children": [
+                "warning"
+            ]
+        },
+        {//A-kit button .danger .small
+            "name": "danger",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .danger .small",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button danger small"},
+            "children": [
+                "danger"
+            ]
+        },
+        {//A-kit button .gray .small
+            "name": "gray",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .gray .small",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button gray small"},
+            "children": [
+                "gray"
+            ]
+        },
+        {//A-kit button .cancel .small
+            "name": "cancel",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .cancel .small",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button cancel small"},
+            "children": [
+                "cancel"
+            ]
+        },
+        {//A-kit button .transparent .small
+            "name": "transparent",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .transparent .small",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button transparent small"},
+            "children": [
+                "transparent"
+            ]
+        },
+        {//A-kit button .primary .big
+            "name": "primary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .primary .big",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button primary big"},
+            "children": [
+                "primary"
+            ]
+        },
+        {//A-kit button .secondary .big
+            "name": "secondary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .secondary .big",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button secondary big"},
+            "children": [
+                "secondary"
+            ]
+        },
+        {//A-kit button .success .big
+            "name": "success",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .success .big",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button success big"},
+            "children": [
+                "success"
+            ]
+        },
+        {//A-kit button .warning .big
+            "name": "warning",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .warning .big",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button warning big"},
+            "children": [
+                "warning"
+            ]
+        },
+        {//A-kit button .danger .big
+            "name": "danger",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .danger .big",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button danger big"},
+            "children": [
+                "danger"
+            ]
+        },
+        {//A-kit button .gray .big
+            "name": "gray",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .gray .big",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button gray big"},
+            "children": [
+                "gray"
+            ]
+        },
+        {//A-kit button .cancel .big
+            "name": "cancel",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .cancel .big",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button cancel big"},
+            "children": [
+                "cancel"
+            ]
+        },
+        {//A-kit button .transparent .big
+            "name": "transparent",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .transparent .big",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button transparent big"},
+            "children": [
+                "transparent"
+            ]
+        },
+        {//A-kit button .primary .full
+            "name": "primary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .primary .full",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button primary full"},
+            "children": [
+                "primary"
+            ]
+        },
+        {//A-kit button .secondary .full
+            "name": "secondary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .secondary .full",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button secondary full"},
+            "children": [
+                "secondary"
+            ]
+        },
+        {//A-kit button .success .full
+            "name": "success",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .success .full",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button success full"},
+            "children": [
+                "success"
+            ]
+        },
+        {//A-kit button .warning .full
+            "name": "warning",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .warning .full",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button warning full"},
+            "children": [
+                "warning"
+            ]
+        },
+        {//A-kit button .danger .full
+            "name": "danger",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .danger .full",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button danger full"},
+            "children": [
+                "danger"
+            ]
+        },
+        {//A-kit button .gray .full
+            "name": "gray",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .gray .full",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button gray full"},
+            "children": [
+                "gray"
+            ]
+        },
+        {//A-kit button .cancel .full
+            "name": "cancel",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .cancel .full",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button cancel full"},
+            "children": [
+                "cancel"
+            ]
+        },
+        {//A-kit button .transparent .full
+            "name": "transparent",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .transparent .full",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button transparent full"},
+            "children": [
+                "transparent"
+            ]
+        },
+        {//A-kit button .primary .disabled
+            "name": "primary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .primary .disabled",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button primary disabled"},
+            "children": [
+                "primary"
+            ]
+        },
+        {//A-kit button .secondary .disabled
+            "name": "secondary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .secondary .disabled",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button secondary disabled"},
+            "children": [
+                "secondary"
+            ]
+        },
+        {//A-kit button .success .disabled
+            "name": "success",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .success .disabled",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button success disabled"},
+            "children": [
+                "success"
+            ]
+        },
+        {//A-kit button .warning .disabled
+            "name": "warning",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .warning .disabled",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button warning disabled"},
+            "children": [
+                "warning"
+            ]
+        },
+        {//A-kit button .danger .disabled
+            "name": "danger",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .danger .disabled",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button danger disabled"},
+            "children": [
+                "danger"
+            ]
+        },
+        {//A-kit button .gray .disabled
+            "name": "gray",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .gray .disabled",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button gray disabled"},
+            "children": [
+                "gray"
+            ]
+        },
+        {//A-kit button .cancel .disabled
+            "name": "cancel",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .cancel .disabled",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button cancel disabled"},
+            "children": [
+                "cancel"
+            ]
+        },
+        {//A-kit button .transparent .disabled
+            "name": "transparent",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .transparent .disabled",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button transparent disabled"},
+            "children": [
+                "transparent"
+            ]
+        },
+        {//A-kit Standaard tekstveld
+            "name": "Standaard tekstveld",
+            "description": "Tekstveld.",
+            "type": "html.div",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Standaard tekstveld",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "children": [
+                {
+                    "type": "html.label",
+                    "properties": { "class": "label" },
+                    "children": "Standaard tekstveld"
+                },
+                {
+                    "type": "html.input",
+                    "properties": { "type": "text", "class": "field" }
+                }
+            ]
+        },
+        {//A-kit Standaard tekstveld
+            "name": "Verplicht tekstveld",
+            "description": "Tekstveld.",
+            "type": "html.div",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Standaard tekstveld verplicht",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "children": [
+                {
+                    "type": "html.label",
+                    "properties": { "class": "label required" },
+                    "children": "Verplicht tekstveld"
+                },
+                {
+                    "type": "html.input",
+                    "properties": { "type": "text", "class": "field", "placeholder": "met een placeholder" }
+                }
+            ]
+        },
+        {//A-kit Standaard tekstveld
+            "name": "Wachtwoordveld",
+            "description": "Wachtwoordveld.",
+            "type": "html.div",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Wachtwoord",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "children": [
+                {
+                    "type": "html.label",
+                    "properties": { "class": "label required" },
+                    "children": "Je wachtwoord"
+                },
+                {
+                    "type": "html.input",
+                    "properties": { "type": "password", "class": "field", "placeholder": "met een placeholder" }
+                }
+            ]
+        },
+        {//A-kit Standaard tekstveld
+            "name": "Fieldset met radio buttons",
+            "description": "Fieldset met radio buttons.",
+            "type": "html.fieldset",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Fieldset met radio buttons",
+            "icon": "resources/imagesLarge/empty.png",
+            "iconLarge": "resources/imagesLarge/empty.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "children": [
+                {
+                    "type": "html.legend",
+                    "children": "Fieldset"
+                },
+                {
+                    "type": "html.div",
+                    "children": [
+                        {
+                            "type": "html.input",
+                            "properties": { "type": "radio", "class": "field", "value": "value" }
+                        },
+                        {
+                            "type": "html.label",
+                            "children": "Radio button"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

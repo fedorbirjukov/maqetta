@@ -1,0 +1,24 @@
+//
+// Components
+// ---
+// Badge
+//
+
+.badge {
+    font-size: .75rem;
+    min-width: $sizer / 2;
+    min-height: $sizer / 2;
+    background: $warning;
+    display: inline-block;
+    font-family: $alpha-font-family;
+    font-weight: $bold;
+    line-height: 1.33rem;
+    padding: 0;
+    text-align: center;
+    z-index: 10;
+    color: $white;
+
+    &:hover {
+        background: shade($warning, 20%);
+    }
+}

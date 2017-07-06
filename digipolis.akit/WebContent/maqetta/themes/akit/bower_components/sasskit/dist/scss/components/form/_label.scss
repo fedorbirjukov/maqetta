@@ -1,0 +1,31 @@
+//
+// Form components
+// ---
+// Label
+//
+
+.label {
+    @include text-dimensions(0);
+    @include respond-to("desktop") {
+        + .field {
+            margin-left: .85em;
+        }
+    }
+
+    display: inline-block;
+    margin: $sizer / 3 * 2 0 $sizer / 3;
+
+    &[for] {
+        // Each label that has a "for" attribute should display the cursor as a pointer
+        cursor: pointer;
+    }
+
+    &.required {
+        &::after {
+            @include rem-dimensions("padding-left", 3px);
+
+            content: "*";
+            color: $zeta-ui-color;
+        }
+    }
+}

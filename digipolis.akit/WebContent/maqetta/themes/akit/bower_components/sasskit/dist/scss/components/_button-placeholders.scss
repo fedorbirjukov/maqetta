@@ -1,0 +1,307 @@
+//
+// Components
+// ---
+// Button placeholders
+//
+
+@mixin button-color($color: $alpha-ui-color) {
+    background: $color;
+
+    &:hover,
+    &:focus,
+    &.active {
+        background: palette($color, "dark");
+    }
+}
+
+%button {
+    @include text-dimensions(0, 1, 0, 0, .771, .771);
+    @include fade-in(background, .25);
+    @include button-color;
+    @include appearance(none);
+
+    border: $radius;
+    color: $white;
+    display: block;
+
+    font-weight: $bold;
+
+    min-height: $sizer * 2;
+    width: 100%;
+
+    margin-bottom: $sizer / 2;
+    margin-top: 0;
+
+    outline: none;
+    overflow: hidden;
+
+    padding-left: $sizer;
+    padding-right: $sizer;
+    font-family: $alpha-font-family;
+    position: relative;
+
+    text-align: center;
+    text-decoration: none;
+
+    vertical-align: middle;
+
+    &:visited {
+        color: $white;
+    }
+
+    &:hover,
+    &:focus {
+        color: $white;
+        cursor: pointer;
+        box-shadow: inset 0 2px 0 rgba(0, 0, 0, .1);
+        text-decoration: none;
+    }
+
+    //
+    // Colors
+    // ---
+
+    &.secondary {
+        @include button-color($beta-ui-color);
+
+        .animation-wrap {
+            background: shade($beta-ui-color, 20%);
+        }
+    }
+
+    &.success {
+        @include button-color($success);
+
+        .animation-wrap {
+            background: shade($success, 20%);
+        }
+    }
+
+    &.warning {
+        @include button-color($warning);
+
+        .animation-wrap {
+            background: shade($warning, 20%);
+        }
+    }
+
+    &.danger {
+        @include button-color($danger);
+
+        .animation-wrap {
+            background: shade($danger, 20%);
+        }
+    }
+
+    &.gray {
+        @include button-color($gray);
+
+        &:visited {
+            color: darken($grey, 50);
+        }
+
+        .animation-wrap {
+            background: shade($gray, 20%);
+        }
+    }
+
+    //
+    // States
+    // ---
+
+    &.disabled,
+    &:disabled {
+        background-color: $gray;
+        border: $radius;
+        cursor: default;
+        color: #B8D1E0;
+
+        &:hover,
+        &:focus {
+            background-color: $gray;
+            box-shadow: none;
+            border: $radius;
+        }
+
+        .animation-wrap {
+            background-color: $gray;
+        }
+    }
+
+    &.active {
+
+        .fa {
+            &:first-child {
+                @include transform(translateY(-100%));
+            }
+
+            &:nth-child(2) {
+                @include transform(translateY(0));
+            }
+        }
+    }
+
+    &.has-icon {
+        @extend %has-icon;
+
+        &.highlight-icon {
+            padding-left: $sizer * 8 / 3;
+
+            .fa {
+                background: rgba($black, .2);
+            }
+
+            &.small {
+                padding-left: $sizer * 5 / 3;
+            }
+
+            &.big {
+                padding-left: $sizer * 4;
+            }
+        }
+    }
+
+    //
+    // Sizes
+    // ---
+
+    &.small {
+        @include text-dimensions(-1, 1, 0, 1.5, .025, .025);
+        min-height: $sizer;
+
+        &.has-icon {
+            padding-left: $sizer * 1.3;
+
+            .fa,
+            [class^="icon-"],
+            [class*=" icon-"] {
+                font-size: 1rem;
+                line-height: $sizer * 1.05;
+                width: $sizer * 1.3;
+            }
+        }
+    }
+
+    &.big {
+        @include text-dimensions(2, 1, 0, 1.5, 1.15, 1.15);
+
+        &.has-icon {
+            padding-left: $sizer * 2.5;
+
+            .fa,
+            [class^="icon-"],
+            [class*=" icon-"] {
+                font-size: $sizer;
+                line-height: $sizer * 2.5;
+                width: $sizer * 2.5;
+            }
+        }
+    }
+
+    &.full {
+        display: block;
+        width: 100%
+    }
+
+    //
+    // Positioning
+    // ---
+
+    &.center {
+        display: block;
+        margin: $sizer auto;
+    }
+
+    .fa {
+        @include transition(all 250ms ease-in-out);
+        margin: 0;
+        font-size: $sizer * .9;
+
+        line-height: $sizer * 2;
+
+        height: auto;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        text-align: center;
+        width: $sizer * 2;
+
+        &:first-child {
+            @include transform(translateY(0));
+        }
+
+        &:nth-child(2) {
+            @include transform(translateY(100%));
+        }
+    }
+
+    //
+    // Animation
+    // ---
+
+    .animation-wrap {
+        background: shade($alpha-ui-color, 20%);
+        width: $sizer * 2;
+        height: $sizer * 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        .fa {
+            @include transition-property(all);
+            @include transition-duration(.2s);
+            @include transition-timing-function(ease-out);
+            @include transform-origin(center center);
+
+            width: rem(17px);
+            height: rem(17px);
+            line-height: 1em;
+            position: absolute;
+            top: rem(15px);
+            left: rem(15px);
+
+            &:before {
+                width: rem(17px);
+                height: rem(17px);
+                display: block;
+                position: absolute;
+                top: rem(-1px);
+                left: 0;
+            }
+        }
+    }
+
+    &:not(.no-hover-animation):hover,
+    &:not(.no-hover-animation):focus {
+        .animation-wrap .fa {
+            @include transform(rotate(180deg));
+        }
+    }
+
+    @include respond-to("tablet") {
+        display: inline-block;
+        margin-right: $sizer / 2;
+        width: auto;
+    }
+}
+
+%social-button {
+    width: $sizer * 2;
+    padding: 0;
+    line-height: $sizer * 2;
+
+    &:after {
+        color: $white;
+        display: inline-block;
+        font: normal normal normal $sizer FontAwesome;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+%has-icon {
+    padding-left: $sizer * 2;
+}

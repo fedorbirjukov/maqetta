@@ -1,0 +1,387 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                             <span class="fa fa-hand-o-down" style="color: #E04E39"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Knoppen</h1>
+                            <p class="lead">Richtlijnen en beschikbare css-klassen</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+
+            </div> <!-- main-intro-header .inner -->
+
+        </div> <!-- .main-intro -->
+    </header>
+
+    <section class="main-section">
+        <div class="inner">
+            <div class="section-intro">
+                <p class="lead">Knoppen worden gebruikt om de gebruiker duidelijk te maken dat een er actie verwacht wordt. Er zijn verschillende types en groottes beschikbaar, met of zonder icoon alsook enkele standaard knoppen voor acties die regelmatig voorkomen.</p>
+                <p>De voornaamste richtlijnen voor knoppen zijn: géén afgeronde hoeken, minimaal 48px hoog (24px voor een kleine knop) en een uniforme kleur uit het beschikbare basis palet (of extra palet voor moedermerken en descriptors).</p>
+            </div> <!-- .Section-intro -->
+        </div>  <!-- .inner -->
+    </section>  <!-- .main-section -->
+
+    <section class="main-section" id="buttons">
+        <div class="inner">
+            <div class="component">
+                <h6 class="section-label lined">Standaard knoppen</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Start met een <code>&lt;button&gt;</code> of <code>&lt;a&gt;</code> tag en voeg de gewenste css-classes toe in functie van kleur, grootte en een eventueel icoon en/of text-toggle.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <button class="button">Knop titel</button>
+
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;button&gt; <i>Knop titel</i> &lt;/button&gt;<br/>
+        &lt;a class="button"&gt; <i>Knop titel</i> &lt;/a&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Gekleurde knoppen</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Er zijn verschillende classes beschikbaar om een knop van kleur te voorzien.</p>
+                    <p><span class="fa fa-warning inline-icon"></span> Een aantal van deze kleuren passen binnen een specifieke kleurcontext en dienen dus als zodanig toegepast te worden; zo kan een groene knop bijvoorbeeld niet gebruikt worden voor een actie met mogelijk data-verlies.</p>
+                    <p><span class="fa fa-warning inline-icon"></span> De secundaire kleur rood <code>.button secondary</code> mag gebruikt worden voor belangrijke acties of om contrast toe te voegen, maar niet als vervanging voor <code>.button-danger</code> voor bijv. delete-acties.</p>
+                    <p><span style="color: #4AA32C;" class="fa fa-exclamation-circle inline-icon"></span> Groene knoppen worden vaak gebruikt voor <b>persoonlijke</b> gegevens, bijv. opgeslagen zoekopdrachten, profielinformatie, voorkeuren, ed.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <button class="button primary">Primary</button>
+                    <button class="button secondary">Secondary</button>
+                    <button class="button success">Succes</button>
+                    <button class="button warning">Warning</button>
+                    <button class="button danger">Danger</button>
+                    <button class="button gray">Gray</button>
+                    <button class="button cancel">Cancel</button>
+                    <button class="button transparent">Transparent</button>
+
+                    <div class="code-block">
+                        <code>
+                            <pre>.button primary &#9; - &#9; primaire brand kleur blauw<br>.button secondary &#9; - &#9; secondaraire brand kleur rood<br>.button success &#9; &#9; - &#9; groen succes<br>.button warning &#9; - &#9; oranje warning<br>.button danger &#9; &#9; - &#9; rood danger<br>.button gray &#9; &#9; - &#9; grijs<br>.button clear &#9; &#9; - &#9; geen achtergrond<br/>.button transparent &#9; &#9; - &#9;ook geen achtergrond</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Knop groottes</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Er zijn 3 knop groottes beschikbaar: de standaard knop-grootte, een kleinere versie indien er minder plaats voorhanden is en een grote knop voor zeer specifieke locaties, bv. pagina introducties ed. Je kan de knop-grootte aanpassen door de <code>.small</code> of <code>.big</code> class aan je knop-element toe te voegen.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <button class="button danger small">Danger small</button>
+                    <button class="button warning small has-icon"><span class="fa fa-exclamation-triangle"></span>Warning big</button>
+
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;button class="button danger <b>small</b>"&gt;Danger small&lt;/button&gt;<br /><br />
+    &lt;button class="button warning <b>small</b> has-icon"&gt;<br />
+    &nbsp; &lt;span class="fa fa-exclamation-triangle"&gt;&lt;/span&gt;Warning big<br />
+    &lt;/button&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+
+                    <button class="button danger">Danger normal</button>
+                    <button class="button warning has-icon"><span class="fa fa-exclamation-triangle"></span>Warning normal</button>
+
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;button class="button danger"&gt;Danger normal&lt;/button&gt;<br /><br />
+    &lt;button class="button warning <b>has-icon</b>"&gt;<br />
+    &nbsp;&lt;span class="fa fa-exclamation-triangle"&gt;&lt;/span&gt;Warning normal<br>&lt;/button&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+
+                    <button class="button danger big">Danger big</button>
+                    <button class="button warning big has-icon"><span class="fa fa-exclamation-triangle"></span>Warning big</button>
+
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;button class="button danger <b>big</b>"&gt;Danger big&lt;/button&gt;<br /><br />
+    &lt;button class="button warning <b>big</b> has-icon"&gt;<br />
+    &nbsp;&lt;span class="fa fa-exclamation-triangle"&gt;&lt;/span&gt;Warning big<br />
+    &lt;/button&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Block-vullende knoppen</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Knoppen met de <code>.full</code> class vullen de beschikbare ruimte van hun <em>parent</em> element op.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <p><button class="button full">Lange knop</button></p>
+                    <p><button class="button full success has-icon"><span class="fa fa-clock-o"></span>Voeg toe aan kalender</button></p>
+
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;button class="button <b>full</b>"&gt;Lange knop&lt;/button&gt;<br><br>&lt;button class="button <b>full</b> success has-icon"&gt;<br />
+    &nbsp;&lt;span class="fa fa-clock-o"&gt;&lt;/span&gt;Voeg toe aan kalender<br>&lt;/button&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Inactieve knoppen</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Knoppen kunnen inactief worden gemaakt door de class <code>.disabled</code> toe te voegen.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <a href="#0" class="button danger small disabled">Small disabled</a>
+                    <button class="button success small has-icon disabled"><span class="fa fa-calendar"></span>Voeg toe aan kalender</button>
+                    <button class="button warning has-icon disabled"><span class="fa fa-exclamation-triangle"></span>Warning small</button>
+                    <a href="#0" class="button primary has-icon disabled"><span class="fa fa-heart"></span>Aan favorieten toevoegen</a>
+
+                    <div class="code-block">
+                        <code>
+                            <pre>&lt;button class="button danger <b>disabled</b>"&gt;Small disabled&lt;/button&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Knoppen met iconen</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Je kan iconen uit de <a href="#icons" class="js-scroll" data-target="#icons">antwerpen.be iconen-set</a> toevoegen door de classe <code>.has-icon</code> aan je button-tag toe te voegen en een <code>&lt;span&gt;</code> element met de correcte iconen-class toe te voegen.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <button class="button success has-icon"><span class="fa fa-calendar"></span>Voeg toe aan kalender</button>
+                    <button class="button danger has-icon"><span class="fa fa-close"></span>Verwijder account</button>
+                    <button class="button primary has-icon"><span class="fa fa-comment-o"></span>Meldingen</button>
+
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;button class="button success <b>has-icon</b>"&gt;<br />
+    &nbsp;&lt;span class="fa fa-<i>icon name</i>"&gt;&lt;/span&gt;Voeg toe aan kalender<br />
+    &lt;/button&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Toggle knoppen</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Het is ook mogelijk om een knop uit te breiden met 2 iconen en deze iconen te 'togglen' bij een klik door de gebruiker.</p>
+                    <p><span class="fa fa-warning inline-icon"></span> Uiteraard is dit enkel van toepassing voor knoppen die zichtbaar blijven na de klik - deze mogen dus niet gebruikt worden als een nieuwe pagina of view wordt ingeladen.</p>
+                    <p>Zodra een element met een correcte knop-klasse, 2 <code>.fa</code> elementen bevat, wordt bij een klik de klasse <code>.active</code> getoggled; deze animeert de twee iconen.</p>
+                    <p>Om de kleur en/of de tekst te veranderen, moeten respectievelijk de data-attributen <code>data-color</code> en <code>data-text</code> gezet worden.</p>
+
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+
+                    <P><a href="#0" class="button success icon" data-color="#CF0039">
+                        <span class="fa fa-check"></span>
+                        <span class="fa fa-times"></span>
+                    </a></p>
+
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;a href="#0" class="button success icon" <b>data-color="#CF0039"&gt;</b><br />
+    &nbsp;&lt;span class="fa fa-check"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;span class="fa fa-times"&gt;&lt;/span&gt;<br />
+    &lt;/a&gt;</pre>
+                        </code>
+                    </div>  <!-- .code-block -->
+
+                    <p><a href="#0" class="button success has-icon" data-color="#CF0039" data-text="Verwijder">
+                        <span class="fa fa-plus"></span>
+                        <span class="fa fa-minus"></span>
+                        <span class="button-text">Voeg toe</span>
+                    </a>
+                    </p>
+
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;a href="#0" class="button success has-icon" <b>data-color="#CF0039" data-text="Verwijder"&gt;</b><br />
+    &nbsp;&lt;span class="fa fa-plus"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;span class="fa fa-minus"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;span class="button-text"&gt;Voeg toe&lt;/span&gt;<br />
+    &lt;/a&gt;</pre>
+                        </code>
+                    </div>  <!-- .code-block -->
+
+
+                </div>  <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Icoon knoppen</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Soms moet een knop enkel een icoon bevatten (bijv. een sluit-knop). Deze knoppen worden opgebouwd conform de bovenstaande vereisten, maar krijgen een extra klasse <code>.icon</code> mee om afmetingen ed. te overschrijven.</p>
+                    <p>Ook deze knoppen kunnen een klasse <code>.small</code> meekrijgen om de afmetingen te verkleinen tot 36px.</p>
+                </div>  <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <button class="button icon">
+                        <span class="fa fa-bars"></span>
+                        <span class="fa fa-times"></span>
+                    </button>
+                    <button class="button secondary icon"><span class="fa fa-anchor"></span></button>
+                    <button class="button warning small icon"><span class="fa fa-times"></span></button>
+                    <button class="button success small icon" data-color="#CF0039">
+                        <span class="fa fa-battery-full"></span>
+                        <span class="fa fa-battery-empty"></span>
+                    </button>
+                     <div class="code-block">
+                        <code>
+    <pre>
+    &lt;button class="button icon"&gt;<br />
+    &nbsp;&lt;span class="fa fa-bars"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;span class="fa fa-times"&gt;&lt;/span&gt;<br />
+    &lt;/button&gt;<br /><br />
+    &lt;button class="button secondary icon"&gt;<br />
+    &nbsp;&lt;span class="fa fa-anchor"&gt;&lt;/span&gt;<br />
+    &lt;/button&gt;<br /><br />
+    &lt;button class="button warning small icon"&gt;<br />
+    &nbsp;&lt;span class="fa fa-times"&gt;&lt;/span&gt;<br />
+    &lt;/button&gt;<br /><br />
+    &lt;button class="button success small icon" data-color="#CF0039"&gt;<br />
+    &nbsp;&lt;span class="fa fa-battery-full"&gt;&lt;/span&gt;<br />
+    &nbsp;&lt;span class="fa fa-battery-empty"&gt;&lt;/span&gt;<br />
+    &lt;/button&gt;<br />
+    </pre>
+                        </code>
+                    </div>  <!-- .code-block -->
+                </div>  <!-- .code -->
+
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Social media knoppen</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Om door te linken naar externe social media sites, zijn volgende knoppen beschikbaar.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <button class="button facebook"></button>
+                    <button class="button twitter"></button>
+                    <button class="button linkedin"></button>
+                    <button class="button instagram"></button>
+                    <button class="button permalink"></button>
+                    <button class="button email"></button>
+                    <button class="button google"></button>
+                    <button class="button reddit"></button>
+                    <button class="button pinterest"></button>
+                    <button class="button stumbleupon"></button>
+                    <button class="button digg"></button>
+                    <button class="button yammer icon-yammer"></button>
+
+                    <div class="code-block">
+                        <code>
+                            <pre>&lt;button class="button <b>facebook</b>"&gt;&lt;/button&gt;</pre>
+                            <pre>&lt;button class="button <b>twitter</b>"&gt;&lt;/button&gt;</pre>
+                            <pre>&lt;button class="button <b>linkedin</b>"&gt;&lt;/button&gt;</pre>
+                            <pre>&lt;button class="button <b>permalink</b>"&gt;&lt;/button&gt;</pre>
+                            <pre>&lt;button class="button <b>email</b>"&gt;&lt;/button&gt;</pre>
+                            <pre>&lt;button class="button <b>google</b>"&gt;&lt;/button&gt;</pre>
+                            <pre>&lt;button class="button <b>reddit</b>"&gt;&lt;/button&gt;</pre>
+                            <pre>&lt;button class="button <b>pinterest</b>"&gt;&lt;/button&gt;</pre>
+                            <pre>&lt;button class="button <b>stumbleupon</b>"&gt;&lt;/button&gt;</pre>
+                            <pre>&lt;button class="button <b>digg</b>"&gt;&lt;/button&gt;</pre>
+                            <pre>&lt;button class="button <b>yammer icon-yammer</b>"&gt;&lt;/button&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Meer laden</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Op plaatsen waar er bijkomende content kan worden ingeladen (<em>lazy load</em>), dient deze 'meer laden'-knop te worden gebruikt. Vormgeving én copy dienen steeds op deze manier te worden toegepast.</p>
+                    <p><span class="fa fa-warning inline-icon"></span> Er moet steeds 96px marge voorzien worden boven én onder de 'meer laden' knop en minstens 60px op mobiele toestellen.</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <button class="button-load"><span class="animation-wrap"><span class="fa fa-plus"></span></span>Meer laden</button>
+                    <div class="code-block">
+                        <code>
+                            <pre>&lt;button class="button-load"&gt;<br>&#9;&lt;span class="animation-wrap"&gt;&lt;/span&gt;&#9;&lt;span class="fa fa-plus"&gt;&lt;/span&gt;<br>&lt;/button&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Navigatie knoppen</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Specifieke knoppen die kunnen gebruikt worden voor navigatie: next en previous. Als deze naast elkaar worden geplaatst met <code>.button-pref</code> als eerste, vallen de knoppen bovendien samen in één blok (met scheidingslijn).</p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+
+                    <p>Standaard komend de knoppen los van elkaar te staan:</p>
+                    <button class="button-next">Volgende<span class="fa fa-arrow-right"></span></button>
+                    <button class="button-prev"><span class="fa fa-arrow-left"></span>Vorige</button>
+
+                    <p>Maar door <code>.button-prev</code> als eerste, naast <code>.button-next</code> te plaatsen, vallen beide knoppen samen in één navigatieblok.</p>
+                    <button class="button-prev"><span class="fa fa-arrow-left"></span>Vorige</button>
+                    <button class="button-next">Volgende<span class="fa fa-arrow-right"></span></button>
+
+                    <div class="code-block">
+                        <code>
+    <pre>&lt;button class="<b>button-prev</b>"&gt;<br />
+    &nbsp;&lt;span class="fa fa-arrow-left"&gt;&lt;/span&gt; Vorige<br />
+    &lt;/button&gt;<br /><br />
+    &lt;button class="<b>button-next</b>"&gt;<br />
+    &nbsp;Volgende &lt;span class="fa fa-arrow-right"&gt;&lt;/span&gt;<br />
+    &lt;/button&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Log in met je A-profiel</h6>
+
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Deze knop kan worden gebruikt op alle sites waar een koppeling met het A-profiel bestaat. Vormgeving <b>én</b> copy dienen wel steeds op deze manier te worden toegepast.</p>
+                    <p>Deze knop maakt deel uit van de A-kit vormgeving, maar kan ook afzonderlijk worden ingebouwd met behulp van volgende download: <a href="/packages/a-knop.zip">Download de A-profiel knop kit.<small>(.zip)</small></a></p>
+                </div> <!-- .context -->
+
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <button class="button a-profile">Login met je A-profiel</button>
+
+                    <div class="code-block">
+                        <code>
+                            <pre>&lt;button class="button <b>a-profile</b>"&gt;Login met je A-profiel&lt;/button&gt;</pre>
+                        </code>
+                    </div> <!-- .code-block -->
+                </div> <!-- .code -->
+            </div>  <!-- .component -->
+        </div> <!-- .inner -->
+    </section> <!-- #buttons -->
+
+    <div class="page-nav">
+        <a href="colors" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Kleurgebruik
+        </a>
+
+        <a href="icons" class="button-next">
+            Iconen<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+
+<% include footer %>

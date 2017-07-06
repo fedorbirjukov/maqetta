@@ -1,0 +1,65 @@
+//
+// Components
+// ---
+// Box
+//
+
+%box {
+    @include respond-to("tablet") {
+        margin: 0 auto $sizer;
+    }
+
+    @include clearfix();
+    background: $beta-background;
+    margin: 0 0 $sizer;
+    padding: $sizer;
+
+    &.no-padding {
+        padding: 0;
+    }
+
+    &.no-margin {
+        margin: 0;
+    }
+
+    &.no-border {
+        border-bottom: 0;
+    }
+}
+
+%box-full {
+    @extend %box;
+    @include respond-to("tablet") {
+        margin: 0 auto $sizer;
+    }
+
+    padding: $sizer;
+    margin: 0 -$sizer $sizer;
+}
+
+%box-transparent {
+    @extend %box-full;
+    background: none;
+    border-bottom: 0;
+}
+
+%box-blue {
+    @extend %box;
+    background: $blue;
+}
+
+.box {
+    @extend %box;
+}
+
+.box-full {
+    @extend %box-full;
+}
+
+.box-transparent {
+    @extend %box-transparent;
+}
+
+.box-blue {
+    @extend %box-blue;
+}

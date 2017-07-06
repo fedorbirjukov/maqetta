@@ -1,0 +1,85 @@
+//
+// Components
+// ---
+// Notices and warnings
+//
+
+$tint-pt: 0%;
+
+%box-highlight {
+    @include clearfix();
+    background: $beta-background;
+    border: $line-th solid $line;
+    color: $alpha-font-color;
+    margin: 1em auto;
+    padding: $sizer;
+    position: relative;
+
+    .button, [class^="button-"], [class*="button-"] {
+        float: right;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    p {
+        @include text-dimensions(0, 1);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+    }
+}
+
+.box-highlight {
+    @extend %box-highlight;
+}
+
+.box-highlight-primary, .box-highlight-info {
+    @extend %box-highlight;
+    background: tint($alpha-ui-color, 90%);
+    border-color: tint($alpha-ui-color, $tint-pt);
+
+    > .fa {
+        color: tint($alpha-ui-color, $tint-pt);
+    }
+}
+
+.box-highlight-success {
+    @extend %box-highlight;
+    background: tint($success, 90%);
+    border-color: tint($success, $tint-pt);
+
+    > .fa {
+        color: tint($success, $tint-pt);
+    }
+}
+
+.box-highlight-warning {
+    @extend %box-highlight;
+    background: tint($warning, 90%);
+    border-color: tint($warning, $tint-pt);
+
+    > .fa {
+        color: tint($warning, $tint-pt);
+    }
+}
+
+.box-highlight-danger, .box-highlight-error {
+    @extend %box-highlight;
+    background: tint($danger, 90%);
+    border-color: tint($danger, $tint-pt);
+
+    > .fa {
+        color: tint($danger, $tint-pt);
+    }
+}
+
+.box-highlight-disabled {
+    @extend %box-highlight;
+    background: tint($disabled, 90%);
+    border-color: tint($disabled, $tint-pt);
+
+    > .fa {
+        color: tint($disabled, $tint-pt);
+    }
+}

@@ -1,0 +1,286 @@
+<% include header %>
+
+    <header>
+        <div class="main-intro light">
+            <div class="main-intro-header">
+                <div class="main-intro-wrapper">
+                    <div class="inner">
+                        <div class="styleguide-icon span-full tablet--span-2-1">
+                            <span class="fa fa-table" style="color: #007B5F"></span>
+                        </div>  <!-- .styleguide-icon -->
+                        <div class="styleguide-title span-full tablet--span-10-3">
+                            <h1>Tabellen</h1>
+                            <p class="lead">Beschikbare opmaak voor tabellen</p>
+                        </div>
+                    </div>  <!-- .inner -->
+                </div>  <!-- .main-intro-wrapper -->
+            </div> <!-- main-intro-header .inner -->
+        </div> <!-- .main-intro -->
+    </header>
+    
+    <section class="main-section">
+        <div class="inner">
+            <p></p>
+        </div> <!-- .inner -->
+    </section>  <!-- .main-section -->
+    
+    <section class="main-section" id="tables">
+        <div class="inner">
+            <div class="component">
+                <h6 class="section-label lined">Standaard tabellen</h6>
+    
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Standaard tabellen (zonder specifieke css-klassen) worden als volgt weergegeven.</p>
+                    <p>Tabellen die op een gekleurde achtergrond worden weergegeven, moeten de klasse <code>.boxed</code> meekrijgen om ze van de achtergrond te onderscheiden.</p>
+                </div> <!-- .context -->
+    
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="block span-full tablet--span-half-1 desktop--span-half-1" style="margin-top: 1em;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Heading 1</th>
+                                    <th>Heading 2</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> <!-- .block -->
+    
+                    <div class="block span-full tablet--span-half-2 desktop--span-half-2">
+                        <div class="bg-standard" style="padding: 1em;">
+                            <table class="boxed">
+                                <thead>
+                                    <tr>
+                                        <th>Heading 1</th>
+                                        <th>Heading 2</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Data 1</td>
+                                        <td>Data 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data 1</td>
+                                        <td>Data 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data 1</td>
+                                        <td>Data 2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> <!-- .bg-standard -->
+    
+                        <div class="code-block">
+                            <code>
+                                <pre>&lt;table class="boxed"&gt;...&lt;/table&gt;</pre>
+                            </code>
+                        </div> <!-- .code-block -->
+                    </div> <!-- .block -->
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Gestylede tabellen</h6>
+    
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Tabllen kunnen extra styling krijgen ifv contrast of ifv hun specifieke content:</p>
+    
+                    <ul>
+                        <li><code>.contrast</code></li>
+                        <li><code>.contrast .secondary</code></li>
+                    </ul>
+                </div> <!-- .context -->
+    
+                <div class="code thirds span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="span-full tablet--span-4-1 desktop--span-4-1" style="margin-top: 1em;">
+                        <table class="contrast">
+                            <thead>
+                                <tr>
+                                    <th>Heading 1</th>
+                                    <th>Heading 2</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+    
+                        <div class="code-block">
+                            <code>
+                                <pre>&lt;table class="contrast"&gt;...&lt;/table&gt;</pre>
+                            </code>
+                        </div> <!-- .code-block -->
+                    </div> <!-- .block -->
+    
+                    <div class="span-full tablet--span-4-5 desktop--span-4-5" style="margin-top: 1em;">
+                        <table class="contrast secondary">
+                            <thead>
+                                <tr>
+                                    <th>Heading 1</th>
+                                    <th>Heading 2</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Data 1</td>
+                                    <td>Data 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="code-block">
+                            <code>
+                                <pre>&lt;table class="contrast secondary"&gt;...&lt;/table&gt;</pre>
+                            </code>
+                        </div> <!-- .code-block -->
+                    </div> <!-- .block -->
+    
+                    <div class="span-full tablet--span-4-9 desktop--span-4-9">
+                        <div class="bg-standard" style="padding: 1em;">
+                            <table class="contrast boxed secondary">
+                                <thead>
+                                    <tr>
+                                        <th>Heading 1</th>
+                                        <th>Heading 2</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Data 1</td>
+                                        <td>Data 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data 1</td>
+                                        <td>Data 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data 1</td>
+                                        <td>Data 2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+    
+                        <div class="code-block">
+                            <code>
+                                <pre>&lt;table class="contrast boxed secondary"&gt;...&lt;/table&gt;</pre>
+                            </code>
+                        </div> <!-- .code-block -->
+                    </div> <!-- .block -->
+                </div> <!-- .code -->
+            </div> <!-- .component -->
+            <div class="component">
+                <h6 class="section-label lined">Specifiek gestylde tabellen</h6>
+    
+                <div class="context span-full tablet--span-4-1 desktop--span-4-1">
+                    <p>Bepaalde tabellen kunnen een specifieke styling meekrijgen ifv hun content:</p>
+    
+                    <ul>
+                        <li><code>.opening-hours</code></li>
+                        <li><small><em>Nog te bepalen</em></small></li>
+                    </ul>
+                </div>
+    
+                <div class="code span-full tablet--span-8-5 desktop--span-8-5">
+                    <div class="block span-full tablet--span-half-1 desktop--span-half-1">
+                        <table class="opening-hours">
+                            <thead>
+                                <tr>
+                                    <th>Dag</th>
+                                    <th>Uur</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Maandag</td>
+                                    <td>8.00 - 12.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Dinsdag</td>
+                                    <td>Gesloten</td>
+                                </tr>
+                            </tbody>
+                        </table>
+    
+                        <div class="code-block">
+                            <code>
+                                <pre>&lt;table class="opening-hours"&gt;...&lt;/table&gt;</pre>
+                            </code>
+                        </div>
+                    </div>
+    
+                    <div class="block span-full tablet--span-half-2 desktop--span-half-2">
+                        <table class="opening-hours secondary">
+                            <thead>
+                                <tr>
+                                    <th>Dag</th>
+                                    <th>Uur</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Maandag</td>
+                                    <td>8.00 - 12.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Dinsdag</td>
+                                    <td>Gesloten</td>
+                                </tr>
+                            </tbody>
+                        </table>
+    
+                        <div class="code-block">
+                            <code>
+                                <pre>&lt;table class="opening-hours secondary"&gt;...&lt;/table&gt;</pre>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- .component -->
+        </div> <!-- .inner -->
+    </section> <!-- #tables -->
+
+    <div class="page-nav">
+        <a href="lists" class="button-prev">
+            <span class="fa fa-arrow-left"></span>Lijsten
+        </a>
+
+        <a href="forms" class="button-next">
+            Formulieren<span class="fa fa-arrow-right"></span>
+        </a>
+    </div>  <!-- .page-menu -->
+    
+<% include footer %>
