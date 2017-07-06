@@ -1,0 +1,15 @@
+{
+	"id": "http://www.w3.org/html/main",
+	"name": "html.main",
+	"spec": "1.0",
+	"version": "1.0",
+	"content": "<main></main>",
+	"title": {
+		"type": "text/html",
+		"value": "<p>HTML <main> element</p>"
+	},
+	"description": {
+		"type": "text/html",
+		"value": "<p>The main content of a document.</p>"
+	}
+}

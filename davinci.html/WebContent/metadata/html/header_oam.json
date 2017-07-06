@@ -1,0 +1,15 @@
+{
+	"id": "http://www.w3.org/html/header",
+	"name": "html.header",
+	"spec": "1.0",
+	"version": "1.0",
+	"content": "<header></header>",
+	"title": {
+		"type": "text/html",
+		"value": "<p>HTML <header> element</p>"
+	},
+	"description": {
+		"type": "text/html",
+		"value": "<p>A container for introductory content or a set of navigational links.</p>"
+	}
+}

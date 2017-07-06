@@ -1027,7 +1027,35 @@
                 "displayOnCreate": true
             }
             //"hidden": "true"
-        }
+        },
+        {
+            "name": "<header>",
+            "description": "HTML header element",
+            "type": "html.header",
+            "category": "html",
+            "collection": "html",
+            "tags": "<header>",
+            "icon": "resources/images/element.gif",
+            "allowedChild": "ANY",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": false
+            },
+        },
+        {
+            "name": "<main>",
+            "description": "HTML main element",
+            "type": "html.main",
+            "category": "html",
+            "collection": "html",
+            "tags": "<main>",
+            "icon": "resources/images/element.gif",
+            "allowedChild": "ANY",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": false
+            },
+        },
     ],
     "davinci.actionSets": [
         {
