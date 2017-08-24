@@ -508,8 +508,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 4 columns",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/4-cols.png",
+            "iconLarge": "resources/imagesLarge/columns/4-cols.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "children": [
@@ -562,8 +562,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 3 columns",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/3-cols.png",
+            "iconLarge": "resources/imagesLarge/columns/3-cols.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "children": [
@@ -606,8 +606,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 2 columns",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/2-cols.png",
+            "iconLarge": "resources/imagesLarge/columns/2-cols.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "children": [
@@ -640,8 +640,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 1 column",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/1-col.png",
+            "iconLarge": "resources/imagesLarge/columns/1-col.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-full desktop--span-full"},
@@ -659,8 +659,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid centered-3",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/centered-3.png",
+            "iconLarge": "resources/imagesLarge/columns/centered-3.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-centered-3 desktop--span-centered-3"},
@@ -678,8 +678,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid centered-4",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/centered-4.png",
+            "iconLarge": "resources/imagesLarge/columns/centered-4.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-centered-4 desktop--span-centered-4"},
@@ -697,8 +697,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid centered-6",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/centered-6.png",
+            "iconLarge": "resources/imagesLarge/columns/centered-6.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-centered-6 desktop--span-centered-6"},
@@ -716,8 +716,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid centered-8",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/centered-8.png",
+            "iconLarge": "resources/imagesLarge/columns/centered-8.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-centered-8 desktop--span-centered-8"},
@@ -735,8 +735,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid centered-9",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/centered-9.png",
+            "iconLarge": "resources/imagesLarge/columns/centered-9.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-centered-9 desktop--span-centered-9"},
@@ -754,8 +754,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid centered-10",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/centered-10.png",
+            "iconLarge": "resources/imagesLarge/columns/centered-10.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-centered-10 desktop--span-centered-10"},
@@ -773,8 +773,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 3-1",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/3-1.png",
+            "iconLarge": "resources/imagesLarge/columns/3-1.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-3-1 desktop--span-3-1"},
@@ -792,8 +792,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 3-4",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/3-4.png",
+            "iconLarge": "resources/imagesLarge/columns/3-4.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-3-4 desktop--span-3-4"},
@@ -811,8 +811,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 3-7",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/3-7.png",
+            "iconLarge": "resources/imagesLarge/columns/3-7.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-3-7 desktop--span-3-7"},
@@ -830,8 +830,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 3-10",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/3-10.png",
+            "iconLarge": "resources/imagesLarge/columns/3-10.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-3-10 desktop--span-3-10"},
@@ -849,8 +849,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 4-1",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/4-1.png",
+            "iconLarge": "resources/imagesLarge/columns/4-1.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-4-1 desktop--span-4-1"},
@@ -868,8 +868,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 4-5",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/4-5.png",
+            "iconLarge": "resources/imagesLarge/columns/4-5.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-4-5 desktop--span-4-5"},
@@ -887,8 +887,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 4-9",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/4-9.png",
+            "iconLarge": "resources/imagesLarge/columns/4-9.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-4-9 desktop--span-4-9"},
@@ -906,8 +906,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 6-1",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/6-1.png",
+            "iconLarge": "resources/imagesLarge/columns/6-1.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-6-1 desktop--span-6-1"},
@@ -925,8 +925,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit Isolation Grid 6-7",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/6-7.png",
+            "iconLarge": "resources/imagesLarge/columns/6-7.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "span-full tablet--span-6-7 desktop--span-6-7"},
@@ -937,53 +937,15 @@
                 }
             ]
         },
-        {//A-kit Floating Grid 1
-            "name": "1",
-            "description": "Floating Grid layout.",
-            "type": "akit.empty",
-            "category": "html",
-            "collection": "html",
-            "tags": "A-kit Floating Grid 1",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
-            "allowedChild": "ANY",
-            "initialSize": "auto",
-            "properties": {"class": "float-full tablet--float-1 desktop--float-1"},
-            "children": [
-                {
-                    "type": "html.span",
-                    "children": "float-1"
-                }
-            ]
-        },
-        {//A-kit Floating Grid 2
-            "name": "2",
-            "description": "Floating Grid layout.",
-            "type": "akit.empty",
-            "category": "html",
-            "collection": "html",
-            "tags": "A-kit Floating Grid 2",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
-            "allowedChild": "ANY",
-            "initialSize": "auto",
-            "properties": {"class": "float-full tablet--float-2 desktop--float-2"},
-            "children": [
-                {
-                    "type": "html.span",
-                    "children": "float-2"
-                }
-            ]
-        },
         {//A-kit Floating Grid 3
-            "name": "3 (fourth)",
+            "name": "1/4",
             "description": "Floating Grid layout.",
             "type": "akit.empty",
             "category": "html",
             "collection": "html",
             "tags": "A-kit Floating Grid 3",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/fourth.png",
+            "iconLarge": "resources/imagesLarge/columns/fourth.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "float-full tablet--float-3 desktop--float-3"},
@@ -995,14 +957,14 @@
             ]
         },
         {//A-kit Floating Grid 4
-            "name": "4 (third)",
+            "name": "1/3",
             "description": "Floating Grid layout.",
             "type": "akit.empty",
             "category": "html",
             "collection": "html",
             "tags": "A-kit Floating Grid 4",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/third.png",
+            "iconLarge": "resources/imagesLarge/columns/third.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "float-full tablet--float-4 desktop--float-4"},
@@ -1014,14 +976,14 @@
             ]
         },
         {//A-kit Floating Grid 6
-            "name": "6 (half)",
+            "name": "1/2",
             "description": "Floating Grid layout.",
             "type": "akit.empty",
             "category": "html",
             "collection": "html",
             "tags": "A-kit Floating Grid 6",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/half.png",
+            "iconLarge": "resources/imagesLarge/columns/half.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "float-full tablet--float-6 desktop--float-6"},
@@ -1033,14 +995,14 @@
             ]
         },
         {//A-kit Floating Grid 12
-            "name": "12 (full)",
+            "name": "full",
             "description": "Floating Grid layout.",
             "type": "akit.empty",
             "category": "html",
             "collection": "html",
             "tags": "A-kit Floating Grid 12",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/columns/full.png",
+            "iconLarge": "resources/imagesLarge/columns/full.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "float-full tablet--float-12 desktop--float-12"},
@@ -1083,8 +1045,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .primary",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/primary.png",
+            "iconLarge": "resources/imagesLarge/primary.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button primary"},
@@ -1099,8 +1061,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .secondary",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/secondary.png",
+            "iconLarge": "resources/imagesLarge/secondary.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button secondary"},
@@ -1115,8 +1077,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .success",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/success.png",
+            "iconLarge": "resources/imagesLarge/success.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button success"},
@@ -1131,8 +1093,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .warning",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/warning.png",
+            "iconLarge": "resources/imagesLarge/warning.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button warning"},
@@ -1147,8 +1109,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .danger",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/danger.png",
+            "iconLarge": "resources/imagesLarge/danger.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button danger"},
@@ -1163,8 +1125,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .gray",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/gray.png",
+            "iconLarge": "resources/imagesLarge/gray.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button gray"},
@@ -1179,8 +1141,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .cancel",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/cancel.png",
+            "iconLarge": "resources/imagesLarge/cancel.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button cancel"},
@@ -1195,8 +1157,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .transparent",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/transparent.png",
+            "iconLarge": "resources/imagesLarge/transparent.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button transparent"},
@@ -1211,8 +1173,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .primary .small",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/primary.png",
+            "iconLarge": "resources/imagesLarge/primary.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button primary small"},
@@ -1227,8 +1189,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .secondary .small",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/secondary.png",
+            "iconLarge": "resources/imagesLarge/secondary.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button secondary small"},
@@ -1243,8 +1205,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .success .small",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/success.png",
+            "iconLarge": "resources/imagesLarge/success.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button success small"},
@@ -1259,8 +1221,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .warning .small",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/warning.png",
+            "iconLarge": "resources/imagesLarge/warning.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button warning small"},
@@ -1275,8 +1237,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .danger .small",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/danger.png",
+            "iconLarge": "resources/imagesLarge/danger.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button danger small"},
@@ -1291,8 +1253,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .gray .small",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/gray.png",
+            "iconLarge": "resources/imagesLarge/gray.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button gray small"},
@@ -1307,8 +1269,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .cancel .small",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/cancel.png",
+            "iconLarge": "resources/imagesLarge/cancel.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button cancel small"},
@@ -1323,8 +1285,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .transparent .small",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/transparent.png",
+            "iconLarge": "resources/imagesLarge/transparent.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button transparent small"},
@@ -1339,8 +1301,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .primary .big",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/primary.png",
+            "iconLarge": "resources/imagesLarge/primary.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button primary big"},
@@ -1355,8 +1317,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .secondary .big",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/secondary.png",
+            "iconLarge": "resources/imagesLarge/secondary.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button secondary big"},
@@ -1371,8 +1333,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .success .big",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/success.png",
+            "iconLarge": "resources/imagesLarge/success.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button success big"},
@@ -1387,8 +1349,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .warning .big",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/warning.png",
+            "iconLarge": "resources/imagesLarge/warning.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button warning big"},
@@ -1403,8 +1365,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .danger .big",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/danger.png",
+            "iconLarge": "resources/imagesLarge/danger.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button danger big"},
@@ -1419,8 +1381,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .gray .big",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/gray.png",
+            "iconLarge": "resources/imagesLarge/gray.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button gray big"},
@@ -1435,8 +1397,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .cancel .big",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/cancel.png",
+            "iconLarge": "resources/imagesLarge/cancel.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button cancel big"},
@@ -1451,8 +1413,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .transparent .big",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/transparent.png",
+            "iconLarge": "resources/imagesLarge/transparent.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button transparent big"},
@@ -1467,8 +1429,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .primary .full",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/primary.png",
+            "iconLarge": "resources/imagesLarge/primary.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button primary full"},
@@ -1483,8 +1445,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .secondary .full",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/secondary.png",
+            "iconLarge": "resources/imagesLarge/secondary.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button secondary full"},
@@ -1499,8 +1461,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .success .full",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/success.png",
+            "iconLarge": "resources/imagesLarge/success.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button success full"},
@@ -1515,8 +1477,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .warning .full",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/warning.png",
+            "iconLarge": "resources/imagesLarge/warning.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button warning full"},
@@ -1531,8 +1493,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .danger .full",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/danger.png",
+            "iconLarge": "resources/imagesLarge/danger.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button danger full"},
@@ -1547,8 +1509,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .gray .full",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/gray.png",
+            "iconLarge": "resources/imagesLarge/gray.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button gray full"},
@@ -1563,8 +1525,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .cancel .full",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/cancel.png",
+            "iconLarge": "resources/imagesLarge/cancel.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button cancel full"},
@@ -1579,8 +1541,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .transparent .full",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/transparent.png",
+            "iconLarge": "resources/imagesLarge/transparent.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button transparent full"},
@@ -1595,8 +1557,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .primary .disabled",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/primary.png",
+            "iconLarge": "resources/imagesLarge/primary.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button primary disabled"},
@@ -1611,8 +1573,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .secondary .disabled",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/secondary.png",
+            "iconLarge": "resources/imagesLarge/secondary.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button secondary disabled"},
@@ -1627,8 +1589,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .success .disabled",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/success.png",
+            "iconLarge": "resources/imagesLarge/success.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button success disabled"},
@@ -1643,8 +1605,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .warning .disabled",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/warning.png",
+            "iconLarge": "resources/imagesLarge/warning.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button warning disabled"},
@@ -1659,8 +1621,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .danger .disabled",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/danger.png",
+            "iconLarge": "resources/imagesLarge/danger.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button danger disabled"},
@@ -1675,8 +1637,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .gray .disabled",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/gray.png",
+            "iconLarge": "resources/imagesLarge/gray.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button gray disabled"},
@@ -1691,8 +1653,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .cancel .disabled",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/cancel.png",
+            "iconLarge": "resources/imagesLarge/cancel.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button cancel disabled"},
@@ -1707,8 +1669,8 @@
             "category": "html",
             "collection": "html",
             "tags": "A-kit button .transparent .disabled",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/transparent.png",
+            "iconLarge": "resources/imagesLarge/transparent.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "properties": {"class": "button transparent disabled"},
@@ -1716,15 +1678,327 @@
                 "transparent"
             ]
         },
+        {//A-kit button .primary .has-icon
+            "name": "primary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .primary .has-icon",
+            "icon": "resources/imagesLarge/primary.png",
+            "iconLarge": "resources/imagesLarge/primary.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button primary has-icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                },
+                "primary"
+            ]
+        },
+        {//A-kit button .secondary .has-icon
+            "name": "secondary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .secondary .has-icon",
+            "icon": "resources/imagesLarge/secondary.png",
+            "iconLarge": "resources/imagesLarge/secondary.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button secondary has-icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                },
+                "secondary"
+            ]
+        },
+        {//A-kit button .success .has-icon
+            "name": "success",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .success .has-icon",
+            "icon": "resources/imagesLarge/success.png",
+            "iconLarge": "resources/imagesLarge/success.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button success has-icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                },
+                "success"
+            ]
+        },
+        {//A-kit button .warning .has-icon
+            "name": "warning",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .warning .has-icon",
+            "icon": "resources/imagesLarge/warning.png",
+            "iconLarge": "resources/imagesLarge/warning.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button warning has-icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                },
+                "warning"
+            ]
+        },
+        {//A-kit button .danger .has-icon
+            "name": "danger",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .danger .has-icon",
+            "icon": "resources/imagesLarge/danger.png",
+            "iconLarge": "resources/imagesLarge/danger.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button danger has-icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                },
+                "danger"
+            ]
+        },
+        {//A-kit button .gray .has-icon
+            "name": "gray",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .gray .has-icon",
+            "icon": "resources/imagesLarge/gray.png",
+            "iconLarge": "resources/imagesLarge/gray.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button gray has-icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                },
+                "gray"
+            ]
+        },
+        {//A-kit button .cancel .has-icon
+            "name": "cancel",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .cancel .has-icon",
+            "icon": "resources/imagesLarge/cancel.png",
+            "iconLarge": "resources/imagesLarge/cancel.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button cancel has-icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                },
+                "cancel"
+            ]
+        },
+        {//A-kit button .transparent .has-icon
+            "name": "transparent",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .transparent .has-icon",
+            "icon": "resources/imagesLarge/transparent.png",
+            "iconLarge": "resources/imagesLarge/transparent.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button transparent has-icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                },
+                "transparent"
+            ]
+        },
+        {//A-kit button .primary .icon
+            "name": "primary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .primary .icon",
+            "icon": "resources/imagesLarge/primary.png",
+            "iconLarge": "resources/imagesLarge/primary.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button primary icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                }
+            ]
+        },
+        {//A-kit button .secondary .icon
+            "name": "secondary",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .secondary .icon",
+            "icon": "resources/imagesLarge/secondary.png",
+            "iconLarge": "resources/imagesLarge/secondary.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button secondary icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                }
+            ]
+        },
+        {//A-kit button .success .icon
+            "name": "success",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .success .icon",
+            "icon": "resources/imagesLarge/success.png",
+            "iconLarge": "resources/imagesLarge/success.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button success icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                }
+            ]
+        },
+        {//A-kit button .warning .icon
+            "name": "warning",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .warning .icon",
+            "icon": "resources/imagesLarge/warning.png",
+            "iconLarge": "resources/imagesLarge/warning.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button warning icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                }
+            ]
+        },
+        {//A-kit button .danger .icon
+            "name": "danger",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .danger .icon",
+            "icon": "resources/imagesLarge/danger.png",
+            "iconLarge": "resources/imagesLarge/danger.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button danger icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                }
+            ]
+        },
+        {//A-kit button .gray .icon
+            "name": "gray",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .gray .icon",
+            "icon": "resources/imagesLarge/gray.png",
+            "iconLarge": "resources/imagesLarge/gray.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button gray icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                }
+            ]
+        },
+        {//A-kit button .cancel .icon
+            "name": "cancel",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .cancel .icon",
+            "icon": "resources/imagesLarge/cancel.png",
+            "iconLarge": "resources/imagesLarge/cancel.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button cancel icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                }
+            ]
+        },
+        {//A-kit button .transparent .icon
+            "name": "transparent",
+            "description": "Button.",
+            "type": "html.a",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit button .transparent .icon",
+            "icon": "resources/imagesLarge/transparent.png",
+            "iconLarge": "resources/imagesLarge/transparent.png",
+            "allowedChild": "ANY",
+            "initialSize": "auto",
+            "properties": {"class": "button transparent icon"},
+            "children": [
+                {
+                    "type": "html.span",
+                    "properties": {"class": "fa fa-thumbs-o-up"},
+                }
+            ]
+        },
         {//A-kit Standaard tekstveld
-            "name": "Standaard tekstveld",
-            "description": "Tekstveld.",
+            "name": "Text field",
+            "description": "Text field.",
             "type": "html.div",
             "category": "html",
             "collection": "html",
             "tags": "A-kit Standaard tekstveld",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/TextBox.png",
+            "iconLarge": "resources/imagesLarge/TextBox.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "children": [
@@ -1740,60 +2014,60 @@
             ]
         },
         {//A-kit Standaard tekstveld
-            "name": "Verplicht tekstveld",
-            "description": "Tekstveld.",
+            "name": "Required text field",
+            "description": "Required text field.",
             "type": "html.div",
             "category": "html",
             "collection": "html",
             "tags": "A-kit Standaard tekstveld verplicht",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/TextBoxRequired.png",
+            "iconLarge": "resources/imagesLarge/TextBoxRequired.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "children": [
                 {
                     "type": "html.label",
                     "properties": { "class": "label required" },
-                    "children": "Verplicht tekstveld"
+                    "children": "Required text field"
                 },
                 {
                     "type": "html.input",
-                    "properties": { "type": "text", "class": "field", "placeholder": "met een placeholder" }
+                    "properties": { "type": "text", "class": "field", "placeholder": "with a placeholder" }
                 }
             ]
         },
         {//A-kit Standaard tekstveld
-            "name": "Wachtwoordveld",
-            "description": "Wachtwoordveld.",
+            "name": "Password field",
+            "description": "Password field.",
             "type": "html.div",
             "category": "html",
             "collection": "html",
             "tags": "A-kit Wachtwoord",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/TextBoxPassword.png",
+            "iconLarge": "resources/imagesLarge/TextBoxPassword.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "children": [
                 {
                     "type": "html.label",
                     "properties": { "class": "label required" },
-                    "children": "Je wachtwoord"
+                    "children": "Your password"
                 },
                 {
                     "type": "html.input",
-                    "properties": { "type": "password", "class": "field", "placeholder": "met een placeholder" }
+                    "properties": { "type": "password", "class": "field", "placeholder": "with a placeholder" }
                 }
             ]
         },
         {//A-kit Standaard tekstveld
-            "name": "Fieldset met radio buttons",
-            "description": "Fieldset met radio buttons.",
+            "name": "Fieldset with radio buttons",
+            "description": "Fieldset with radio buttons.",
             "type": "html.fieldset",
             "category": "html",
             "collection": "html",
             "tags": "A-kit Fieldset met radio buttons",
-            "icon": "resources/imagesLarge/empty.png",
-            "iconLarge": "resources/imagesLarge/empty.png",
+            "icon": "resources/imagesLarge/RadioButton.png",
+            "iconLarge": "resources/imagesLarge/RadioButton.png",
             "allowedChild": "ANY",
             "initialSize": "auto",
             "children": [
@@ -1815,6 +2089,598 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "<h1> (Sun)",
+            "description": "level 1 header",
+            "type": "html.h1",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h1> .plain",
+            "icon": "resources/images/html-h1.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNpi/P//PwMlgImBQkCxASwggtW3bzeQcgFiVx5NrT0gsS/Xr2GIwQBQbiaQSgPJkewCoOZyqGaEC4jUqASkQK5SIjcMlKC4Aoj34HLBbqBNuAy4B8TKwPC4B1TjgsuAs0D8Hso2BmJBmARIIzHRWAFUCAp1V6hhQyAhUWwA49DPTAABBgDGmykkJRol4AAAAABJRU5ErkJggg==",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "plain"},
+            "iconLarge": "resources/imagesLarge/h1.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZJREFUeNrsmU1IVFEUx9+9783zaURSLRxCCFqUuDCE6AsCowgiBAPbReBG2gUtEiQhFy2rbR+7glwUwcBgmeCi1BQMpo20MCMJNVLGrJlm5n30f/c6b14z972ZdHRGegcdnJlzz/3dc88599wniQ6PS9UnCn7bTrRUFdPIWIxKVSlViqW438TjKxVEqa/fJcaChMMNFWGan1/YBpsYYK075LlYLrHBKXVevcQ0TeeVuESozC27lQuNi7F0w8ik04ZhYIyiKKFQyH8azJHJZHRdx9+yLIdUVZFlob6jDLGnzxovjoVh6VSqvT9iwltE6jh2oPv8YSzIBwtADwZjL97NSJYEvUhfO9U0oYOhDKBEInHk+rMv33/2drbe6DxakrdAg4W/mV7L2FNNDXCbfyhAYWnl1+j0In+L4SoLgMIFgymZTPY9GQcTHwixCpQV4fINXc9NadpiiaZx74vBYmVtCIb/rc/jyfZTMvlwMHb/9UcHVGhZKZ4VVmnJY/klhOOnRy8/9D59X3SUsql5zp2EyEulUotLP24NTA6Mzq6zQJQXC0wI8KGp2Z7HE3NLCf75Tk1Z/a1XDAt7Bz913I6+zWYD5ObF5lex+cmZ5YpVecQzEs1ham6sj/ScuXL6EKrNRjfRktaKslfd4tlkiaKXZI+Hxr07rp5r6jrbjGKL2Edh3ygW3wgwwaJX0YKC6SoQub2gFEX8TtfJy20HMVxVVZ4EZOMh//nb6tDUJxwSvlU+AzWBtwgBSveFVhuRnX041iRCypCJzyfm8LPO/oRSQPN95KsixQ6MrchEh6YMjU2e7Ntd27inDjtAvMs7UgI16etychP7rTy5dHz/tfaWmpoa6hHyJgv5e5HY3ej01mGhc6qtq6vVNJ9MBLHi8e1mYdmdIDq7UMgLCxHNShEpI1ZwxQiwAqwA6x+x3Bc3QknRmsSuxkQ4vFAT9pwmwss4FY5E8cwVXAXVVPYh460Y1JxPhBflXHGGwSy3l3ESHR53np3G4yvhcAMaOn5XQW8EdZWJD5nFOuM0E4sdVjhAMZ/QZ7ZxKMO4rvP1c+MLC4vOY7eRsZjitSC88i5YZtd8f2+BwEZhPoaezxr4UUY1zWQ9KvUwLsYSPkXxb/ckRlPKCVuK8aBABFj/GVZ+JuY9H68KLPf/EYJN3F6xhTOo2rD+CDAANVbJJXtK/+wAAAAASUVORK5CYII="
+        },
+        {
+            "name": "<h2> (Sun)",
+            "description": "level 2 header",
+            "type": "html.h2",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h2> .plain",
+            "icon": "resources/images/html-h2.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALlJREFUeNpi/P//PwMlgImBQjDwBrDAGGKR0/7Xhxky1Bz/yAjisz6+h8JvseT/37jqPIOlijDDoZ98jO+7PFFd8P7LDxSTkfkgzQXzjjP8llVi3Hbh6fsWS4H/JHuhLd4WTAvycAhi9QIIgGwBAox4RfZGwfUfuANxQpIlA4+mFiMIoxsC9cZ7IDMMZiDRXoCFARB0goPn+jUlrF7ABYCaZwGpNCDuAPG9DKRBFNgVjKNJmXIDAAIMAKQASBS566VpAAAAAElFTkSuQmCC",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "plain"},
+            "iconLarge": "resources/imagesLarge/h2.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABDFJREFUeNrsmVtIFFEYx1d3Zl0v23rbvGVmF9d6sGJNSInuUA9JPhQ92EOwPSRBECj0VPZQUBFRVBDRhSCDsKIIg2qNDLPSytLKTLqalnhJZZ29jPaf+dxpGtddXUw3mAOO3znz7ZnffN//fOe4hty+91gTfI3Bz8rchUHFVFldH6oJyhakWIy809PzawpRoqON3rHQkpISp4Spra39P0iiiqViqVhBV05HtiGxwQgRm1cHutJduY90i7qjzTBurEFPE6LqaQoHPJXneXqqVqslY3gcv3hewsJn4YDrWPgYH3HCtB3dfXUfhPprmZtoijEoZoSP0+m0vfyEJ6cnGOelmhitFoNunnfhhstV3/Kju58j1qx0U7wxUqfTsSxLcAFiIQx1zW0FB++ge33PurWWCMV04Ha5XBsPVMDenZ+1rzAPtxEoB8dde9S090pta5ddPue2VRl7NmUnxhnDwsJ8Y4X6TqLb7SYbBmVTgQ4ssvlBnnwQJzBZTz0kpiVz4zNThvfg87b3W4/e5RwOr7ONVVtiHoc8iEOSSkZKXjA8OkP2ECeMmJOnnS1aNic5FnZLW/feslpbQ/uT5o5L9xut6xczDDN5BQIxqGpspTghrZlpCVFRUQaDYX5aQukWC/lUPP/qN1pjx6JaMTQoa7xsoUlVoN/Bk12QlxEeHg4Z6cSWnhidPScO4712p9fAj6NuSc3ldnMcp6hMTrHJ3VACCnIzNuTMhk2LDv70Pl86+mpbOjG+IDVGUWgCx3r1sQNXVhDEHyxS0l/BDw2FaEBDNjEhZQ6ns6yqmXyyZsVRAZsArEM332o0b337AIJq5l9rmecdDkddU+sFm4CVM89UuHI+0AOsWxMifzBxAwNP333bfMTWx7kN4exxa55er58wrAtFuSuyUiEX+XTIjt1uN++64XV1oKRBjvdffLSerOrjXAY9e7V4jXnmdBLcxGgLQJGRkVhW8hwhO6OtWGhugOMu3msovvgUgwJTyZqczBmYwe/OMw4s0ICMJpWPK8gkJkSx6PSD8ppPGEyOjTi3czmYkD6/Yv8n2qJ1hzjtOF15reYzRrDzlJesTTLFSK8knZQmCYs2H0jqxM0XxJRvSdm3xRI7LYKkBmI6/0gnnMnD+tnVe+zWa3Sj9Ey+Jbnhc2fT914xTgIGCki8MSLbnOJb+Iy/OhTiqZPez26SUOjtURQOX3+JWoCRfs5tPfNs5EeWmhPu7C/wvVUzvmXOiPVa8GNZ+RqUuFmPA3wJ8c23Hr9xDXwlkghWL5rVdXm74Mfg4KlVTIcRCJkchHcQA1BRuhHnUt5zUFO+KrYmTBVwOaXzMW23UlcxF7pAQZCgKknCMFidTjPaGQHCEPeowFei3wJDoAq3sZQl9c9XFUvFUrFUrKn5fkvx/XhQYMn/j6Am8f/SVmV1fbBh/RZgAH+ZHQj8FKFVAAAAAElFTkSuQmCC"
+        },
+        {
+            "name": "<h3> (Sun)",
+            "description": "level 3 header",
+            "type": "html.h3",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h3> .plain",
+            "icon": "resources/images/html-h3.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGhJREFUeNpi/P//PwMlgImBQjAMDGBBF2D17XMBUrt5NLUYQfwv16/9B7FBNIjfFm/LUBpiykiyC0CGgHDVwsP4XQADMBuxiIURZQCyF5CEhYD4HRAzEjQAl4tAYYAMGEdT4iAwACDAADJ6Jhi/JDZPAAAAAElFTkSuQmCC",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "plain"},
+            "iconLarge": "resources/imagesLarge/h3.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA7ZJREFUeNrsWV1IFFEU3pnZna3VzfX/v31QtCyTHlKowDSDIArqISTIIHuJQsIXewoCH4qil0SK0EIMQZT+EAn8wUwtyWItMRU1FNss1N2Uzf2Z2b6Zq9Mkarsy4kpz2L3cOefsvd8957tn7sxSDU1dmsATLb45+zMCClNrp4XWBKQEKCyt/MJms28gFJMpZHlYkNjYmA3BZLV+2wRJVGGpsFRYKiwV1n9zq15FvDKhaWExpIXwPE9aalGIGzRoNRRF40PTxKQ8LA/HedxudBiG0el06EgI3G43x3G41Gq1sHI8D0+IgJiiGJqGPzFJi1EmicLcLtfRa09M+febP4wChBAJUY8+NNDD6nQ6XS6Xc36+rr0/o6gmquBh1NnKY9efd/ePQ78QPwVhYUSPx8N7hXx5EDeOk0zoQyP4eAUfBOlp51BhWdvEtCNvTyw+bwa/n7zxEtDdYrCVTKI468KYPM/JRxdpxIkdASKydvuZBZe3zmXmH0yGtebVUEn1O7Q5GWaWZRWGtSRyEMItIYoi6xfiT1Hp5vAQA1uQmwYmwZqWIBw7x6fmCBHXCxZy4XA4BFg0jUCBNNAQE4CC3Q+KjhAakZxWtAzCtCsh1PfN6Ccsca2l9b13Gz9LE2B6u8NFegiPVhTQD1vk0r22xvdjs7/cqXHbik+kK18g5DLw9eeKNjEeAMcgVBRV2zEsWT6NTcdFha1PEsXlVl0+kJ2eCPISbiGJbR/HC8o6pLLLiwJwU48vTE7ZX3SPlFT35N9pHSiPiWdZVK9/hm0tNx8dyxoMhqCgIKPRiBZ9HdlfFAU0IBOqF1gFhV6vj4kwnclOzUyOwGV734SPpWstSUSpRqgwJeJBpmFkN6Jh68zN+h6NV1N+8RArxgYSH2aAtW9sWr5nFYa1ugTrmdrXAqVOZW1HrtH5YZtr6rWis9sc7uPNxw9Y9OLuBqHl5BA5zhDiYdZQ49bCw6kVzQPFj96ez52GvrJlaHbevTPBdDwryRdi+QGL7HyaEtYq3nOZPzllGGhE3EJy4Xn19D6UjLqu0dI6C/HJSomsupK3Ra/HIL7AohqauqQXSTabfaWHfaGy/32CIGcVsu/kJwhKJD6254h15sukUEpMwfq9SdH4CQG9LCw87EvvIFo7LVqfKwNFziXSeYuMTgo35pPOWyR+8Nlhjk5JjCQ+hPjKV/lVRlxyKpT8SRWTL0D506m/sgYo6iOGCkuFpcJSYa37O4gl78cDApb8fwQ1iZuLWzh2BRqs3wIMAOe795cXzgPWAAAAAElFTkSuQmCC"
+        },
+        {
+            "name": "<h4> (Sun)",
+            "description": "level 4 header",
+            "type": "html.h4",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h4> .plain",
+            "icon": "resources/images/html-h4.png",
+            "iconLarge": "resources/imagesLarge/h4.png",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "plain"},
+            //"hidden": true
+        },
+        {
+            "name": "<h5> (Sun)",
+            "description": "level 5 header",
+            "type": "html.h5",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h5> .plain",
+            "icon": "resources/images/html-h5.png",
+            "iconLarge": "resources/imagesLarge/h5.png",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "plain"},
+            //"hidden": true
+        },
+        {
+            "name": "<h6> (Sun)",
+            "description": "level 6 header",
+            "type": "html.h6",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h6> .plain",
+            "icon": "resources/images/html-h6.png",
+            "iconLarge": "resources/imagesLarge/h6.png",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "plain"},
+            //"hidden": true
+        },
+        {
+            "name": "<h1>",
+            "description": "level 1 header",
+            "type": "html.h1",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h1> .header-xlarge",
+            "icon": "resources/images/html-h1.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNpi/P//PwMlgImBQkCxASwggtW3bzeQcgFiVx5NrT0gsS/Xr2GIwQBQbiaQSgPJkewCoOZyqGaEC4jUqASkQK5SIjcMlKC4Aoj34HLBbqBNuAy4B8TKwPC4B1TjgsuAs0D8Hso2BmJBmARIIzHRWAFUCAp1V6hhQyAhUWwA49DPTAABBgDGmykkJRol4AAAAABJRU5ErkJggg==",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-xlarge"},
+            "iconLarge": "resources/imagesLarge/h1.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZJREFUeNrsmU1IVFEUx9+9783zaURSLRxCCFqUuDCE6AsCowgiBAPbReBG2gUtEiQhFy2rbR+7glwUwcBgmeCi1BQMpo20MCMJNVLGrJlm5n30f/c6b14z972ZdHRGegcdnJlzz/3dc88599wniQ6PS9UnCn7bTrRUFdPIWIxKVSlViqW438TjKxVEqa/fJcaChMMNFWGan1/YBpsYYK075LlYLrHBKXVevcQ0TeeVuESozC27lQuNi7F0w8ik04ZhYIyiKKFQyH8azJHJZHRdx9+yLIdUVZFlob6jDLGnzxovjoVh6VSqvT9iwltE6jh2oPv8YSzIBwtADwZjL97NSJYEvUhfO9U0oYOhDKBEInHk+rMv33/2drbe6DxakrdAg4W/mV7L2FNNDXCbfyhAYWnl1+j0In+L4SoLgMIFgymZTPY9GQcTHwixCpQV4fINXc9NadpiiaZx74vBYmVtCIb/rc/jyfZTMvlwMHb/9UcHVGhZKZ4VVmnJY/klhOOnRy8/9D59X3SUsql5zp2EyEulUotLP24NTA6Mzq6zQJQXC0wI8KGp2Z7HE3NLCf75Tk1Z/a1XDAt7Bz913I6+zWYD5ObF5lex+cmZ5YpVecQzEs1ham6sj/ScuXL6EKrNRjfRktaKslfd4tlkiaKXZI+Hxr07rp5r6jrbjGKL2Edh3ygW3wgwwaJX0YKC6SoQub2gFEX8TtfJy20HMVxVVZ4EZOMh//nb6tDUJxwSvlU+AzWBtwgBSveFVhuRnX041iRCypCJzyfm8LPO/oRSQPN95KsixQ6MrchEh6YMjU2e7Ntd27inDjtAvMs7UgI16etychP7rTy5dHz/tfaWmpoa6hHyJgv5e5HY3ej01mGhc6qtq6vVNJ9MBLHi8e1mYdmdIDq7UMgLCxHNShEpI1ZwxQiwAqwA6x+x3Bc3QknRmsSuxkQ4vFAT9pwmwss4FY5E8cwVXAXVVPYh460Y1JxPhBflXHGGwSy3l3ESHR53np3G4yvhcAMaOn5XQW8EdZWJD5nFOuM0E4sdVjhAMZ/QZ7ZxKMO4rvP1c+MLC4vOY7eRsZjitSC88i5YZtd8f2+BwEZhPoaezxr4UUY1zWQ9KvUwLsYSPkXxb/ckRlPKCVuK8aBABFj/GVZ+JuY9H68KLPf/EYJN3F6xhTOo2rD+CDAANVbJJXtK/+wAAAAASUVORK5CYII="
+        },
+        {
+            "name": "<h2>",
+            "description": "level 2 header",
+            "type": "html.h2",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h2> .header-xlarge",
+            "icon": "resources/images/html-h2.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALlJREFUeNpi/P//PwMlgImBQjDwBrDAGGKR0/7Xhxky1Bz/yAjisz6+h8JvseT/37jqPIOlijDDoZ98jO+7PFFd8P7LDxSTkfkgzQXzjjP8llVi3Hbh6fsWS4H/JHuhLd4WTAvycAhi9QIIgGwBAox4RfZGwfUfuANxQpIlA4+mFiMIoxsC9cZ7IDMMZiDRXoCFARB0goPn+jUlrF7ABYCaZwGpNCDuAPG9DKRBFNgVjKNJmXIDAAIMAKQASBS566VpAAAAAElFTkSuQmCC",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-xlarge"},
+            "iconLarge": "resources/imagesLarge/h2.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABDFJREFUeNrsmVtIFFEYx1d3Zl0v23rbvGVmF9d6sGJNSInuUA9JPhQ92EOwPSRBECj0VPZQUBFRVBDRhSCDsKIIg2qNDLPSytLKTLqalnhJZZ29jPaf+dxpGtddXUw3mAOO3znz7ZnffN//fOe4hty+91gTfI3Bz8rchUHFVFldH6oJyhakWIy809PzawpRoqON3rHQkpISp4Spra39P0iiiqViqVhBV05HtiGxwQgRm1cHutJduY90i7qjzTBurEFPE6LqaQoHPJXneXqqVqslY3gcv3hewsJn4YDrWPgYH3HCtB3dfXUfhPprmZtoijEoZoSP0+m0vfyEJ6cnGOelmhitFoNunnfhhstV3/Kju58j1qx0U7wxUqfTsSxLcAFiIQx1zW0FB++ge33PurWWCMV04Ha5XBsPVMDenZ+1rzAPtxEoB8dde9S090pta5ddPue2VRl7NmUnxhnDwsJ8Y4X6TqLb7SYbBmVTgQ4ssvlBnnwQJzBZTz0kpiVz4zNThvfg87b3W4/e5RwOr7ONVVtiHoc8iEOSSkZKXjA8OkP2ECeMmJOnnS1aNic5FnZLW/feslpbQ/uT5o5L9xut6xczDDN5BQIxqGpspTghrZlpCVFRUQaDYX5aQukWC/lUPP/qN1pjx6JaMTQoa7xsoUlVoN/Bk12QlxEeHg4Z6cSWnhidPScO4712p9fAj6NuSc3ldnMcp6hMTrHJ3VACCnIzNuTMhk2LDv70Pl86+mpbOjG+IDVGUWgCx3r1sQNXVhDEHyxS0l/BDw2FaEBDNjEhZQ6ns6yqmXyyZsVRAZsArEM332o0b337AIJq5l9rmecdDkddU+sFm4CVM89UuHI+0AOsWxMifzBxAwNP333bfMTWx7kN4exxa55er58wrAtFuSuyUiEX+XTIjt1uN++64XV1oKRBjvdffLSerOrjXAY9e7V4jXnmdBLcxGgLQJGRkVhW8hwhO6OtWGhugOMu3msovvgUgwJTyZqczBmYwe/OMw4s0ICMJpWPK8gkJkSx6PSD8ppPGEyOjTi3czmYkD6/Yv8n2qJ1hzjtOF15reYzRrDzlJesTTLFSK8knZQmCYs2H0jqxM0XxJRvSdm3xRI7LYKkBmI6/0gnnMnD+tnVe+zWa3Sj9Ey+Jbnhc2fT914xTgIGCki8MSLbnOJb+Iy/OhTiqZPez26SUOjtURQOX3+JWoCRfs5tPfNs5EeWmhPu7C/wvVUzvmXOiPVa8GNZ+RqUuFmPA3wJ8c23Hr9xDXwlkghWL5rVdXm74Mfg4KlVTIcRCJkchHcQA1BRuhHnUt5zUFO+KrYmTBVwOaXzMW23UlcxF7pAQZCgKknCMFidTjPaGQHCEPeowFei3wJDoAq3sZQl9c9XFUvFUrFUrKn5fkvx/XhQYMn/j6Am8f/SVmV1fbBh/RZgAH+ZHQj8FKFVAAAAAElFTkSuQmCC"
+        },
+        {
+            "name": "<h1>",
+            "description": "level 1 header",
+            "type": "html.h1",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h1> .header-large",
+            "icon": "resources/images/html-h1.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNpi/P//PwMlgImBQkCxASwggtW3bzeQcgFiVx5NrT0gsS/Xr2GIwQBQbiaQSgPJkewCoOZyqGaEC4jUqASkQK5SIjcMlKC4Aoj34HLBbqBNuAy4B8TKwPC4B1TjgsuAs0D8Hso2BmJBmARIIzHRWAFUCAp1V6hhQyAhUWwA49DPTAABBgDGmykkJRol4AAAAABJRU5ErkJggg==",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-large"},
+            "iconLarge": "resources/imagesLarge/h1.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZJREFUeNrsmU1IVFEUx9+9783zaURSLRxCCFqUuDCE6AsCowgiBAPbReBG2gUtEiQhFy2rbR+7glwUwcBgmeCi1BQMpo20MCMJNVLGrJlm5n30f/c6b14z972ZdHRGegcdnJlzz/3dc88599wniQ6PS9UnCn7bTrRUFdPIWIxKVSlViqW438TjKxVEqa/fJcaChMMNFWGan1/YBpsYYK075LlYLrHBKXVevcQ0TeeVuESozC27lQuNi7F0w8ik04ZhYIyiKKFQyH8azJHJZHRdx9+yLIdUVZFlob6jDLGnzxovjoVh6VSqvT9iwltE6jh2oPv8YSzIBwtADwZjL97NSJYEvUhfO9U0oYOhDKBEInHk+rMv33/2drbe6DxakrdAg4W/mV7L2FNNDXCbfyhAYWnl1+j0In+L4SoLgMIFgymZTPY9GQcTHwixCpQV4fINXc9NadpiiaZx74vBYmVtCIb/rc/jyfZTMvlwMHb/9UcHVGhZKZ4VVmnJY/klhOOnRy8/9D59X3SUsql5zp2EyEulUotLP24NTA6Mzq6zQJQXC0wI8KGp2Z7HE3NLCf75Tk1Z/a1XDAt7Bz913I6+zWYD5ObF5lex+cmZ5YpVecQzEs1ham6sj/ScuXL6EKrNRjfRktaKslfd4tlkiaKXZI+Hxr07rp5r6jrbjGKL2Edh3ygW3wgwwaJX0YKC6SoQub2gFEX8TtfJy20HMVxVVZ4EZOMh//nb6tDUJxwSvlU+AzWBtwgBSveFVhuRnX041iRCypCJzyfm8LPO/oRSQPN95KsixQ6MrchEh6YMjU2e7Ntd27inDjtAvMs7UgI16etychP7rTy5dHz/tfaWmpoa6hHyJgv5e5HY3ej01mGhc6qtq6vVNJ9MBLHi8e1mYdmdIDq7UMgLCxHNShEpI1ZwxQiwAqwA6x+x3Bc3QknRmsSuxkQ4vFAT9pwmwss4FY5E8cwVXAXVVPYh460Y1JxPhBflXHGGwSy3l3ESHR53np3G4yvhcAMaOn5XQW8EdZWJD5nFOuM0E4sdVjhAMZ/QZ7ZxKMO4rvP1c+MLC4vOY7eRsZjitSC88i5YZtd8f2+BwEZhPoaezxr4UUY1zWQ9KvUwLsYSPkXxb/ckRlPKCVuK8aBABFj/GVZ+JuY9H68KLPf/EYJN3F6xhTOo2rD+CDAANVbJJXtK/+wAAAAASUVORK5CYII="
+        },
+        {
+            "name": "<h2>",
+            "description": "level 2 header",
+            "type": "html.h2",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h2> .header-large",
+            "icon": "resources/images/html-h2.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALlJREFUeNpi/P//PwMlgImBQjDwBrDAGGKR0/7Xhxky1Bz/yAjisz6+h8JvseT/37jqPIOlijDDoZ98jO+7PFFd8P7LDxSTkfkgzQXzjjP8llVi3Hbh6fsWS4H/JHuhLd4WTAvycAhi9QIIgGwBAox4RfZGwfUfuANxQpIlA4+mFiMIoxsC9cZ7IDMMZiDRXoCFARB0goPn+jUlrF7ABYCaZwGpNCDuAPG9DKRBFNgVjKNJmXIDAAIMAKQASBS566VpAAAAAElFTkSuQmCC",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-large"},
+            "iconLarge": "resources/imagesLarge/h2.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABDFJREFUeNrsmVtIFFEYx1d3Zl0v23rbvGVmF9d6sGJNSInuUA9JPhQ92EOwPSRBECj0VPZQUBFRVBDRhSCDsKIIg2qNDLPSytLKTLqalnhJZZ29jPaf+dxpGtddXUw3mAOO3znz7ZnffN//fOe4hty+91gTfI3Bz8rchUHFVFldH6oJyhakWIy809PzawpRoqON3rHQkpISp4Spra39P0iiiqViqVhBV05HtiGxwQgRm1cHutJduY90i7qjzTBurEFPE6LqaQoHPJXneXqqVqslY3gcv3hewsJn4YDrWPgYH3HCtB3dfXUfhPprmZtoijEoZoSP0+m0vfyEJ6cnGOelmhitFoNunnfhhstV3/Kju58j1qx0U7wxUqfTsSxLcAFiIQx1zW0FB++ge33PurWWCMV04Ha5XBsPVMDenZ+1rzAPtxEoB8dde9S090pta5ddPue2VRl7NmUnxhnDwsJ8Y4X6TqLb7SYbBmVTgQ4ssvlBnnwQJzBZTz0kpiVz4zNThvfg87b3W4/e5RwOr7ONVVtiHoc8iEOSSkZKXjA8OkP2ECeMmJOnnS1aNic5FnZLW/feslpbQ/uT5o5L9xut6xczDDN5BQIxqGpspTghrZlpCVFRUQaDYX5aQukWC/lUPP/qN1pjx6JaMTQoa7xsoUlVoN/Bk12QlxEeHg4Z6cSWnhidPScO4712p9fAj6NuSc3ldnMcp6hMTrHJ3VACCnIzNuTMhk2LDv70Pl86+mpbOjG+IDVGUWgCx3r1sQNXVhDEHyxS0l/BDw2FaEBDNjEhZQ6ns6yqmXyyZsVRAZsArEM332o0b337AIJq5l9rmecdDkddU+sFm4CVM89UuHI+0AOsWxMifzBxAwNP333bfMTWx7kN4exxa55er58wrAtFuSuyUiEX+XTIjt1uN++64XV1oKRBjvdffLSerOrjXAY9e7V4jXnmdBLcxGgLQJGRkVhW8hwhO6OtWGhugOMu3msovvgUgwJTyZqczBmYwe/OMw4s0ICMJpWPK8gkJkSx6PSD8ppPGEyOjTi3czmYkD6/Yv8n2qJ1hzjtOF15reYzRrDzlJesTTLFSK8knZQmCYs2H0jqxM0XxJRvSdm3xRI7LYKkBmI6/0gnnMnD+tnVe+zWa3Sj9Ey+Jbnhc2fT914xTgIGCki8MSLbnOJb+Iy/OhTiqZPez26SUOjtURQOX3+JWoCRfs5tPfNs5EeWmhPu7C/wvVUzvmXOiPVa8GNZ+RqUuFmPA3wJ8c23Hr9xDXwlkghWL5rVdXm74Mfg4KlVTIcRCJkchHcQA1BRuhHnUt5zUFO+KrYmTBVwOaXzMW23UlcxF7pAQZCgKknCMFidTjPaGQHCEPeowFei3wJDoAq3sZQl9c9XFUvFUrFUrKn5fkvx/XhQYMn/j6Am8f/SVmV1fbBh/RZgAH+ZHQj8FKFVAAAAAElFTkSuQmCC"
+        },
+        {
+            "name": "<h3>",
+            "description": "level 3 header",
+            "type": "html.h3",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h3> .header-large",
+            "icon": "resources/images/html-h3.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGhJREFUeNpi/P//PwMlgImBQjAMDGBBF2D17XMBUrt5NLUYQfwv16/9B7FBNIjfFm/LUBpiykiyC0CGgHDVwsP4XQADMBuxiIURZQCyF5CEhYD4HRAzEjQAl4tAYYAMGEdT4iAwACDAADJ6Jhi/JDZPAAAAAElFTkSuQmCC",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-large"},
+            "iconLarge": "resources/imagesLarge/h3.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA7ZJREFUeNrsWV1IFFEU3pnZna3VzfX/v31QtCyTHlKowDSDIArqISTIIHuJQsIXewoCH4qil0SK0EIMQZT+EAn8wUwtyWItMRU1FNss1N2Uzf2Z2b6Zq9Mkarsy4kpz2L3cOefsvd8957tn7sxSDU1dmsATLb45+zMCClNrp4XWBKQEKCyt/MJms28gFJMpZHlYkNjYmA3BZLV+2wRJVGGpsFRYKiwV1n9zq15FvDKhaWExpIXwPE9aalGIGzRoNRRF40PTxKQ8LA/HedxudBiG0el06EgI3G43x3G41Gq1sHI8D0+IgJiiGJqGPzFJi1EmicLcLtfRa09M+febP4wChBAJUY8+NNDD6nQ6XS6Xc36+rr0/o6gmquBh1NnKY9efd/ePQ78QPwVhYUSPx8N7hXx5EDeOk0zoQyP4eAUfBOlp51BhWdvEtCNvTyw+bwa/n7zxEtDdYrCVTKI468KYPM/JRxdpxIkdASKydvuZBZe3zmXmH0yGtebVUEn1O7Q5GWaWZRWGtSRyEMItIYoi6xfiT1Hp5vAQA1uQmwYmwZqWIBw7x6fmCBHXCxZy4XA4BFg0jUCBNNAQE4CC3Q+KjhAakZxWtAzCtCsh1PfN6Ccsca2l9b13Gz9LE2B6u8NFegiPVhTQD1vk0r22xvdjs7/cqXHbik+kK18g5DLw9eeKNjEeAMcgVBRV2zEsWT6NTcdFha1PEsXlVl0+kJ2eCPISbiGJbR/HC8o6pLLLiwJwU48vTE7ZX3SPlFT35N9pHSiPiWdZVK9/hm0tNx8dyxoMhqCgIKPRiBZ9HdlfFAU0IBOqF1gFhV6vj4kwnclOzUyOwGV734SPpWstSUSpRqgwJeJBpmFkN6Jh68zN+h6NV1N+8RArxgYSH2aAtW9sWr5nFYa1ugTrmdrXAqVOZW1HrtH5YZtr6rWis9sc7uPNxw9Y9OLuBqHl5BA5zhDiYdZQ49bCw6kVzQPFj96ez52GvrJlaHbevTPBdDwryRdi+QGL7HyaEtYq3nOZPzllGGhE3EJy4Xn19D6UjLqu0dI6C/HJSomsupK3Ra/HIL7AohqauqQXSTabfaWHfaGy/32CIGcVsu/kJwhKJD6254h15sukUEpMwfq9SdH4CQG9LCw87EvvIFo7LVqfKwNFziXSeYuMTgo35pPOWyR+8Nlhjk5JjCQ+hPjKV/lVRlxyKpT8SRWTL0D506m/sgYo6iOGCkuFpcJSYa37O4gl78cDApb8fwQ1iZuLWzh2BRqs3wIMAOe795cXzgPWAAAAAElFTkSuQmCC"
+        },
+        {
+            "name": "<h1>",
+            "description": "level 1 header",
+            "type": "html.h1",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h1> .header-medium",
+            "icon": "resources/images/html-h1.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNpi/P//PwMlgImBQkCxASwggtW3bzeQcgFiVx5NrT0gsS/Xr2GIwQBQbiaQSgPJkewCoOZyqGaEC4jUqASkQK5SIjcMlKC4Aoj34HLBbqBNuAy4B8TKwPC4B1TjgsuAs0D8Hso2BmJBmARIIzHRWAFUCAp1V6hhQyAhUWwA49DPTAABBgDGmykkJRol4AAAAABJRU5ErkJggg==",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-medium"},
+            "iconLarge": "resources/imagesLarge/h1.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZJREFUeNrsmU1IVFEUx9+9783zaURSLRxCCFqUuDCE6AsCowgiBAPbReBG2gUtEiQhFy2rbR+7glwUwcBgmeCi1BQMpo20MCMJNVLGrJlm5n30f/c6b14z972ZdHRGegcdnJlzz/3dc88599wniQ6PS9UnCn7bTrRUFdPIWIxKVSlViqW438TjKxVEqa/fJcaChMMNFWGan1/YBpsYYK075LlYLrHBKXVevcQ0TeeVuESozC27lQuNi7F0w8ik04ZhYIyiKKFQyH8azJHJZHRdx9+yLIdUVZFlob6jDLGnzxovjoVh6VSqvT9iwltE6jh2oPv8YSzIBwtADwZjL97NSJYEvUhfO9U0oYOhDKBEInHk+rMv33/2drbe6DxakrdAg4W/mV7L2FNNDXCbfyhAYWnl1+j0In+L4SoLgMIFgymZTPY9GQcTHwixCpQV4fINXc9NadpiiaZx74vBYmVtCIb/rc/jyfZTMvlwMHb/9UcHVGhZKZ4VVmnJY/klhOOnRy8/9D59X3SUsql5zp2EyEulUotLP24NTA6Mzq6zQJQXC0wI8KGp2Z7HE3NLCf75Tk1Z/a1XDAt7Bz913I6+zWYD5ObF5lex+cmZ5YpVecQzEs1ham6sj/ScuXL6EKrNRjfRktaKslfd4tlkiaKXZI+Hxr07rp5r6jrbjGKL2Edh3ygW3wgwwaJX0YKC6SoQub2gFEX8TtfJy20HMVxVVZ4EZOMh//nb6tDUJxwSvlU+AzWBtwgBSveFVhuRnX041iRCypCJzyfm8LPO/oRSQPN95KsixQ6MrchEh6YMjU2e7Ntd27inDjtAvMs7UgI16etychP7rTy5dHz/tfaWmpoa6hHyJgv5e5HY3ej01mGhc6qtq6vVNJ9MBLHi8e1mYdmdIDq7UMgLCxHNShEpI1ZwxQiwAqwA6x+x3Bc3QknRmsSuxkQ4vFAT9pwmwss4FY5E8cwVXAXVVPYh460Y1JxPhBflXHGGwSy3l3ESHR53np3G4yvhcAMaOn5XQW8EdZWJD5nFOuM0E4sdVjhAMZ/QZ7ZxKMO4rvP1c+MLC4vOY7eRsZjitSC88i5YZtd8f2+BwEZhPoaezxr4UUY1zWQ9KvUwLsYSPkXxb/ckRlPKCVuK8aBABFj/GVZ+JuY9H68KLPf/EYJN3F6xhTOo2rD+CDAANVbJJXtK/+wAAAAASUVORK5CYII="
+        },
+        {
+            "name": "<h2>",
+            "description": "level 2 header",
+            "type": "html.h2",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h2> .header-medium",
+            "icon": "resources/images/html-h2.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALlJREFUeNpi/P//PwMlgImBQjDwBrDAGGKR0/7Xhxky1Bz/yAjisz6+h8JvseT/37jqPIOlijDDoZ98jO+7PFFd8P7LDxSTkfkgzQXzjjP8llVi3Hbh6fsWS4H/JHuhLd4WTAvycAhi9QIIgGwBAox4RfZGwfUfuANxQpIlA4+mFiMIoxsC9cZ7IDMMZiDRXoCFARB0goPn+jUlrF7ABYCaZwGpNCDuAPG9DKRBFNgVjKNJmXIDAAIMAKQASBS566VpAAAAAElFTkSuQmCC",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-medium"},
+            "iconLarge": "resources/imagesLarge/h2.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABDFJREFUeNrsmVtIFFEYx1d3Zl0v23rbvGVmF9d6sGJNSInuUA9JPhQ92EOwPSRBECj0VPZQUBFRVBDRhSCDsKIIg2qNDLPSytLKTLqalnhJZZ29jPaf+dxpGtddXUw3mAOO3znz7ZnffN//fOe4hty+91gTfI3Bz8rchUHFVFldH6oJyhakWIy809PzawpRoqON3rHQkpISp4Spra39P0iiiqViqVhBV05HtiGxwQgRm1cHutJduY90i7qjzTBurEFPE6LqaQoHPJXneXqqVqslY3gcv3hewsJn4YDrWPgYH3HCtB3dfXUfhPprmZtoijEoZoSP0+m0vfyEJ6cnGOelmhitFoNunnfhhstV3/Kju58j1qx0U7wxUqfTsSxLcAFiIQx1zW0FB++ge33PurWWCMV04Ha5XBsPVMDenZ+1rzAPtxEoB8dde9S090pta5ddPue2VRl7NmUnxhnDwsJ8Y4X6TqLb7SYbBmVTgQ4ssvlBnnwQJzBZTz0kpiVz4zNThvfg87b3W4/e5RwOr7ONVVtiHoc8iEOSSkZKXjA8OkP2ECeMmJOnnS1aNic5FnZLW/feslpbQ/uT5o5L9xut6xczDDN5BQIxqGpspTghrZlpCVFRUQaDYX5aQukWC/lUPP/qN1pjx6JaMTQoa7xsoUlVoN/Bk12QlxEeHg4Z6cSWnhidPScO4712p9fAj6NuSc3ldnMcp6hMTrHJ3VACCnIzNuTMhk2LDv70Pl86+mpbOjG+IDVGUWgCx3r1sQNXVhDEHyxS0l/BDw2FaEBDNjEhZQ6ns6yqmXyyZsVRAZsArEM332o0b337AIJq5l9rmecdDkddU+sFm4CVM89UuHI+0AOsWxMifzBxAwNP333bfMTWx7kN4exxa55er58wrAtFuSuyUiEX+XTIjt1uN++64XV1oKRBjvdffLSerOrjXAY9e7V4jXnmdBLcxGgLQJGRkVhW8hwhO6OtWGhugOMu3msovvgUgwJTyZqczBmYwe/OMw4s0ICMJpWPK8gkJkSx6PSD8ppPGEyOjTi3czmYkD6/Yv8n2qJ1hzjtOF15reYzRrDzlJesTTLFSK8knZQmCYs2H0jqxM0XxJRvSdm3xRI7LYKkBmI6/0gnnMnD+tnVe+zWa3Sj9Ey+Jbnhc2fT914xTgIGCki8MSLbnOJb+Iy/OhTiqZPez26SUOjtURQOX3+JWoCRfs5tPfNs5EeWmhPu7C/wvVUzvmXOiPVa8GNZ+RqUuFmPA3wJ8c23Hr9xDXwlkghWL5rVdXm74Mfg4KlVTIcRCJkchHcQA1BRuhHnUt5zUFO+KrYmTBVwOaXzMW23UlcxF7pAQZCgKknCMFidTjPaGQHCEPeowFei3wJDoAq3sZQl9c9XFUvFUrFUrKn5fkvx/XhQYMn/j6Am8f/SVmV1fbBh/RZgAH+ZHQj8FKFVAAAAAElFTkSuQmCC"
+        },
+        {
+            "name": "<h3>",
+            "description": "level 3 header",
+            "type": "html.h3",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h3> .header-medium",
+            "icon": "resources/images/html-h3.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGhJREFUeNpi/P//PwMlgImBQjAMDGBBF2D17XMBUrt5NLUYQfwv16/9B7FBNIjfFm/LUBpiykiyC0CGgHDVwsP4XQADMBuxiIURZQCyF5CEhYD4HRAzEjQAl4tAYYAMGEdT4iAwACDAADJ6Jhi/JDZPAAAAAElFTkSuQmCC",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-medium"},
+            "iconLarge": "resources/imagesLarge/h3.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA7ZJREFUeNrsWV1IFFEU3pnZna3VzfX/v31QtCyTHlKowDSDIArqISTIIHuJQsIXewoCH4qil0SK0EIMQZT+EAn8wUwtyWItMRU1FNss1N2Uzf2Z2b6Zq9Mkarsy4kpz2L3cOefsvd8957tn7sxSDU1dmsATLb45+zMCClNrp4XWBKQEKCyt/MJms28gFJMpZHlYkNjYmA3BZLV+2wRJVGGpsFRYKiwV1n9zq15FvDKhaWExpIXwPE9aalGIGzRoNRRF40PTxKQ8LA/HedxudBiG0el06EgI3G43x3G41Gq1sHI8D0+IgJiiGJqGPzFJi1EmicLcLtfRa09M+febP4wChBAJUY8+NNDD6nQ6XS6Xc36+rr0/o6gmquBh1NnKY9efd/ePQ78QPwVhYUSPx8N7hXx5EDeOk0zoQyP4eAUfBOlp51BhWdvEtCNvTyw+bwa/n7zxEtDdYrCVTKI468KYPM/JRxdpxIkdASKydvuZBZe3zmXmH0yGtebVUEn1O7Q5GWaWZRWGtSRyEMItIYoi6xfiT1Hp5vAQA1uQmwYmwZqWIBw7x6fmCBHXCxZy4XA4BFg0jUCBNNAQE4CC3Q+KjhAakZxWtAzCtCsh1PfN6Ccsca2l9b13Gz9LE2B6u8NFegiPVhTQD1vk0r22xvdjs7/cqXHbik+kK18g5DLw9eeKNjEeAMcgVBRV2zEsWT6NTcdFha1PEsXlVl0+kJ2eCPISbiGJbR/HC8o6pLLLiwJwU48vTE7ZX3SPlFT35N9pHSiPiWdZVK9/hm0tNx8dyxoMhqCgIKPRiBZ9HdlfFAU0IBOqF1gFhV6vj4kwnclOzUyOwGV734SPpWstSUSpRqgwJeJBpmFkN6Jh68zN+h6NV1N+8RArxgYSH2aAtW9sWr5nFYa1ugTrmdrXAqVOZW1HrtH5YZtr6rWis9sc7uPNxw9Y9OLuBqHl5BA5zhDiYdZQ49bCw6kVzQPFj96ez52GvrJlaHbevTPBdDwryRdi+QGL7HyaEtYq3nOZPzllGGhE3EJy4Xn19D6UjLqu0dI6C/HJSomsupK3Ra/HIL7AohqauqQXSTabfaWHfaGy/32CIGcVsu/kJwhKJD6254h15sukUEpMwfq9SdH4CQG9LCw87EvvIFo7LVqfKwNFziXSeYuMTgo35pPOWyR+8Nlhjk5JjCQ+hPjKV/lVRlxyKpT8SRWTL0D506m/sgYo6iOGCkuFpcJSYa37O4gl78cDApb8fwQ1iZuLWzh2BRqs3wIMAOe795cXzgPWAAAAAElFTkSuQmCC"
+        },
+        {
+            "name": "<h4>",
+            "description": "level 4 header",
+            "type": "html.h4",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h4> .header-medium",
+            "icon": "resources/images/html-h4.png",
+            "iconLarge": "resources/imagesLarge/h4.png",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-medium"},
+            //"hidden": true
+        },
+        {
+            "name": "<h1>",
+            "description": "level 1 header",
+            "type": "html.h1",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h1> .header-small",
+            "icon": "resources/images/html-h1.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNpi/P//PwMlgImBQkCxASwggtW3bzeQcgFiVx5NrT0gsS/Xr2GIwQBQbiaQSgPJkewCoOZyqGaEC4jUqASkQK5SIjcMlKC4Aoj34HLBbqBNuAy4B8TKwPC4B1TjgsuAs0D8Hso2BmJBmARIIzHRWAFUCAp1V6hhQyAhUWwA49DPTAABBgDGmykkJRol4AAAAABJRU5ErkJggg==",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-small"},
+            "iconLarge": "resources/imagesLarge/h1.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZJREFUeNrsmU1IVFEUx9+9783zaURSLRxCCFqUuDCE6AsCowgiBAPbReBG2gUtEiQhFy2rbR+7glwUwcBgmeCi1BQMpo20MCMJNVLGrJlm5n30f/c6b14z972ZdHRGegcdnJlzz/3dc88599wniQ6PS9UnCn7bTrRUFdPIWIxKVSlViqW438TjKxVEqa/fJcaChMMNFWGan1/YBpsYYK075LlYLrHBKXVevcQ0TeeVuESozC27lQuNi7F0w8ik04ZhYIyiKKFQyH8azJHJZHRdx9+yLIdUVZFlob6jDLGnzxovjoVh6VSqvT9iwltE6jh2oPv8YSzIBwtADwZjL97NSJYEvUhfO9U0oYOhDKBEInHk+rMv33/2drbe6DxakrdAg4W/mV7L2FNNDXCbfyhAYWnl1+j0In+L4SoLgMIFgymZTPY9GQcTHwixCpQV4fINXc9NadpiiaZx74vBYmVtCIb/rc/jyfZTMvlwMHb/9UcHVGhZKZ4VVmnJY/klhOOnRy8/9D59X3SUsql5zp2EyEulUotLP24NTA6Mzq6zQJQXC0wI8KGp2Z7HE3NLCf75Tk1Z/a1XDAt7Bz913I6+zWYD5ObF5lex+cmZ5YpVecQzEs1ham6sj/ScuXL6EKrNRjfRktaKslfd4tlkiaKXZI+Hxr07rp5r6jrbjGKL2Edh3ygW3wgwwaJX0YKC6SoQub2gFEX8TtfJy20HMVxVVZ4EZOMh//nb6tDUJxwSvlU+AzWBtwgBSveFVhuRnX041iRCypCJzyfm8LPO/oRSQPN95KsixQ6MrchEh6YMjU2e7Ntd27inDjtAvMs7UgI16etychP7rTy5dHz/tfaWmpoa6hHyJgv5e5HY3ej01mGhc6qtq6vVNJ9MBLHi8e1mYdmdIDq7UMgLCxHNShEpI1ZwxQiwAqwA6x+x3Bc3QknRmsSuxkQ4vFAT9pwmwss4FY5E8cwVXAXVVPYh460Y1JxPhBflXHGGwSy3l3ESHR53np3G4yvhcAMaOn5XQW8EdZWJD5nFOuM0E4sdVjhAMZ/QZ7ZxKMO4rvP1c+MLC4vOY7eRsZjitSC88i5YZtd8f2+BwEZhPoaezxr4UUY1zWQ9KvUwLsYSPkXxb/ckRlPKCVuK8aBABFj/GVZ+JuY9H68KLPf/EYJN3F6xhTOo2rD+CDAANVbJJXtK/+wAAAAASUVORK5CYII="
+        },
+        {
+            "name": "<h2>",
+            "description": "level 2 header",
+            "type": "html.h2",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h2> .header-small",
+            "icon": "resources/images/html-h2.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALlJREFUeNpi/P//PwMlgImBQjDwBrDAGGKR0/7Xhxky1Bz/yAjisz6+h8JvseT/37jqPIOlijDDoZ98jO+7PFFd8P7LDxSTkfkgzQXzjjP8llVi3Hbh6fsWS4H/JHuhLd4WTAvycAhi9QIIgGwBAox4RfZGwfUfuANxQpIlA4+mFiMIoxsC9cZ7IDMMZiDRXoCFARB0goPn+jUlrF7ABYCaZwGpNCDuAPG9DKRBFNgVjKNJmXIDAAIMAKQASBS566VpAAAAAElFTkSuQmCC",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-small"},
+            "iconLarge": "resources/imagesLarge/h2.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABDFJREFUeNrsmVtIFFEYx1d3Zl0v23rbvGVmF9d6sGJNSInuUA9JPhQ92EOwPSRBECj0VPZQUBFRVBDRhSCDsKIIg2qNDLPSytLKTLqalnhJZZ29jPaf+dxpGtddXUw3mAOO3znz7ZnffN//fOe4hty+91gTfI3Bz8rchUHFVFldH6oJyhakWIy809PzawpRoqON3rHQkpISp4Spra39P0iiiqViqVhBV05HtiGxwQgRm1cHutJduY90i7qjzTBurEFPE6LqaQoHPJXneXqqVqslY3gcv3hewsJn4YDrWPgYH3HCtB3dfXUfhPprmZtoijEoZoSP0+m0vfyEJ6cnGOelmhitFoNunnfhhstV3/Kju58j1qx0U7wxUqfTsSxLcAFiIQx1zW0FB++ge33PurWWCMV04Ha5XBsPVMDenZ+1rzAPtxEoB8dde9S090pta5ddPue2VRl7NmUnxhnDwsJ8Y4X6TqLb7SYbBmVTgQ4ssvlBnnwQJzBZTz0kpiVz4zNThvfg87b3W4/e5RwOr7ONVVtiHoc8iEOSSkZKXjA8OkP2ECeMmJOnnS1aNic5FnZLW/feslpbQ/uT5o5L9xut6xczDDN5BQIxqGpspTghrZlpCVFRUQaDYX5aQukWC/lUPP/qN1pjx6JaMTQoa7xsoUlVoN/Bk12QlxEeHg4Z6cSWnhidPScO4712p9fAj6NuSc3ldnMcp6hMTrHJ3VACCnIzNuTMhk2LDv70Pl86+mpbOjG+IDVGUWgCx3r1sQNXVhDEHyxS0l/BDw2FaEBDNjEhZQ6ns6yqmXyyZsVRAZsArEM332o0b337AIJq5l9rmecdDkddU+sFm4CVM89UuHI+0AOsWxMifzBxAwNP333bfMTWx7kN4exxa55er58wrAtFuSuyUiEX+XTIjt1uN++64XV1oKRBjvdffLSerOrjXAY9e7V4jXnmdBLcxGgLQJGRkVhW8hwhO6OtWGhugOMu3msovvgUgwJTyZqczBmYwe/OMw4s0ICMJpWPK8gkJkSx6PSD8ppPGEyOjTi3czmYkD6/Yv8n2qJ1hzjtOF15reYzRrDzlJesTTLFSK8knZQmCYs2H0jqxM0XxJRvSdm3xRI7LYKkBmI6/0gnnMnD+tnVe+zWa3Sj9Ey+Jbnhc2fT914xTgIGCki8MSLbnOJb+Iy/OhTiqZPez26SUOjtURQOX3+JWoCRfs5tPfNs5EeWmhPu7C/wvVUzvmXOiPVa8GNZ+RqUuFmPA3wJ8c23Hr9xDXwlkghWL5rVdXm74Mfg4KlVTIcRCJkchHcQA1BRuhHnUt5zUFO+KrYmTBVwOaXzMW23UlcxF7pAQZCgKknCMFidTjPaGQHCEPeowFei3wJDoAq3sZQl9c9XFUvFUrFUrKn5fkvx/XhQYMn/j6Am8f/SVmV1fbBh/RZgAH+ZHQj8FKFVAAAAAElFTkSuQmCC"
+        },
+        {
+            "name": "<h3>",
+            "description": "level 3 header",
+            "type": "html.h3",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h3> .header-small",
+            "icon": "resources/images/html-h3.png",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGhJREFUeNpi/P//PwMlgImBQjAMDGBBF2D17XMBUrt5NLUYQfwv16/9B7FBNIjfFm/LUBpiykiyC0CGgHDVwsP4XQADMBuxiIURZQCyF5CEhYD4HRAzEjQAl4tAYYAMGEdT4iAwACDAADJ6Jhi/JDZPAAAAAElFTkSuQmCC",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-small"},
+            "iconLarge": "resources/imagesLarge/h3.png",
+            "iconLargeBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA7ZJREFUeNrsWV1IFFEU3pnZna3VzfX/v31QtCyTHlKowDSDIArqISTIIHuJQsIXewoCH4qil0SK0EIMQZT+EAn8wUwtyWItMRU1FNss1N2Uzf2Z2b6Zq9Mkarsy4kpz2L3cOefsvd8957tn7sxSDU1dmsATLb45+zMCClNrp4XWBKQEKCyt/MJms28gFJMpZHlYkNjYmA3BZLV+2wRJVGGpsFRYKiwV1n9zq15FvDKhaWExpIXwPE9aalGIGzRoNRRF40PTxKQ8LA/HedxudBiG0el06EgI3G43x3G41Gq1sHI8D0+IgJiiGJqGPzFJi1EmicLcLtfRa09M+febP4wChBAJUY8+NNDD6nQ6XS6Xc36+rr0/o6gmquBh1NnKY9efd/ePQ78QPwVhYUSPx8N7hXx5EDeOk0zoQyP4eAUfBOlp51BhWdvEtCNvTyw+bwa/n7zxEtDdYrCVTKI468KYPM/JRxdpxIkdASKydvuZBZe3zmXmH0yGtebVUEn1O7Q5GWaWZRWGtSRyEMItIYoi6xfiT1Hp5vAQA1uQmwYmwZqWIBw7x6fmCBHXCxZy4XA4BFg0jUCBNNAQE4CC3Q+KjhAakZxWtAzCtCsh1PfN6Ccsca2l9b13Gz9LE2B6u8NFegiPVhTQD1vk0r22xvdjs7/cqXHbik+kK18g5DLw9eeKNjEeAMcgVBRV2zEsWT6NTcdFha1PEsXlVl0+kJ2eCPISbiGJbR/HC8o6pLLLiwJwU48vTE7ZX3SPlFT35N9pHSiPiWdZVK9/hm0tNx8dyxoMhqCgIKPRiBZ9HdlfFAU0IBOqF1gFhV6vj4kwnclOzUyOwGV734SPpWstSUSpRqgwJeJBpmFkN6Jh68zN+h6NV1N+8RArxgYSH2aAtW9sWr5nFYa1ugTrmdrXAqVOZW1HrtH5YZtr6rWis9sc7uPNxw9Y9OLuBqHl5BA5zhDiYdZQ49bCw6kVzQPFj96ez52GvrJlaHbevTPBdDwryRdi+QGL7HyaEtYq3nOZPzllGGhE3EJy4Xn19D6UjLqu0dI6C/HJSomsupK3Ra/HIL7AohqauqQXSTabfaWHfaGy/32CIGcVsu/kJwhKJD6254h15sukUEpMwfq9SdH4CQG9LCw87EvvIFo7LVqfKwNFziXSeYuMTgo35pPOWyR+8Nlhjk5JjCQ+hPjKV/lVRlxyKpT8SRWTL0D506m/sgYo6iOGCkuFpcJSYa37O4gl78cDApb8fwQ1iZuLWzh2BRqs3wIMAOe795cXzgPWAAAAAElFTkSuQmCC"
+        },
+        {
+            "name": "<h4>",
+            "description": "level 4 header",
+            "type": "html.h4",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h4> .header-small",
+            "icon": "resources/images/html-h4.png",
+            "iconLarge": "resources/imagesLarge/h4.png",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-small"},
+            //"hidden": true
+        },
+        {
+            "name": "<h5>",
+            "description": "level 5 header",
+            "type": "html.h5",
+            "category": "html",
+            "collection": "html",
+            "tags": "<h5> .header-small",
+            "icon": "resources/images/html-h5.png",
+            "iconLarge": "resources/imagesLarge/h5.png",
+            "children": "Header",
+            "resizable": "none",
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": true
+            },
+            "properties": {"class": "header-small"},
+            //"hidden": true
+        },
+        {
+            "name": "Navigation links",
+            "description": "HTML navigation container",
+            "type": "html.nav",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit List-navigation",
+            "icon": "resources/imagesLarge/listnav.png",
+            "iconLarge": "resources/imagesLarge/listnav.png",
+            "properties": {"class": "list-navigation"},
+            "children": [{
+                "type": "html.ul",
+                "children": [{
+                    "type": "html.li",
+                    "properties": {"class": "leaf"},
+                    "children": [{
+                        "type": "html.a",
+                        "properties": {"class": "leaf-link"},
+                        "children": [
+                            {
+                                "type": "html.span",
+                                "properties": {"class": "title"},
+                                "children": "Item 1"
+                            },
+                            {
+                                "type": "html.span",
+                                "properties": {"class": "fa fa-chevron-right"}
+                            }
+                        ]
+                    }]
+                }, {
+                    "type": "html.li",
+                    "properties": {"class": "leaf"},
+                    "children": [{
+                        "type": "html.a",
+                        "properties": {"class": "leaf-link"},
+                        "children": [
+                            {
+                                "type": "html.span",
+                                "properties": {"class": "title"},
+                                "children": "Item 2"
+                            },
+                            {
+                                "type": "html.span",
+                                "properties": {"class": "fa fa-chevron-right"}
+                            }
+                        ]
+                    }]
+                }, {
+                    "type": "html.li",
+                    "properties": {"class": "leaf active"},
+                    "children": [{
+                        "type": "html.a",
+                        "properties": {"class": "leaf-link"},
+                        "children": [
+                            {
+                                "type": "html.span",
+                                "properties": {"class": "title"},
+                                "children": "Item 3"
+                            },
+                            {
+                                "type": "html.span",
+                                "properties": {"class": "fa fa-chevron-right"}
+                            }
+                        ]
+                    }]
+                }, {
+                    "type": "html.li",
+                    "properties": {"class": "leaf"},
+                    "children": [{
+                        "type": "html.a",
+                        "properties": {"class": "leaf-link"},
+                        "children": [
+                            {
+                                "type": "html.span",
+                                "properties": {"class": "title"},
+                                "children": "Item 4"
+                            },
+                            {
+                                "type": "html.span",
+                                "properties": {"class": "fa fa-chevron-right"}
+                            }
+                        ]
+                    }]
+                }, {
+                    "type": "html.li",
+                    "properties": {"class": "leaf"},
+                    "children": [{
+                        "type": "html.a",
+                        "properties": {"class": "leaf-link"},
+                        "children": [
+                            {
+                                "type": "html.span",
+                                "properties": {"class": "title"},
+                                "children": "Item 5"
+                            },
+                            {
+                                "type": "html.span",
+                                "properties": {"class": "fa fa-chevron-right"}
+                            }
+                        ]
+                    }]
+                }]
+            }]
+        },
+        {
+            "name": "Page header",
+            "description": "Isolation Grid (1 column)",
+            "type": "html.div",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit Page header",
+            "icon": "resources/imagesLarge/pageheader.png",
+            "properties": {
+                "class": "span-full tablet--span-full desktop--span-full",
+                "style": "background-color: #000000;"
+            },
+            "children": [{
+                "type": "html.img",
+                "properties": {
+                    "src": "lib/akit/a-logo.jpg",
+                    "style": "float: left; margin-right: 1em; height: 50px; width: 50px;"
+                }
+            }, {
+                "type": "html.h1",
+                "properties": {
+                    "class": "header-xlarge truncate",
+                    "style": "color: #ffffff; margin-bottom: 0px;"
+                },
+                "children": "Title"
+            }],
+            "iconLarge": "resources/imagesLarge/pageheader.png"
+        },
+        {
+            "name": "fa-eye",
+            "description": "Font Awesome icon: fa-eye",
+            "type": "html.span",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit icon fa-eye",
+            "icon": "resources/imagesLarge/icons/fa-eye.png",
+            "resizable": "none",
+            "allowedChild": "ANY",
+            "properties": {"class": "fa fa-eye"},
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": false
+            },
+            "iconLarge": "resources/imagesLarge/icons/fa-eye.png"
+        },
+        {
+            "name": "fa-bars",
+            "description": "Font Awesome icon: fa-bars",
+            "type": "html.span",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit icon fa-bars",
+            "icon": "resources/imagesLarge/icons/fa-bars.png",
+            "resizable": "none",
+            "allowedChild": "ANY",
+            "properties": {"class": "fa fa-bars"},
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": false
+            },
+            "iconLarge": "resources/imagesLarge/icons/fa-bars.png"
+        },
+        {
+            "name": "fa-pencil",
+            "description": "Font Awesome icon: fa-pencil",
+            "type": "html.span",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit icon fa-pencil",
+            "icon": "resources/imagesLarge/icons/fa-pencil.png",
+            "resizable": "none",
+            "allowedChild": "ANY",
+            "properties": {"class": "fa fa-pencil"},
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": false
+            },
+            "iconLarge": "resources/imagesLarge/icons/fa-pencil.png"
+        },
+        {
+            "name": "fa-chevron-right",
+            "description": "Font Awesome icon: fa-chevron-right",
+            "type": "html.span",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit icon fa-chevron-right",
+            "icon": "resources/imagesLarge/icons/fa-chevron-right.png",
+            "resizable": "none",
+            "allowedChild": "ANY",
+            "properties": {"class": "fa fa-chevron-right"},
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": false
+            },
+            "iconLarge": "resources/imagesLarge/icons/fa-chevron-right.png"
+        },
+        {
+            "name": "fa-thumbs-o-up",
+            "description": "Font Awesome icon: fa-thumbs-o-up",
+            "type": "html.span",
+            "category": "html",
+            "collection": "html",
+            "tags": "A-kit icon fa-thumbs-o-up",
+            "icon": "resources/imagesLarge/icons/fa-thumbs-o-up.png",
+            "resizable": "none",
+            "allowedChild": "ANY",
+            "properties": {"class": "fa fa-thumbs-o-up"},
+            "inlineEdit": {
+                "property": "textContent",
+                "displayOnCreate": false
+            },
+            "iconLarge": "resources/imagesLarge/icons/fa-thumbs-o-up.png"
         }
     ]
 }

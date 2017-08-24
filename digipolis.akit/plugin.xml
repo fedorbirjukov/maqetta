@@ -2,11 +2,12 @@
 <?eclipse version="3.4"?>
 <plugin>
   <extension id="akit.metadata" point="org.eclipse.equinox.http.registry.resources">
-  	<resource alias="/maqetta/app/metadata/akit/0.8" base-name="/WebContent/metadata"/>
+    <resource alias="/maqetta/app/metadata/akit/0.8" base-name="/WebContent/metadata"/>
+  	<resource alias="/maqetta/app/static/lib/akit/0.8" base-name="/WebContent/akit"/>
   </extension>
   <extension point="maqetta.core.server.ajaxLibrary" >
     <ajaxLibrary name="akit" id="akit" version="0.8" required="true">
-      <libraryPath location="WebContent/akit"></libraryPath>
+      <libraryPath location="WebContent/akit" name="/lib/akit"></libraryPath>
       <metadata location="app/metadata/akit/0.8" />
     </ajaxLibrary>
     <ajaxLibrary name="akit based themes" id="AkitThemes" version="0.8" required="true">

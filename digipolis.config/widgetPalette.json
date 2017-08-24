@@ -158,6 +158,36 @@
             	"A-kit button .transparent .disabled"
             ]
 		},
+		"$KnoppenHasIcon": {
+			"id": "KnoppenHasIcon",
+			"name": "Has-Icon",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAllBMVEUAAADgTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjmqf4kDAAAAMXRSTlMAAQIDBAcJDxARFRobHiMqR0tPUFRVW1xkhYuYm6CjprC3ub7Awdrc3uDi5Ojp8fv9FJYmZAAAAHZJREFUGBl1wVcCgjAQQMG3NhB7VyxgV6x7/8uZkKD8OENuqdYrpZCpsQ6VQqYOntwrVlVxJB6T2zexgu0cZzjB6J96eMEB49Hg642xGnU2Qq72xKgvYhVAgkE6xVEh2el11sVTQSPhRwUVSo6t8EJZdL61+ecDoY0J94sSkIgAAAAASUVORK5CYII=",
+            "includes": [
+            	"A-kit button .primary .has-icon",
+            	"A-kit button .secondary .has-icon",
+            	"A-kit button .success .has-icon",
+            	"A-kit button .warning .has-icon",
+            	"A-kit button .danger .has-icon",
+            	"A-kit button .gray .has-icon",
+            	"A-kit button .cancel .has-icon",
+            	"A-kit button .transparent .has-icon"
+            ]
+		},
+		"$KnoppenIcon": {
+			"id": "KnoppenIcon",
+			"name": "Icon",
+            "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAllBMVEUAAADgTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjngTjmqf4kDAAAAMXRSTlMAAQIDBAcJDxARFRobHiMqR0tPUFRVW1xkhYuYm6CjprC3ub7Awdrc3uDi5Ojp8fv9FJYmZAAAAHZJREFUGBl1wVcCgjAQQMG3NhB7VyxgV6x7/8uZkKD8OENuqdYrpZCpsQ6VQqYOntwrVlVxJB6T2zexgu0cZzjB6J96eMEB49Hg642xGnU2Qq72xKgvYhVAgkE6xVEh2el11sVTQSPhRwUVSo6t8EJZdL61+ecDoY0J94sSkIgAAAAASUVORK5CYII=",
+            "includes": [
+            	"A-kit button .primary .icon",
+            	"A-kit button .secondary .icon",
+            	"A-kit button .success .icon",
+            	"A-kit button .warning .icon",
+            	"A-kit button .danger .icon",
+            	"A-kit button .gray .icon",
+            	"A-kit button .cancel .icon",
+            	"A-kit button .transparent .icon"
+            ]
+		},
 		"$KnoppenSection":{
 			"id":"KnoppenSection",
 			"name": "Knoppen",
@@ -170,7 +200,9 @@
 				"$KnoppenSmall",
 				"$KnoppenBig",
 				"$KnoppenFull",
-				"$KnoppenDisabled"
+				"$KnoppenDisabled",
+				"$KnoppenHasIcon",
+				"$KnoppenIcon"
 			]
 		},
 		"$Formulieren": {
